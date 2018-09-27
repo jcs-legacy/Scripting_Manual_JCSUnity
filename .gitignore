@@ -6,7 +6,3 @@ node_modules
 
 # ignore test modules
 test
-
-# ignore website, currently no support website side 
-# of actions.
-website
