@@ -1,0 +1,132 @@
+@charset "UTF-8";
+/**
+ * $File: style.css $
+ * $Date: 2018-09-27 20:33:53 $
+ * $Revision: $
+ * $Creator: Jen-Chieh Shen $
+ * $Notice: See LICENSE.txt for modification and distribution information
+ *                   Copyright © 2018 by Shen, Jen-Chieh $
+ */
+
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  min-wdith: 800px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  background-color: #222C37;
+  height: 60px;
+}
+
+header a {
+  text-decoration: none;
+}
+
+#logo-tab {
+  display: inline-block;
+}
+
+#header-container {
+  margin-top: 15px;
+  margin-right: auto;
+  margin-bottom: 15px;
+  margin-left: auto;
+  width: 95%;
+}
+
+#jcsunity-logo {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#vr-char {
+  color: white;
+  font-size: 26px;
+}
+
+#documentation-text {
+  color: white;
+  font-size: 18px;
+}
+
+#selection-tab {
+  display: inline-block;
+  position: absolute;
+  left: 75%;
+}
+
+.selection-btn {
+  display: inline-block;
+  text-align: center;
+  color: white;
+  width: 100px;
+}
+
+.manual-btn {
+
+}
+
+.scripting-api-btn {
+
+}
+
+#version-tab {
+  height: 40px;
+  background-color: #E6E6E6;
+}
+
+#version-text-container {
+  padding: 10px;
+  padding-left: 25px;
+}
+
+#version-text {
+  font-weight: bold;
+}
+
+#scroll-bar-container {
+  display: inline-block;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 10px;
+  padding-left: 20px;
+  width: 25%;
+}
+
+
+#content {
+  margin-left: auto;
+  padding: 20px;
+  padding-top: 100px;
+  width: 70%;
+}
+
+#content-header {
+
+}
+
+#content-body {
+
+}
+
+hr {
+  opacity: 0.6;
+  margin-top: 5%;
+  margin-bottom: 2%;
+  width: 98%;
+}
+
+#content-footer {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 13px;
+}
