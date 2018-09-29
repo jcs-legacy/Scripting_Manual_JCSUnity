@@ -1,0 +1,110 @@
+<!--
+   - $File: index.html $
+   - $Date: 2018-09-28 21:20:40 $
+   - $Revision: $
+   - $Creator: Jen-Chieh Shen $
+   - $Notice: See LICENSE.txt for modification and distribution information
+   -                   Copyright © 2018 by Shen, Jen-Chieh $
+-->
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>JCSUnity - Scripting API</title>
+  <meta charset="UTF-8"/>
+
+  <!-- jQuery -->
+  <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+
+  <div id="css-lib"></div>
+
+  <script src="../js/head.js"></script>
+
+</head>
+<body>
+
+  <div id="script-reference-page"></div>
+
+  <header>
+    <div id="header-container" class="vis-green">
+      <a href="#">
+        <div id="logo-tab" class="vis-red">
+          <span id="jcsunity-logo">
+            <span class="manual-name"></span>
+          </span>
+          <span id="vr-char">|</span>
+          <span id="documentation-text">DOCUMENTATION</span>
+        </div>
+      </a>
+
+      <div id="selection-tab" class="vis-yellow">
+
+        <a href="../Manual/index.html" id="manual-btn">
+          <div class="selection-btn vis-red">
+            Manual
+          </div>
+        </a>
+
+        <!-- NOTE(jenchieh): reload current page. -->
+        <a href="./index.html" id="scripting-api-btn">
+          <div class="selection-btn vis-red" id="selected-btn">
+            Scrpiting API
+          </div>
+        </a>
+      </div>
+    </div>
+
+    <div id="version-tab" class="vis-green">
+      <div id="version-text-container" class="vis-red">
+        <span class="manual-name"></span> Version:
+        <span class="version-text">
+          <span class="version-jcsunity"></span>
+        </span>
+
+        &nbsp
+
+        Unity Version:
+        <span class="version-text">
+          <span class="version-unity"></span>
+        </span>
+      </div>
+    </div>
+
+    <div id="scroll-bar-tab">
+      <div id="scroll-bar-container" class="vis-green">
+        <h3><div id="scroll-bar-title"></div></h3>
+        <hr/>
+        <div id="index-pos"></div>
+      </div>
+    </div>
+  </header>
+  
+  
+  <div id="content-container" class="vis-green">
+    <div id="content-header">
+      <h1>Welcome to the <span class="manual-name"> Scripting Reference!</h1>
+    </div>
+
+    <div id="content-body">
+      <div id="content"></div>
+    </div>
+
+    <hr/>
+    <div id="content-footer" class="vis-red">
+      <span class="copyright">COPYRIGHT-TEXT</span>
+    </div>
+  </div>
+
+
+  <!-- --------------------------------------------------- -->
+
+  <!-- own JS -->
+  <script src="../js/config.js"></script>
+  <script src="../js/main.js"></script>
+
+</body>
+</html>
