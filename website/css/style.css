@@ -42,7 +42,7 @@ header a {
   width: 95%;
 }
 
-#jcsunity-logo {
+#logo {
   color: white;
   font-size: 24px;
   font-weight: bold;
@@ -114,11 +114,12 @@ header a {
 
 .sb-dir {
   cursor: pointer;
-  border: solid red 1px;
+  color: rgba(0, 0, 0, 0.7);
 }
 
 .sb-file {
   cursor: pointer;
+  color: rgba(0, 0, 0, 0.7);
 }
 
 /* Scrollbar Layers */
