@@ -19,6 +19,8 @@ const WEBSITE_DIR = "website";
 
 const API_DIR_PATH = "./website/ScriptReference/api/";
 
+const MANUAL_DIR_PATH = "./website/Manual/doc/";
+
 
 //------------------ Exports modules ------------------//
 
@@ -30,3 +32,4 @@ module.exports.PORT = PORT;
 module.exports.WEBSITE_DIR = WEBSITE_DIR;
 
 module.exports.API_DIR_PATH = API_DIR_PATH;
+module.exports.MANUAL_DIR_PATH = MANUAL_DIR_PATH;
