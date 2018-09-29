@@ -28,6 +28,7 @@ app.use(express.static(config.WEBSITE_DIR));
 
 /* Register all request. */
 app.get('/api_index_data', api_index_data);
+app.get('/manual_index_data', manual_index_data);
 
 
 // Error handler
@@ -45,10 +46,32 @@ const server = app.listen(config.PORT, function () {
 //=============== functions ========================//
 
 /**
+ * Send the manual index data.
  *
- * @param { typename } req : Param desc here..
- * @param { typename } res : Param desc here..
- * @param { typename } next : Param desc here..
+ * @param { typename } req : request handler.
+ * @param { typename } res : response handler.
+ * @param { typename } next : error handler.
+ * @returns { JSON } : tree structure of the API.
+ */
+function manual_index_data(req, res, next) {
+  const tree = dirTree(config.MANUAL_DIR_PATH, { normalizePath: true });
+
+  // Modefied the `MANUAL_DIR_PATH' to the correct format string.
+  var removePath = config.MANUAL_DIR_PATH;
+  removePath = removePath.replace("./", "");
+
+  removeLeadPath(tree.children, removePath);
+
+  res.send(JSON.stringify(tree));
+}
+
+/**
+ * Send the scripting reference index data.
+ *
+ * @param { typename } req : request handler.
+ * @param { typename } res : response handler.
+ * @param { typename } next : error handler.
+ * @returns { JSON } : tree structure of the API.
  */
 function api_index_data(req, res, next) {
   const tree = dirTree(config.API_DIR_PATH, { normalizePath: true });
