@@ -10,12 +10,23 @@
 "use strict";
 
 
+const DEBUG = false;  // Debug mode?
+
 const HOST = "localhost";  // Host [Default: localhost]
 const PORT = 3000;         // Server Port [Default: 3000]
 
-const DEBUG = false;  // Debug mode?
+const WEBSITE_DIR = "website";
 
+const API_DIR_PATH = "./website/ScriptReference/api/";
+
+
+//------------------ Exports modules ------------------//
 
 module.exports.DEBUG = DEBUG;
+
 module.exports.HOST = HOST;
 module.exports.PORT = PORT;
+
+module.exports.WEBSITE_DIR = WEBSITE_DIR;
+
+module.exports.API_DIR_PATH = API_DIR_PATH;
