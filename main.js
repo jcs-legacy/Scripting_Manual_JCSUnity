@@ -9,11 +9,26 @@
 
 "use strict";
 
+const fs = require('fs');
+const path = require('path');
+
 /* Include `express.js' */
 const express = require('express');
 const app = express();
 
+/* `directory-tree' */
+const dirTree = require('directory-tree');
+
 const config = require('./config');
+
+
+
+// Setup website directory.
+app.use(express.static(config.WEBSITE_DIR));
+
+/* Register all request. */
+app.get('/api_index_data', api_index_data);
+
 
 // Error handler
 app.use(function(err, req, res, next) {
@@ -25,3 +40,46 @@ app.use(function(err, req, res, next) {
 const server = app.listen(config.PORT, function () {
   console.log("Server active successfully... Port: " + config.PORT);
 });
+
+
+//=============== functions ========================//
+
+/**
+ *
+ * @param { typename } req : Param desc here..
+ * @param { typename } res : Param desc here..
+ * @param { typename } next : Param desc here..
+ */
+function api_index_data(req, res, next) {
+  const tree = dirTree(config.API_DIR_PATH, { normalizePath: true });
+
+  // Modefied the `API_DIR_PATH' to the correct format string.
+  var removePath = config.API_DIR_PATH;
+  removePath = removePath.replace("./", "");
+
+  removeLeadPath(tree.children, removePath);
+
+  res.send(JSON.stringify(tree));
+}
+
+/**
+ * Remove the `API_DIR_PATH', so when the client receive the data
+ * would not need to care where is the api directory located.
+ * @param { JSON } dir : directory JSON object.
+ * @param { typename } rmPath : Param desc here..
+ */
+function removeLeadPath(dir, rmPath) {
+  for (let index = 0;
+       index < dir.length;
+       ++index)
+  {
+    let pathObj = dir[index];
+
+    if (pathObj.children != null && pathObj.children.length != 0) {
+      removeLeadPath(pathObj.children, rmPath);
+    }
+
+    // Remove the `API_DIR_PATH' path.
+    pathObj.path = pathObj.path.replace(rmPath, "");
+  }
+}
