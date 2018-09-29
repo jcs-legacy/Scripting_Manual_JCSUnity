@@ -15,7 +15,7 @@
 }
 
 body {
-  min-wdith: 800px;
+  /* min-width: 1000px; */
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -68,15 +68,22 @@ header a {
   display: inline-block;
   text-align: center;
   color: white;
-  width: 100px;
+  font-family: 'avalon', sans-serif;
 }
 
-.manual-btn {
-
+#selected-btn {
+  text-decoration: underline;
+  color: #00CCCC;
+  font-family: 'avalonbold', sans-serif;
+  font-weight: bold;
 }
 
-.scripting-api-btn {
+#manual-btn {
+  width: 150px;
+}
 
+#scripting-api-btn {
+  width: 150px;
 }
 
 #version-tab {
@@ -89,7 +96,7 @@ header a {
   padding-left: 25px;
 }
 
-#version-text {
+.version-text {
   font-weight: bold;
 }
 
@@ -97,15 +104,37 @@ header a {
   display: inline-block;
   margin-right: auto;
   margin-left: auto;
-  padding-top: 10px;
-  padding-left: 20px;
+  border-right: solid green 1px;
+  padding: 20px;
   width: 25%;
+  height:auto;
+  max-height: 100vh;
+  overflow: auto;
 }
 
+.sb-dir {
+  cursor: pointer;
+  border: solid red 1px;
+}
 
-#content {
+.sb-file {
+  cursor: pointer;
+}
+
+/* Scrollbar Layers */
+.sb-layer-1 { margin-left: 20px; }
+.sb-layer-2 { margin-left: 20px; }
+.sb-layer-3 { margin-left: 20px; }
+.sb-layer-4 { margin-left: 20px; }
+.sb-layer-5 { margin-left: 20px; }
+.sb-layer-6 { margin-left: 20px; }
+.sb-layer-7 { margin-left: 20px; }
+.sb-layer-8 { margin-left: 20px; }
+.sb-layer-9 { margin-left: 20px; }
+
+
+#content-container {
   margin-left: auto;
-  padding: 20px;
   padding-top: 100px;
   width: 70%;
 }
