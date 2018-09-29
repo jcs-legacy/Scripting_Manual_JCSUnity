@@ -17,12 +17,7 @@
 
   /* Others */
   var layerNum = -1;
-
-  /* Collect Config */
-  var manualName = $('.manual-name');
-  var versionJCSUnity = $('.version-jcsunity');
-  var versionUnity = $('.version-unity');
-  var copyright = $('.copyright');
+  var hostPort = host + ':' + port;
 
   /* Collect all pages. */
   var manualPage = $('#manual-page');
@@ -32,16 +27,26 @@
   var scrollBarTitle = $('#scroll-bar-title');
   var indexPos = $('#index-pos');
 
+  /* Logo */
+  var logo = $('#logo');
+
   /* Content */
   var content = $('#content');
 
   /* Buttons */
+
 
   /* Regular Decoration */
   var sbContainer = $('#scroll-bar-container');
 
 
   //---------------------- Functions ---------------------------//
+
+  // Make logo load the `intro' content.
+  logo.click(function () { loadContentPage(intro_content); });
+
+  function showChilren(obj) { obj.children().show(); }
+  function hideChilren(obj) { obj.children().hide(); }
 
   /* Register button event */
   function addSBDirButtonEvent() {
@@ -52,14 +57,35 @@
       e.stopPropagation();
 
       if ($(this).children().is(":visible"))
-        $(this).children().hide();
+        hideChilren($(this));
       else
-        $(this).children().show();
+        showChilren($(this));
+    });
+
+    sbDir.each(function () {
+      hideChilren($(this));
     });
   }
-  // Do it once at initialize time.
-  addSBDirButtonEvent();
+  addSBDirButtonEvent();  // Do it once at initialize time.
 
+  function addSBFileButtonEvent() {
+    var sbFile = $('.sb-file');
+
+    sbFile.click(function (e) {
+      // Stop overlaping `div' tag's click event trigger.
+      e.stopPropagation();
+
+      console.log($(this).text());
+
+      var contentPage = $(this).text();
+
+      if (checkPageFound(manualPage))
+        contentPage = contentPage.replace(/ /g, "_");
+
+      loadContentPage(contentPage);
+    });
+  }
+  addSBFileButtonEvent();  // Do it once at initialize time.
 
   /* Check if the page id <div> exists? */
   function checkPageFound (pageObj) { return (pageObj.length != 0); }
@@ -77,15 +103,33 @@
 
   /* Initialize components that exists in all pages.*/
   function initGlobalPage() {
-    manualName.text(manual_name);
-    versionJCSUnity.text(version_jcsunity);
-    versionUnity.text(version_unity);
-    copyright.text(copyright_text);
+    loadContentPage(intro_content);
   }
 
   /* Initialzie the manual page. */
   function initManulPage() {
     scrollBarTitle.text(manual_name + " Manul");
+
+    /* Make AJAX request. */
+    {
+      /* Get API index. */
+      $.ajax({
+        url: 'http://' + hostPort + '/manual_index_data',
+        type: 'GET',
+        contentType: "application/json",
+        success : function (data) {
+          var dir = JSON.parse(data);
+
+          createIndexWithDir(dir.children, indexPos);
+
+          addSBDirButtonEvent();
+          addSBFileButtonEvent();
+        },
+        error : function (e) {
+          console.log(e.message);
+        }
+      });
+    }
   }
 
   /* Initialize the script reference page. */
@@ -96,17 +140,16 @@
     {
       /* Get API index. */
       $.ajax({
-        url: 'http://localhost:3000/api_index_data',
+        url: 'http://' + hostPort + '/api_index_data',
         type: 'GET',
         contentType: "application/json",
         success : function (data) {
           var dir = JSON.parse(data);
 
-          console.log(dir);
-
           createIndexWithDir(dir.children, indexPos);
 
           addSBDirButtonEvent();
+          addSBFileButtonEvent();
         },
         error : function (e) {
           console.log(e.message);
@@ -115,23 +158,16 @@
     }
   }
 
-  loadContentPage('intro');
-
-
   /* Create index with directory. */
   function createIndexWithDir(dir, parent) {
     ++layerNum;
 
     var currentDir = "";
-    var currentParent = parent;
 
     for (let index = 0;
          index < dir.length;
          ++index)
     {
-      if (index == 0) {
-        //parent.append("<ul></ul>");
-      }
 
       let pathObj = dir[index];
 
@@ -153,9 +189,14 @@
       var dirOfFileName = pathObj.name;
       dirOfFileName = dirOfFileName.replace(/\.[^/.]+$/, "");  // Remove extension if there is.
 
-      currentParent.append("<div class=" + sbType +" id=" + newId + ">" +
-                           dirOfFileName +
-                           "</div>");
+      if (checkPageFound(manualPage)) {
+        // Replace underscore with space.
+        dirOfFileName = dirOfFileName.replace(/_/g, ' ');
+      }
+
+      parent.append("<div class=" + sbType +" id=" + newId + ">" +
+                    dirOfFileName +
+                    "</div>");
 
       var newParent = $('#' + newId);
 
@@ -176,7 +217,30 @@
    * Load the content HTML file.
    * @param { typename } contentPage : Content page name.
    */
-  function loadContentPage(contentPage) { content.load(contentPage + '.html'); }
+  function loadContentPage(contentPage) {
+    var fullPath = contentPage + '.html';
+
+    // Load content page base on the current page tab.
+    if (contentPage != 'intro') {
+      if (checkPageFound(manualPage)) {
+        fullPath = "./doc/" + fullPath;
+      } else if (checkPageFound(scriptReferencePage)) {
+        fullPath = "./api/" + fullPath;
+      }
+    }
+
+    content.load(fullPath, function () {
+      let manualName = $('.manual-name');
+      let versionJCSUnity = $('.version-jcsunity');
+      let versionUnity = $('.version-unity');
+      let copyright = $('.copyright');
+
+      manualName.text(manual_name);
+      versionJCSUnity.text(version_jcsunity);
+      versionUnity.text(version_unity);
+      copyright.text(copyright_text);
+    });
+  }
 
   /**
    * jQuery program entry.
