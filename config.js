@@ -21,6 +21,7 @@ const API_DIR_PATH = "./website/ScriptReference/api/";
 
 const MANUAL_DIR_PATH = "./website/Manual/doc/";
 
+const CONTENT_EXTENSION = /\.html/;
 
 //------------------ Exports modules ------------------//
 
@@ -33,3 +34,5 @@ module.exports.WEBSITE_DIR = WEBSITE_DIR;
 
 module.exports.API_DIR_PATH = API_DIR_PATH;
 module.exports.MANUAL_DIR_PATH = MANUAL_DIR_PATH;
+
+module.exports.CONTENT_EXTENSION = CONTENT_EXTENSION;
