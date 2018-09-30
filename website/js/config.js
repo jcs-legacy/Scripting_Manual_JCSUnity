@@ -12,14 +12,19 @@
 
 /* Client Config */
 
+// Manual config.
 const manual_name = "JCSUnity";
-
 const version_jcsunity = "1.8.3";
 const version_unity = "2018.2.10f1";
 
-const intro_content = 'intro';  // must be HTML file.
-
+// Copyright text to show on the website.
 const copyright_text = "Copyright © 2018 JCSUnity Group. Built: 2018-09-28.";
+
+// Default content page.
+const intro_content = 'intro';
+
+// Content extension to load.
+const content_extension = '.html';
 
 
 /* Server Config */
