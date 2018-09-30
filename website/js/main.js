@@ -75,12 +75,9 @@
       // Stop overlaping `div' tag's click event trigger.
       e.stopPropagation();
 
-      console.log($(this).text());
+      var contentPage = $(this).attr('id');
 
-      var contentPage = $(this).text();
-
-      if (checkPageFound(manualPage))
-        contentPage = contentPage.replace(/ /g, "_");
+      contentPage = contentPage.replace(/-/g, "/");
 
       loadContentPage(contentPage);
     });
@@ -218,7 +215,7 @@
    * @param { typename } contentPage : Content page name.
    */
   function loadContentPage(contentPage) {
-    var fullPath = contentPage + '.html';
+    var fullPath = contentPage + content_extension;
 
     // Load content page base on the current page tab.
     if (contentPage != 'intro') {
