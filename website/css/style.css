@@ -14,32 +14,37 @@
   padding: 0px;
 }
 
+html {
+  width: 100%;
+  height: 100%;
+}
+
 body {
-  /* min-width: 1000px; */
+  width: 100%;
+  min-width: 1000px;
+  height: 100%;
   font-family: 'Open Sans', sans-serif;
 }
 
 header {
-  position: fixed;
-  width: 100%;
+  position: relative;
+  z-index: 30;
   background-color: #222C37;
-  height: 60px;
+  width: 100%;
+  height: 100px;
+  text-decoration: none;
 }
 
-header a {
-  text-decoration: none;
+#header-container {
+  padding-left: 25px;
+  width: 95%;
+  height: 60px;
+  white-space: nowrap;
 }
 
 #logo-tab {
   display: inline-block;
-}
-
-#header-container {
-  margin-top: 15px;
-  margin-right: auto;
-  margin-bottom: 15px;
-  margin-left: auto;
-  width: 95%;
+  padding-top: 15px;
 }
 
 #logo {
@@ -60,8 +65,10 @@ header a {
 
 #selection-tab {
   display: inline-block;
-  position: absolute;
-  left: 75%;
+  position: relative;
+  float: right;
+  margin-right: 15px;
+  padding-top: 15px;
 }
 
 .selection-btn {
@@ -69,6 +76,13 @@ header a {
   text-align: center;
   color: white;
   font-family: 'avalon', sans-serif;
+  width: 70px;
+  transition: color 0.1s ease-in-out;
+}
+
+.selection-btn:hover {
+  transition: color 0.1s ease-in-out;
+  color: #00CCCC;
 }
 
 #selected-btn {
@@ -78,17 +92,11 @@ header a {
   font-weight: bold;
 }
 
-#manual-btn {
-  width: 150px;
-}
-
-#scripting-api-btn {
-  width: 150px;
-}
 
 #version-tab {
-  height: 40px;
   background-color: #E6E6E6;
+  height: 40px;
+  white-space: nowrap;
 }
 
 #version-text-container {
@@ -100,16 +108,33 @@ header a {
   font-weight: bold;
 }
 
+#scroll-bar-tab {
+  position: absolute;
+  float: left;
+  padding-top: 20px;
+  width: 24%;
+  min-width: 24%;
+  height: 100%;
+}
+
 #scroll-bar-container {
-  display: inline-block;
-  margin-right: auto;
-  margin-left: auto;
-  border-right: solid green 1px;
+  border-right: solid rgba(0, 0, 0, 0.3) 1px;
   padding: 20px;
-  width: 25%;
-  height:auto;
-  max-height: 100vh;
+  min-width: 100%;
+  height : 95%;
   overflow: auto;
+}
+
+#scroll-bar-title {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+#scroll-bar-hr {
+  opacity: 0.6;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  width: 98%;
 }
 
 .sb-dir {
@@ -120,6 +145,10 @@ header a {
 .sb-file {
   cursor: pointer;
   color: rgba(0, 0, 0, 0.7);
+}
+
+.sb-file:hover {
+  text-decoration: underline;
 }
 
 /* Scrollbar Layers */
@@ -135,24 +164,32 @@ header a {
 
 
 #content-container {
+  position: relative;
+  top: -20px;
   margin-left: auto;
-  padding-top: 100px;
-  width: 70%;
+  height: 100%;
 }
 
 #content-header {
 
 }
 
-#content-body {
-
+#content-wrapper {
+  margin-left: 30%;
+  margin-right: 2%;
 }
 
-hr {
+#content-body {
+  width: 100%;
+  font-size: 14px;
+  padding-top: 20px;
+}
+
+#content-hr {
   opacity: 0.6;
   margin-top: 5%;
   margin-bottom: 2%;
-  width: 98%;
+  width: 65%;
 }
 
 #content-footer {

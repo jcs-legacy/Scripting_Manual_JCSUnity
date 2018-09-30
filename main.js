@@ -74,7 +74,7 @@ function manual_index_data(req, res, next) {
  * @returns { JSON } : tree structure of the API.
  */
 function api_index_data(req, res, next) {
-  const tree = dirTree(config.API_DIR_PATH, { normalizePath: true });
+  const tree = dirTree(config.API_DIR_PATH, { extensions: config.CONTENT_EXTENSION, normalizePath: true });
 
   // Modefied the `API_DIR_PATH' to the correct format string.
   var removePath = config.API_DIR_PATH;
