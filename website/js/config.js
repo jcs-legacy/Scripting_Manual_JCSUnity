@@ -14,7 +14,7 @@
 
 // Manual config.
 const manual_name = "JCSUnity";
-const version_jcsunity = "1.8.3";
+const version_jcsunity = "1.8.5";
 const version_unity = "2018.2.10f1";
 
 // Copyright text to show on the website.
@@ -24,6 +24,9 @@ const copyright_text = "Copyright © 2018 JCSUnity Group. Built: 2018-09-28.";
 const intro_content = 'intro';
 
 // Content extension to load.
+//
+// NOTE(jenchieh): have to be the same with 'server' side
+// config file.
 const content_extension = '.html';
 
 

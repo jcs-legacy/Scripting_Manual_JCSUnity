@@ -177,7 +177,7 @@
       }
 
       var newId = pathObj.path;
-      newId = newId.replace(/\//g, "-");
+      newId = newId.replace(/\//g, "-");  // slash to dash
       if (pathObj.type == "file") {
         // Remove extension
         newId = newId.replace(/\.[^/.]+$/, "");
