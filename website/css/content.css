@@ -13,9 +13,11 @@
 .code-inline {
   display: inline;
   background-color: #EFF0F1;
+  font-family: 'Ubuntu Mono', monospace;
 }
 
 .code-block {
   display: block;
   background-color: #EFF0F1;
+  font-family: 'Ubuntu Mono', monospace;
 }
