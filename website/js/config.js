@@ -9,8 +9,7 @@
 
 "use strict";
 
-
-/* Client Config */
+/********************* Client Config *************************/
 
 // Manual config.
 const manual_name = "JCSUnity";
@@ -25,12 +24,14 @@ const intro_content = 'intro';
 
 // Content extension to load.
 //
-// NOTE(jenchieh): have to be the same with 'server' side
+// NOTE(jenchieh): have to be the same with 'server' side's
 // config file.
+//
+// SEE : confid.js in the project root directory.
 const content_extension = '.html';
 
 
-/* Server Config */
+/********************* Server Config *************************/
 
 const host = 'localhost';
 const port = 3000;

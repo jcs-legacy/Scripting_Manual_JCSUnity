@@ -17,10 +17,16 @@ const PORT = 3000;         // Server Port [Default: 3000]
 
 const WEBSITE_DIR = "website";
 
+/* Paths */
 const API_DIR_PATH = "./website/ScriptReference/api/";
-
 const MANUAL_DIR_PATH = "./website/Manual/doc/";
 
+// Content extension to load.
+//
+// NOTE(jenchieh): have to be the same with 'client' side's
+// config file.
+//
+// SEE : ./website/js/config.js
 const CONTENT_EXTENSION = /\.html/;
 
 //------------------ Exports modules ------------------//
