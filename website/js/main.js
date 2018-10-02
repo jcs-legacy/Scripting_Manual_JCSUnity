@@ -293,6 +293,9 @@
           // Replace all line break to '<br/>'.
           codeText = codeText.replace(/(?:\r\n|\r|\n)/g, '<br/>');
 
+          // Replace all space to &nbsp.
+          codeText = codeText.replace(/\s/g, '&nbsp;');
+
           // Clean the text.
           $(this).text("");
 
@@ -311,12 +314,3 @@
   jQueryMain();  // Execute the program entry.
 
 }(this.jQuery));
-
-
-/**
- * Program Entry
- */
-function main() {
-
-}
-main();
