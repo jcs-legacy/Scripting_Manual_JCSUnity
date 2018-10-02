@@ -1,0 +1,21 @@
+@charset "UTF-8";
+/**
+ * $File: content.css $
+ * $Date: 2018-10-02 18:46:16 $
+ * $Revision: $
+ * $Creator: Jen-Chieh Shen $
+ * $Notice: See LICENSE.txt for modification and distribution information
+ *                   Copyright © 2018 by Shen, Jen-Chieh $
+ */
+
+/* All the content CSS store here. */
+
+.code-inline {
+  display: inline;
+  background-color: #EFF0F1;
+}
+
+.code-block {
+  display: block;
+  background-color: #EFF0F1;
+}
