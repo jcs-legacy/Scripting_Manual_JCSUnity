@@ -14,3 +14,4 @@ cd ..
 
 # Install all dependecies.
 npm install express --save
+npm install directory-tree --save
