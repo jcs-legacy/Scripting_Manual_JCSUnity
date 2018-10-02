@@ -35,7 +35,6 @@
 
   /* Buttons */
 
-
   /* Regular Decoration */
   var sbContainer = $('#scroll-bar-container');
 
@@ -50,20 +49,52 @@
 
   /* Register button event */
   function addSBDirButtonEvent() {
-    var sbDir = $('.sb-dir');
+    let sbDir = $('.sb-dir');
+    let arrows = $('.arrow');
+    let arrowsText = $('.arrow + span');
 
-    sbDir.click(function (e) {
-      // Stop overlaping `div' tag's click event trigger.
+    arrows.click(function (e) {
+      // Stop overlaping `li' tag's click event trigger.
       e.stopPropagation();
 
-      if ($(this).children().is(":visible"))
-        hideChilren($(this));
+      let items = $(this).siblings('ul');
+
+      if ($(this).text() == "+")
+      {
+        showChilren(items);
+        $(this).text("-");
+      }
       else
-        showChilren($(this));
+      {
+        hideChilren(items);
+        $(this).text("+");
+      }
     });
 
+    arrowsText.click(function (e) {
+      // Stop overlaping `li' tag's click event trigger.
+      e.stopPropagation();
+
+
+      let items = $(this).siblings('ul');
+      let arrow = $(this).siblings('.arrow');
+
+      if (arrow.text() == "+")
+      {
+        showChilren(items);
+        arrow.text("-");
+      }
+      else
+      {
+        hideChilren(items);
+        arrow.text("+");
+      }
+    });
+
+    // Initialize as hide.
     sbDir.each(function () {
-      hideChilren($(this));
+      let items = $(this).find('ul');
+      hideChilren(items);
     });
   }
   addSBDirButtonEvent();  // Do it once at initialize time.
@@ -156,7 +187,12 @@
   }
 
   /* Create index with directory. */
-  function createIndexWithDir(dir, parent) {
+  function createIndexWithDir(dir, inParent) {
+
+    inParent.append("<ul></ul>");
+
+    let parent = inParent.find('ul');
+
     ++layerNum;
 
     var currentDir = "";
@@ -176,31 +212,39 @@
         sbType = "sb-file";
       }
 
-      var newId = pathObj.path;
-      newId = newId.replace(/\//g, "-");  // slash to dash
-      if (pathObj.type == "file") {
+      var isDir = (pathObj.type != "file");
+
+      var newPath = pathObj.path;
+      newPath = newPath.replace(/\//g, "-");  // slash to dash
+      if (!isDir) {
         // Remove extension
-        newId = newId.replace(/\.[^/.]+$/, "");
+        newPath = newPath.replace(/\.[^/.]+$/, "");
       }
 
-      var dirOfFileName = pathObj.name;
-      dirOfFileName = dirOfFileName.replace(/\.[^/.]+$/, "");  // Remove extension if there is.
+      var dirOrFileName = pathObj.name;
+      dirOrFileName = dirOrFileName.replace(/\.[^/.]+$/, "");  // Remove extension if there is.
 
       if (checkPageFound(manualPage)) {
         // Replace underscore with space.
-        dirOfFileName = dirOfFileName.replace(/_/g, ' ');
+        dirOrFileName = dirOrFileName.replace(/_/g, ' ');
       }
 
-      parent.append("<div class=" + sbType +" id=" + newId + ">" +
-                    dirOfFileName +
-                    "</div>");
+      parent.append("<li class=" + sbType +" id=" + newPath + "></li>");
 
-      var newParent = $('#' + newId);
+      var newPathNode = $('#' + newPath);
 
-      newParent.addClass(getLayerByNum(layerNum));
+      var htmlDirOrFileName = "<span>" + dirOrFileName + "</span>";
+
+      if (isDir) {
+        htmlDirOrFileName = "<div class='arrow'>+</div>" + htmlDirOrFileName;
+      }
+
+      newPathNode.append(htmlDirOrFileName);
+
+      newPathNode.addClass(getLayerByNum(layerNum));
 
       if (pathObj.children != null && pathObj.children.length != 0) {
-        createIndexWithDir(pathObj.children, newParent);
+        createIndexWithDir(pathObj.children, newPathNode);
       }
     }
 
@@ -226,17 +270,36 @@
       }
     }
 
-    content.load(fullPath, function () {
-      let manualName = $('.manual-name');
-      let versionJCSUnity = $('.version-jcsunity');
-      let versionUnity = $('.version-unity');
-      let copyright = $('.copyright');
+    content.load(
+      fullPath,
+      // Done loading callback.
+      function () {
+        /* Reload possible changing variables. */
+        {
+          let manualName = $('.manual-name');
+          let versionJCSUnity = $('.version-jcsunity');
+          let versionUnity = $('.version-unity');
+          let copyright = $('.copyright');
 
-      manualName.text(manual_name);
-      versionJCSUnity.text(version_jcsunity);
-      versionUnity.text(version_unity);
-      copyright.text(copyright_text);
-    });
+          manualName.text(manual_name);
+          versionJCSUnity.text(version_jcsunity);
+          versionUnity.text(version_unity);
+          copyright.text(copyright_text);
+        }
+
+        let codeBlocks = $('.code-block');
+        codeBlocks.each(function (index) {
+          let codeText = $(this).text();
+          // Replace all line break to '<br/>'.
+          codeText = codeText.replace(/(?:\r\n|\r|\n)/g, '<br/>');
+
+          // Clean the text.
+          $(this).text("");
+
+          // Turn it into HTML.
+          $(this).html(codeText);
+        });
+      });
   }
 
   /**
