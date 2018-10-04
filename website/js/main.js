@@ -17,7 +17,6 @@
 
   /* Others */
   var layerNum = -1;
-  var hostPort = host + ':' + port;
 
   /* Collect all pages. */
   var manualPage = $('#manual-page');
@@ -142,7 +141,7 @@
     {
       /* Get API index. */
       $.ajax({
-        url: 'http://' + hostPort + '/manual_index_data',
+        url: '../../manual_index_data',
         type: 'GET',
         contentType: "application/json",
         success : function (data) {
@@ -168,7 +167,7 @@
     {
       /* Get API index. */
       $.ajax({
-        url: 'http://' + hostPort + '/api_index_data',
+        url: '../../api_index_data',
         type: 'GET',
         contentType: "application/json",
         success : function (data) {
