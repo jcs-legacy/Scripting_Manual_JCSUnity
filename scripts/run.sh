@@ -13,4 +13,4 @@
 cd ..
 
 # Run the server.
-node main.js
+nodejs main.js
