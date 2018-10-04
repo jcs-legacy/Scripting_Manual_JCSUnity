@@ -37,9 +37,11 @@ app.use(function(err, req, res, next) {
 });;
 
 
+app.set('port', process.env.PORT || config.PORT);
+
 // Start listening..
-const server = app.listen(config.PORT, function () {
-  console.log("Server active successfully... Port: " + config.PORT);
+const server = app.listen(app.get('port'), function () {
+  console.log("Server active successfully... Port: " + app.get('port'));
 });
 
 
