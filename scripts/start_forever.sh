@@ -1,7 +1,7 @@
 #!/bin/bash
 # ========================================================================
-# $File: setup.sh $
-# $Date: 2018-09-27 17:04:56 $
+# $File: start_forever.sh $
+# $Date: 2018-10-04 21:33:12 $
 # $Revision: $
 # $Creator: Jen-Chieh Shen $
 # $Notice: See LICENSE.txt for modification and distribution information
@@ -12,9 +12,5 @@
 # Back to root directory.
 cd ..
 
-# Install global dependecies.
-npm install forever -g
-
-# Install project dependecies.
-npm install express --save
-npm install directory-tree --save
+# Run the server.
+forever start main.js -o log.txt
