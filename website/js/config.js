@@ -9,7 +9,6 @@
 
 "use strict";
 
-/********************* Client Config *************************/
 
 // Manual config.
 const manual_name = "JCSUnity";
@@ -29,9 +28,3 @@ const intro_content = 'intro';
 //
 // SEE : confid.js in the project root directory.
 const content_extension = '.html';
-
-
-/********************* Server Config *************************/
-
-const host = 'localhost';
-const port = 3000;
