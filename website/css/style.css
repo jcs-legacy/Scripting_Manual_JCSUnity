@@ -213,8 +213,14 @@ header {
 }
 
 #content-wrapper {
-  margin-right: 2%;
-  margin-left: 30%;
+  margin-right: 3%;
+
+  /*
+   * 3% must be the same as the `margin-right' above.
+   * 24% is the width of the scrollbar.
+   * 40px is the scrollbar padding including left and right.
+   */
+  margin-left: calc(24% + 3% + 40px);
 }
 
 #content-body {
@@ -227,7 +233,7 @@ header {
   opacity: 0.6;
   margin-top: 5%;
   margin-bottom: 2%;
-  width: 65%;
+  width: 100%;
 }
 
 #content-footer {
