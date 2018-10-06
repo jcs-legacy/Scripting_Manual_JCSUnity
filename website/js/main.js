@@ -43,8 +43,29 @@
   // Make logo load the `intro' content.
   logo.click(function () { loadContentPage(intro_content); });
 
-  function showChilren(obj) { obj.children().show(); }
-  function hideChilren(obj) { obj.children().hide(); }
+  function showChildren(obj) { obj.children().show(); }
+  function hideChildren(obj) { obj.children().hide(); }
+
+  /* Open the SB directory and turn the arrow text off. */
+  function openSBDir(items, arrow) {
+    showChildren(items);
+    arrow.text("-");
+  }
+
+  /* Close the SB directory and turn the arrow text on. */
+  function closeSBDir(items, arrow) {
+    hideChildren(items);
+    arrow.text("+");
+  }
+
+  /* Toggle the SB directory and turn the arrow text on/off. */
+  function toggleSBDir(items, arrow) {
+    if (arrow.text() == "+")
+      openSBDir(items, arrow);
+    else
+      closeSBDir(items, arrow);
+  }
+
 
   /* Register button event */
   function addSBDirButtonEvent() {
@@ -58,42 +79,49 @@
 
       let items = $(this).siblings('ul');
 
-      if ($(this).text() == "+")
-      {
-        showChilren(items);
-        $(this).text("-");
-      }
-      else
-      {
-        hideChilren(items);
-        $(this).text("+");
-      }
+      toggleSBDir(items, $(this));
     });
 
     arrowsText.click(function (e) {
       // Stop overlaping `li' tag's click event trigger.
       e.stopPropagation();
 
-
       let items = $(this).siblings('ul');
       let arrow = $(this).siblings('.arrow');
 
-      if (arrow.text() == "+")
-      {
-        showChilren(items);
-        arrow.text("-");
-      }
-      else
-      {
-        hideChilren(items);
-        arrow.text("+");
-      }
+      toggleSBDir(items, arrow);
     });
 
-    // Initialize as hide.
+    let currentContentPage = getUrlParameter('page');
+
+    let pathDir = [];
+
+    if (currentContentPage != null)
+      pathDir = currentContentPage.split('-');
+
+    let currentPathDir = pathDir[0];
+
+    let dirLayer = 0;
+
+    // Initialize by URL param.
     sbDir.each(function () {
       let items = $(this).find('ul');
-      hideChilren(items);
+      let arrow = $(this).find('.arrow');
+
+      let path = $(this).attr('id');
+
+      if (currentPathDir == path) {
+        openSBDir(items, arrow);
+
+        // Add up directory layer.
+        ++dirLayer;
+
+        // Setup the next directory tree.
+        currentPathDir += '-' + pathDir[dirLayer];
+      } else {
+        // Close the directory as default.
+        closeSBDir(items, arrow);
+      }
     });
   }
   addSBDirButtonEvent();  // Do it once at initialize time.
@@ -107,9 +135,42 @@
 
       var contentPage = $(this).attr('id');
 
-      contentPage = contentPage.replace(/-/g, "/");
+      var contentPageName = contentPage.replace(/-/g, "/");
 
-      loadContentPage(contentPage);
+      loadContentPage(contentPageName);
+
+      addParamToURL("page", contentPage, true);
+    });
+
+    let currentContentPage = getUrlParameter('page');
+
+    let selectedFilename = [];
+
+    if (currentContentPage != null) {
+      selectedFilename = currentContentPage.split('-');
+      selectedFilename = selectedFilename[selectedFilename.length - 1];
+    }
+
+    // Check if current file selected. Highlight it!
+    sbFile.each(function () {
+      let filePath = $(this).attr('id');
+
+      let filename = filePath.split('-');
+      filename = filename[filename.length - 1];
+
+      if (selectedFilename == filename) {
+        /* Selected file's CSS configurations. */
+        $(this).css('background-color', '#222C37');
+        $(this).css('color', '#FFFFFF');
+        $(this).css('padding-left', '10px');
+        $(this).css('margin-top', '5px');
+        $(this).css('margin-bottom', '5px');
+
+        // Scroll to that file selected.
+        sbContainer.animate({
+          scrollTop: $(this).offset().top
+        });
+      }
     });
   }
   addSBFileButtonEvent();  // Do it once at initialize time.
@@ -130,7 +191,7 @@
 
   /* Initialize components that exists in all pages.*/
   function initGlobalPage() {
-    loadContentPage(intro_content);
+    loadCurrentContentPage();
   }
 
   /* Initialzie the manual page. */
@@ -253,6 +314,27 @@
   /*  */
   function getLayerByNum(layerNum) { return "sb-layer-" + layerNum; }
 
+
+  /**
+   * Load the current content page if defined. If not load the default
+   * content page.
+   */
+  function loadCurrentContentPage() {
+
+    // Get the current content page in the URL.
+    let currentContentPage = getUrlParameter('page');
+
+    let contentPageName = currentContentPage;
+
+    // If the page does not define load the intro page.
+    if (currentContentPage == null)
+      contentPageName = intro_content;
+    else
+      contentPageName = currentContentPage.replace(/-/g, "/");
+
+    loadContentPage(contentPageName);
+  }
+
   /**
    * Load the content HTML file.
    * @param { typename } contentPage : Content page name.
@@ -261,12 +343,14 @@
     var fullPath = contentPage + content_extension;
 
     // Load content page base on the current page tab.
-    if (contentPage != 'intro') {
+    if (contentPage != intro_content) {
       if (checkPageFound(manualPage)) {
         fullPath = "./doc/" + fullPath;
       } else if (checkPageFound(scriptReferencePage)) {
         fullPath = "./api/" + fullPath;
       }
+    } else {
+      cleanParamFromURL();
     }
 
     content.load(
@@ -305,6 +389,33 @@
   }
 
   /**
+   * Add a parameter to current URL.
+   *
+   * @param { string } paramName : parameter name.
+   * @param { string } paramValue : parameter value.
+   * @param { boolean } clean : Clean param?
+   */
+  function addParamToURL(paramName, paramValue, clean) {
+    var url = document.location.href;
+
+    // Remove all parameters?
+    if (clean)
+      url = url.split('?')[0];
+
+    if(url.indexOf('?') != -1) {
+      url += "&";
+    }else{
+      url += "?";
+    }
+
+    url += paramName + "=" + paramValue;
+
+    // Set URL and reload the page.
+    document.location = url;
+  }
+
+
+  /**
    * jQuery program entry.
    */
   function jQueryMain() {
@@ -313,3 +424,36 @@
   jQueryMain();  // Execute the program entry.
 
 }(this.jQuery));
+
+
+/**
+ * Get URL parameter.
+ *
+ * SOURCE(jenchieh): https://stackoverflow.com/questions/19491336/get-url-parameter-jquery-or-how-to-get-query-string-values-in-js
+ * @param { string } paramName : name of the parameter.
+ */
+function getUrlParameter(paramName) {
+  var sPageURL = decodeURIComponent(window.location.search.substring(1));
+  var sURLVariables = sPageURL.split('&');
+
+  for (let index = 0; index < sURLVariables.length; index++) {
+    let sParameterName = sURLVariables[index].split('=');
+
+    if (sParameterName[0] === paramName) {
+      return sParameterName[1] === undefined ? true : sParameterName[1];
+    }
+  }
+
+  return null;
+}
+
+/**
+ * Clean all URL parameters.
+ */
+function cleanParamFromURL() {
+  var url = document.location.href;
+  url = url.split('?')[0];
+
+  // Remove param without reload page.
+  history.pushState({ }, null, url);
+}
