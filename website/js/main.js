@@ -158,13 +158,9 @@
       let filename = filePath.split('-');
       filename = filename[filename.length - 1];
 
+      // Found the selected file?
       if (selectedFilename == filename) {
-        /* Selected file's CSS configurations. */
-        $(this).css('background-color', '#222C37');
-        $(this).css('color', '#FFFFFF');
-        $(this).css('padding-left', '10px');
-        $(this).css('margin-top', '5px');
-        $(this).css('margin-bottom', '5px');
+        $(this).addClass('sb-file-selected');
 
         // Scroll to that file selected.
         sbContainer.animate({
