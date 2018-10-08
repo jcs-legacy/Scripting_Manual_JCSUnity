@@ -164,8 +164,12 @@
 
         // Scroll to that file selected.
         sbContainer.animate({
-          scrollTop: $(this).offset().top
-        });
+          /*
+           * NOTE(jenchieh): 100 is the height from the header,
+           * and plus 10 just to offset a bit more to look better.
+           */
+          scrollTop: $(this).offset().top - 110
+        }, 500);
       }
     });
   }
