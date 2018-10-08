@@ -65,7 +65,8 @@ header {
 
 #selection-tab {
   display: inline-block;
-  position: relative;
+  position: absolute;
+  right: 50px;
   float: right;
   margin-right: 15px;
   padding-top: 15px;
@@ -118,7 +119,7 @@ header {
 
 #scroll-bar-container {
   border-right: solid rgba(0, 0, 0, 0.3) 1px;
-  padding: 20px;
+  padding: 5%;
   min-width: 100%;
   height : 100%;
   overflow: auto;
@@ -131,8 +132,8 @@ header {
 
 #scroll-bar-hr {
   opacity: 0.6;
-  margin-top: 5%;
-  margin-bottom: 5%;
+  margin-top: 3%;
+  margin-bottom: 3%;
   width: 98%;
 }
 
@@ -216,9 +217,9 @@ header {
   /*
    * NOTE(jenchieh): 140px is get from all the height from different
    * component. The header is 100px and the `scroll-bar-container'
-   * have padding of 20px, including top and bottom so is 40px.
+   * have padding of 20px, including top and bottom so is 40px
    *
-   * Hence, 100px + 40px = 140px.
+   * Hence, 100px + 40px = 140px
    */
   height: calc(100% - 140px);
 }
@@ -231,9 +232,9 @@ header {
   margin-right: 3%;
 
   /*
-   * 3% must be the same as the `margin-right' above.
-   * 24% is the width of the scrollbar.
-   * 40px is the scrollbar padding including left and right.
+   * 3% must be the same as the `margin-right' above
+   * 24% is the width of the scrollbar
+   * 40px is the scrollbar padding including left and right
    */
   margin-left: calc(24% + 3% + 40px);
 }
