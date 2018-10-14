@@ -369,11 +369,27 @@
 
           codeBlocks.each(function (index) {
             let codeText = $(this).text();
-            // Replace all line break to '<br/>'.
-            codeText = codeText.replace(/(?:\r\n|\r|\n)/g, '<br/>');
 
-            // Replace all space to &nbsp.
-            codeText = codeText.replace(/\s/g, '&nbsp;');
+            // Add certain rules
+            codeText = codeAreaRule(codeText);
+
+            // Clean the text.
+            $(this).text("");
+
+            // Turn it into HTML.
+            $(this).html(codeText);
+          });
+        }
+
+        /* Code inline logic here.. */
+        {
+          let codeInline = $('.code-inline');
+
+          codeInline.each(function (index) {
+            let codeText = $(this).text();
+
+            // Add certain rules
+            codeText = codeAreaRule(codeText);
 
             // Clean the text.
             $(this).text("");
@@ -383,7 +399,26 @@
           });
         }
       });
-    }
+  }
+
+  /**
+   * Convert the plain text to HTML.
+   *
+   * @param { typename } codeText : code plain text.
+   */
+  function codeAreaRule(codeText) {
+    // Replace all line break to '<br/>'.
+    codeText = codeText.replace(/(?:\r\n|\r|\n)/g, '<br/>');
+
+    // Replace all space to &nbsp.
+    codeText = codeText.replace(/\s/g, '&nbsp;');
+
+    // Add certain rules
+    codeText = codeText.replace(/-<-/g, '&lt;');
+    codeText = codeText.replace(/->-/g, '&gt;');
+
+    return codeText;
+  }
 
   /**
    * Add a parameter to current URL.
