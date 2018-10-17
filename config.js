@@ -13,7 +13,7 @@
 const DEBUG = false;  // Debug mode?
 
 const HOST = "localhost";  // Host [Default: localhost]
-const PORT = 3000;         // Server Port [Default: 3000]
+const PORT = 3001;         // Server Port [Default: 3000]
 
 const WEBSITE_DIR = "website";
 
