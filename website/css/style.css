@@ -66,9 +66,8 @@ header {
 #selection-tab {
   display: inline-block;
   position: absolute;
-  right: 50px;
+  right: 320px;
   float: right;
-  margin-right: 15px;
   padding-top: 15px;
 }
 
@@ -91,6 +90,50 @@ header {
   color: #00CCCC;
   font-family: 'avalonbold', sans-serif;
   font-weight: bold;
+}
+
+#search-input-container {
+  display: inline-block;
+  position: absolute;
+  right: 0px;
+  float: right;
+  border-bottom: 1px solid black;
+  background-color: white;
+  cursor: text;
+  padding-top: calc(60px - 1px - 40px);  /* This value should be work with `height'. */
+  width: 250px;
+  height: calc(60px - 1px - 20px);  /* This value should be work with `padding-top' */
+}
+
+#search-input-border {
+  position: relative;
+  top: -24px;
+  left: -20px;
+  float: left;
+  border-bottom: 1px solid black;
+  border-top-left-radius: 100%;
+  border-bottom-left-radius: -50%;
+  background-color: white;
+  width: 20px;
+  height: calc(60px - 1px + 4px);
+}
+
+#search-input-container input {
+  outline: 0;
+  border: 0;
+  background: transparent;
+  overflow: auto;
+}
+
+#search-btn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  float: right;
+  background-image: url('../images/search_btn.png');
+  cursor: pointer;
+  width: 25px;
+  height: 25px;
 }
 
 

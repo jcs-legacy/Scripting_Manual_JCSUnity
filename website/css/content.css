@@ -24,6 +24,15 @@
   font-family: 'Ubuntu Mono', monospace;
 }
 
+/********************* Horizontal Line *****************************/
+
+.con-hr {
+  opacity: 0.6;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  width: 100%;
+}
+
 /********************* Table *****************************/
 
 table {
@@ -56,4 +65,15 @@ tr:nth-child(even) {
 td:nth-child(2) {
   /* Make table grow/algin from left. */
   width: 100%;
+}
+
+/********************* Search *****************************/
+
+#search-result-block {
+
+}
+
+.search-result-one {
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
