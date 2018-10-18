@@ -192,8 +192,12 @@ function searchMatchPath(dir, match, arr) {
       searchMatchPath(pathObj.children, match, arr);
     }
 
+    /* Make it case insensitive. */
+    let pathUpper = pathObj.path.toUpperCase();
+    let matchUpper = match.toUpperCase();
+
     // If match add it to search result.
-    if (pathObj.path.includes(match)) {
+    if (pathUpper.includes(matchUpper)) {
       arr.push(pathObj);
     }
   }
