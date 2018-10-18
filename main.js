@@ -30,6 +30,9 @@ app.use(express.static(config.WEBSITE_DIR));
 app.get('/api_index_data', api_index_data);
 app.get('/manual_index_data', manual_index_data);
 
+app.get('/search_manual/:search_keyword', search_manual);
+app.get('/search_api/:search_keyword', search_api);
+
 
 // Error handler
 app.use(function(err, req, res, next) {
@@ -56,13 +59,7 @@ const server = app.listen(app.get('port'), function () {
  * @returns { JSON } : tree structure of the API.
  */
 function manual_index_data(req, res, next) {
-  const tree = dirTree(config.MANUAL_DIR_PATH, { normalizePath: true });
-
-  // Modefied the `MANUAL_DIR_PATH' to the correct format string.
-  var removePath = config.MANUAL_DIR_PATH;
-  removePath = removePath.replace("./", "");
-
-  removeLeadPath(tree.children, removePath);
+  let tree = getManualTree();
 
   res.send(JSON.stringify(tree));
 }
@@ -76,6 +73,74 @@ function manual_index_data(req, res, next) {
  * @returns { JSON } : tree structure of the API.
  */
 function api_index_data(req, res, next) {
+  let tree = getAPITree();
+
+  res.send(JSON.stringify(tree));
+}
+
+/**
+ * Search the manual files and return the all mathc result.
+ *
+ * @param { typename } req : request handler.
+ * @param { typename } res : response handler.
+ * @param { typename } next : error handler.
+ * @returns { JSON } : Search result.
+ */
+function search_manual(req, res, next) {
+  let data = req.params;  // get all params
+  let searchKeyword = data.search_keyword;
+
+  /* Conversion base on the rule. */
+  searchKeyword = searchKeyword.replace(/-/g, ' ');
+
+
+  let searchResults = [];
+  let tree = getManualTree();
+
+  searchMatchPath(tree.children, searchKeyword, searchResults);
+
+  res.send(JSON.stringify(searchResults));
+}
+
+/**
+ * Search the api files and return the all match result.
+ *
+ * @param { typename } req : request handler.
+ * @param { typename } res : response handler.
+ * @param { typename } next : error handler.
+ * @returns { JSON } : Search result.
+ */
+function search_api(req, res, next) {
+  let data = req.params;  // get all params
+  let searchKeyword = data.search_keyword;
+
+  /* Conversion base on the rule. */
+  searchKeyword = searchKeyword.replace(/-/g, ' ');
+
+
+  let searchResults = [];
+  let tree = getAPITree();
+
+  searchMatchPath(tree.children, searchKeyword, searchResults);
+
+  res.send(JSON.stringify(searchResults));
+}
+
+/* Get the Manual tree. */
+function getManualTree() {
+  const tree = dirTree(config.MANUAL_DIR_PATH, { extensions: config.CONTENT_EXTENSION, normalizePath: true });
+
+  // Modefied the `MANUAL_DIR_PATH' to the correct format string.
+  var removePath = config.MANUAL_DIR_PATH;
+  removePath = removePath.replace("./", "");
+
+  removeLeadPath(tree.children, removePath);
+
+  return tree;
+}
+
+/* Get the API tree. */
+function getAPITree() {
   const tree = dirTree(config.API_DIR_PATH, { extensions: config.CONTENT_EXTENSION, normalizePath: true });
 
   // Modefied the `API_DIR_PATH' to the correct format string.
@@ -84,12 +149,13 @@ function api_index_data(req, res, next) {
 
   removeLeadPath(tree.children, removePath);
 
-  res.send(JSON.stringify(tree));
+  return tree;
 }
 
+
 /**
- * Remove the `API_DIR_PATH', so when the client receive the data
- * would not need to care where is the api directory located.
+ * Remove the `MANUAL_DIR_PATH' or `API_DIR_PATH', so when the client
+ * receive the data would not need to care where is the api directory located.
  * @param { JSON } dir : directory JSON object.
  * @param { typename } rmPath : Param desc here..
  */
@@ -104,7 +170,31 @@ function removeLeadPath(dir, rmPath) {
       removeLeadPath(pathObj.children, rmPath);
     }
 
-    // Remove the `API_DIR_PATH' path.
+    // Remove the `MANUAL_DIR_PATH' or `API_DIR_PATH' path.
     pathObj.path = pathObj.path.replace(rmPath, "");
+  }
+}
+
+/**
+ * Search the match result.
+ * @param { JSON } dir : directory JSON object.
+ * @param { string } match : stirng check to match.
+ * @param { array } arr : Array to store search result.
+ */
+function searchMatchPath(dir, match, arr) {
+  for (let index = 0;
+       index < dir.length;
+       ++index)
+  {
+    let pathObj = dir[index];
+
+    if (pathObj.children != null && pathObj.children.length != 0) {
+      searchMatchPath(pathObj.children, match, arr);
+    }
+
+    // If match add it to search result.
+    if (pathObj.path.includes(match)) {
+      arr.push(pathObj);
+    }
   }
 }
