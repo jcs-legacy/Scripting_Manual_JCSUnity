@@ -34,8 +34,54 @@
   /* Regular Decoration */
   var sbContainer = $('#scroll-bar-container');
 
+  /* Search Input */
+  var searchForm = $('#search-input-container form');
+  var searchInputBorder = $('#search-input-border');
+  var searchInputContainer = $('#search-input-container');
+  var searchInput = $('#search-input-container input');
+  var searchBtn = $('#search-btn');
+
+  /* Search Result */
+  var searchRes = null;
 
   //---------------------- Functions ---------------------------//
+
+  /* Search Input */
+  searchInputContainer.click(function () {
+    searchInput.focus();
+  });
+
+  searchBtn.click(function () {
+    doSearch();
+  });
+
+
+  // Prevent search default submit action.
+  searchForm.submit(function(e) { e.preventDefault(); });
+
+  searchInput.keypress(function (e) {
+    if (e.which != 13)
+      return;
+
+    doSearch();
+  });
+
+  /**
+   * Do the search.
+   */
+  function doSearch() {
+    let searchKeyword = searchInput.val().trim();
+
+    // If search for nothing just return it.
+    if (searchKeyword == "")
+      return;
+
+    // Apply character conversion rule.
+    searchKeyword = searchKeyword.replace(/ /g, '-');
+
+    // Load to search page.
+    addParamToURL('search', searchKeyword, true);
+  }
 
   function showChildren(obj) { obj.children().show(); }
   function hideChildren(obj) { obj.children().hide(); }
@@ -186,15 +232,18 @@
   /* Initialize components that exists in all pages.*/
   function initGlobalPage() {
     loadCurrentContentPage();
+
+    searchInput.attr('size', si_input_size);
   }
 
   /* Initialzie the manual page. */
   function initManulPage() {
     scrollBarTitle.text(manual_name + " Manul");
+    searchInput.attr('placeholder', si_manual_placeholder);
 
     /* Make AJAX request. */
     {
-      /* Get API index. */
+      /* Get Manual index. */
       $.ajax({
         url: '../../manual_index_data',
         type: 'GET',
@@ -217,6 +266,7 @@
   /* Initialize the script reference page. */
   function initScriptReferencePage() {
     scrollBarTitle.text("Scripting API");
+    searchInput.attr('placeholder', si_api_placeholder);
 
     /* Make AJAX request. */
     {
@@ -316,14 +366,21 @@
   function loadCurrentContentPage() {
     // Get the current content page in the URL.
     let currentContentPage = getUrlParameter('page');
+    // Is the page the search page?
+    let searchKeyword = getUrlParameter('search');
 
     let contentPageName = "";
 
     // If the page does not define load the intro page.
-    if (currentContentPage == null)
-      contentPageName = intro_content;
-    else
-      contentPageName = currentContentPage.replace(/-/g, "/");
+    if (searchKeyword == null) {
+      if (currentContentPage == null)
+        contentPageName = intro_content;
+      else
+        contentPageName = currentContentPage.replace(/-/g, "/");
+    } else {
+      contentPageName = search_content;
+      searchInput.attr('value', searchKeyword);
+    }
 
     loadContentPage(contentPageName);
   }
@@ -336,14 +393,43 @@
     let fullPath = contentPage + content_extension;
 
     // Load content page base on the current page tab.
-    if (contentPage != intro_content) {
+    if (contentPage == intro_content) {
+      cleanParamFromURL();
+    } else if (contentPage == search_content) {
+
+      let searchKeyword = getUrlParameter('search');
+      let reqUrl = '';
+
+      if (checkPageFound(manualPage)) {
+        /* Get Manual search result. */
+        reqUrl = '../../search_manual/' + searchKeyword;
+      } else if (checkPageFound(scriptReferencePage)) {
+        /* Get API search result. */
+        reqUrl = '../../search_api/' + searchKeyword;
+      }
+
+      $.ajax({
+        url: reqUrl,
+        type: 'GET',
+        contentType: "application/json",
+        success : function (data) {
+          searchRes = JSON.parse(data);
+
+          // Try to append search result.
+          appendSearchResult();
+        },
+        error : function (e) {
+          console.log(e.message);
+        }
+      });
+    }
+    // Else we load either manual/api page.
+    else {
       if (checkPageFound(manualPage)) {
         fullPath = "./doc/" + fullPath;
       } else if (checkPageFound(scriptReferencePage)) {
         fullPath = "./api/" + fullPath;
       }
-    } else {
-      cleanParamFromURL();
     }
 
     content.load(
@@ -361,6 +447,16 @@
           versionJCSUnity.text(version_jcsunity);
           versionUnity.text(version_unity);
           copyright.text(copyright_text);
+
+          let searchKeyword = getUrlParameter('search');
+          if (searchKeyword != null) {
+            let searchKeywordText = $('.search-keyword');
+
+            searchKeywordText.text(searchKeyword);
+
+            // Try to append search result.
+            appendSearchResult();
+          }
         }
 
         /* Code block logic here.. */
@@ -444,6 +540,44 @@
 
     // Set URL and reload the page.
     document.location = url;
+  }
+
+  /**
+   * Apply search result visual client.
+   */
+  function appendSearchResult() {
+    let searchResDiv = $('#search-result-block');
+
+    // Check is the HTML page loaded?
+    if (searchResDiv == null ||
+        // Check if the data come in?
+        searchRes == null)
+    {
+      return;
+    }
+
+    for (let index = 0;
+         index < searchRes.length;
+         ++index)
+    {
+      let pathObj = searchRes[index];
+
+      let urlPath = pathObj.path;
+
+      /* Apply conversion rule. */
+      urlPath = urlPath.replace(/\//g, '-');
+      urlPath = urlPath.replace(/.html/g, '');
+
+      /* Here to design the HTML content for search result. */
+      let resultHTML =
+          '<div class="search-result-one">' +
+          '<a href="?page=' + urlPath + '">' +
+          pathObj.path +
+          '</a>' +
+          '</div>';
+
+      searchResDiv.append(resultHTML);
+    }
   }
 
 
