@@ -193,11 +193,11 @@ function searchMatchPath(dir, match, arr) {
     }
 
     /* Make it case insensitive. */
-    let pathUpper = pathObj.path.toUpperCase();
+    let nameUpper = pathObj.name.toUpperCase();
     let matchUpper = match.toUpperCase();
 
     // If match add it to search result.
-    if (pathUpper.includes(matchUpper)) {
+    if (nameUpper.includes(matchUpper) && pathObj.type == 'file') {
       arr.push(pathObj);
     }
   }
