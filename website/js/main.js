@@ -562,9 +562,12 @@
     {
       let pathObj = searchRes[index];
 
-      let urlPath = pathObj.path;
+      // Show path just have to remove html at the end.
+      let showPath = pathObj.path;
+      showPath = showPath.replace(/.html/g, '');
 
       /* Apply conversion rule. */
+      let urlPath = pathObj.path;
       urlPath = urlPath.replace(/\//g, '-');
       urlPath = urlPath.replace(/.html/g, '');
 
@@ -572,7 +575,7 @@
       let resultHTML =
           '<div class="search-result-one">' +
           '<a href="?page=' + urlPath + '">' +
-          pathObj.path +
+          showPath +
           '</a>' +
           '</div>';
 
