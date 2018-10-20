@@ -13,7 +13,7 @@
 // Manual config.
 const manual_name = "JCSUnity";
 const version_jcsunity = "1.8.5";
-const version_unity = "2018.2.12f1";
+const version_unity = "2018.2.13f1";
 
 // Copyright text to show on the website.
 const copyright_text = "Copyright © 2018 JCSUnity Group. Built: 2018-09-28.";
