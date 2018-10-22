@@ -97,7 +97,6 @@ header {
   position: absolute;
   right: 0px;
   float: right;
-  border-bottom: 1px solid black;
   background-color: white;
   cursor: text;
   padding-top: calc(60px - 1px - 40px);  /* This value should be work with `height'. */
@@ -110,9 +109,7 @@ header {
   top: -24px;
   left: -20px;
   float: left;
-  border-bottom: 1px solid black;
   border-top-left-radius: 100%;
-  border-bottom-left-radius: -50%;
   background-color: white;
   width: 20px;
   height: calc(60px - 1px + 4px);
