@@ -142,12 +142,20 @@ header {
 
 #version-text-container {
   padding: 10px;
+  padding-right: 25px;
   padding-left: 25px;
 }
 
 .version-text {
   font-weight: bold;
 }
+
+.homepage-link {
+  position: relative;
+  float: right;
+  text-decoration: none;
+}
+
 
 #scroll-bar-tab {
   position: absolute;
