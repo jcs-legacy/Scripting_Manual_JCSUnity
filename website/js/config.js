@@ -23,6 +23,11 @@ const intro_content = 'intro';
 // Search page.
 const search_content = 'search';
 
+// Homepage Link
+const homepage_url = "https://github.com/jcs090218/JCSUnity";  // The actual link to your homepage.
+const homepage_text = "JCSUnity.github";  // Text to show on the browser
+
+
 // Content extension to load.
 //
 // NOTE(jenchieh): have to be the same with 'server' side's
