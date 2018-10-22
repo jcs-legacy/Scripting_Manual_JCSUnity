@@ -442,11 +442,14 @@
           let versionJCSUnity = $('.version-jcsunity');
           let versionUnity = $('.version-unity');
           let copyright = $('.copyright');
+          let homepageLink = $('.homepage-link');
 
           manualName.text(manual_name);
           versionJCSUnity.text(version_jcsunity);
           versionUnity.text(version_unity);
           copyright.text(copyright_text);
+          homepageLink.text(homepage_text);
+          homepageLink.attr('href', homepage_url);
 
           let searchKeyword = getUrlParameter('search');
           if (searchKeyword != null) {
