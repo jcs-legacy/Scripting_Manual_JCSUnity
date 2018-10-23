@@ -46,7 +46,7 @@
 
   /* Conversion Keywords */
   var slashKey = "_sl_";
-  var spaceKey = "_sp_";
+  var spaceKey = "_sp_";  // Must be the same as server.
 
 
   //---------------------- Functions ---------------------------//
@@ -83,7 +83,7 @@
 
     /* Conversion base on the rule. */
     // This rule must match the server side.
-    searchKeyword = searchKeyword.replace(/ /g, '-');
+    searchKeyword = searchKeyword.replace(/ /g, spaceKey);
 
     // Load to search page.
     addParamToURL('search', searchKeyword, true);
@@ -383,6 +383,8 @@
       }
     } else {
       contentPageName = search_content;
+
+      searchKeyword = searchKeyword.split(spaceKey).join(" ");
       searchInput.attr('value', searchKeyword);
     }
 
@@ -462,6 +464,8 @@
           let searchKeyword = getUrlParameter('search');
           if (searchKeyword != null) {
             let searchKeywordText = $('.search-keyword');
+
+            searchKeyword = searchKeyword.split(spaceKey).join(" ");
 
             searchKeywordText.text(searchKeyword);
 
