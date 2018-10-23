@@ -44,6 +44,11 @@
   /* Search Result */
   var searchRes = null;
 
+  /* Conversion Keywords */
+  var slashKey = "_slash_";
+  var spaceKey = "_space_";
+
+
   //---------------------- Functions ---------------------------//
 
   /* Search Input */
@@ -137,7 +142,7 @@
     let pathDir = [];
 
     if (currentContentPage != null)
-      pathDir = currentContentPage.split('-');
+      pathDir = currentContentPage.split(slashKey);
 
     let currentPathDir = pathDir[0];
 
@@ -157,7 +162,7 @@
         ++dirLayer;
 
         // Setup the next directory tree.
-        currentPathDir += '-' + pathDir[dirLayer];
+        currentPathDir += slashKey + pathDir[dirLayer];
       } else {
         // Close the directory as default.
         closeSBDir(items, arrow);
@@ -174,10 +179,6 @@
       e.stopPropagation();
 
       let contentPage = $(this).attr('id');
-
-      let contentPageName = contentPage.replace(/-/g, "/");
-
-      loadContentPage(contentPageName);
 
       addParamToURL("page", contentPage, true);
     });
@@ -319,19 +320,17 @@
       let isDir = (pathObj.type != "file");
 
       let newPath = pathObj.path;
-      newPath = newPath.replace(/\//g, "-");  // slash to dash
-      if (!isDir) {
-        // Remove extension
+      newPath = newPath.replace(/\//g, slashKey);  // slash to key.
+      // Remove extension if file.
+      if (!isDir)
         newPath = newPath.replace(/\.[^/.]+$/, "");
-      }
+
+      newPath = newPath.replace(/ /g, spaceKey);  // space to key.
+
 
       let dirOrFileName = pathObj.name;
       dirOrFileName = dirOrFileName.replace(/\.[^/.]+$/, "");  // Remove extension if there is.
 
-      if (checkPageFound(manualPage)) {
-        // Replace underscore with space.
-        dirOrFileName = dirOrFileName.replace(/_/g, ' ');
-      }
 
       parent.append("<li class=" + sbType +" id=" + newPath + "></li>");
 
@@ -355,7 +354,7 @@
     --layerNum;
   }
 
-  /*  */
+  /* Get layer number class string. */
   function getLayerByNum(layerNum) { return "sb-layer-" + layerNum; }
 
 
@@ -371,12 +370,16 @@
 
     let contentPageName = "";
 
-    // If the page does not define load the intro page.
+    // If keyword does not define load load normal page instead of search page.
     if (searchKeyword == null) {
+      // If the page does not define load the intro page.
       if (currentContentPage == null)
         contentPageName = intro_content;
-      else
-        contentPageName = currentContentPage.replace(/-/g, "/");
+      else {
+        /* Apply conversion rule. */
+        contentPageName = currentContentPage.split(slashKey).join("/");
+        contentPageName = contentPageName.split(spaceKey).join(" ");
+      }
     } else {
       contentPageName = search_content;
       searchInput.attr('value', searchKeyword);
@@ -433,7 +436,11 @@
     }
 
     content.load(
-      fullPath,
+      // NOTE(jenchieh): This allow url have spaces.
+      //
+      // TOPIC(jenchieh): jquery “load” for path contain spaces - Need help !
+      // SOURCE(jenchieh): https://stackoverflow.com/questions/3741672/jquery-load-for-path-contain-spaces-need-help
+      encodeURIComponent(fullPath),
       // Done loading callback.
       function () {
         /* Reload possible changing variables. */
@@ -565,7 +572,7 @@
     {
       let pathObj = searchRes[index];
 
-      // Show path just have to remove html at the end.
+      // Remove extension from show path.
       let showPath = pathObj.path;
       showPath = showPath.replace(/.html/g, '');
 
@@ -616,7 +623,7 @@ function getUrlParameter(paramName) {
     }
   }
 
-  return null;
+  return null;
 }
 
 /**
@@ -624,7 +631,7 @@ function getUrlParameter(paramName) {
  */
 function cleanParamFromURL() {
   let url = document.location.href;
-
+
   let splitUrl = url.split('?');
   url = splitUrl[0];
 
