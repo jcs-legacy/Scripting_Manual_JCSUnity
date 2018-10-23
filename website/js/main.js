@@ -81,7 +81,8 @@
     if (searchKeyword == "")
       return;
 
-    // Apply character conversion rule.
+    /* Conversion base on the rule. */
+    // This rule must match the server side.
     searchKeyword = searchKeyword.replace(/ /g, '-');
 
     // Load to search page.
@@ -188,7 +189,7 @@
     let selectedFilename = [];
 
     if (currentContentPage != null) {
-      selectedFilename = currentContentPage.split('-');
+      selectedFilename = currentContentPage.split(slashKey);
       selectedFilename = selectedFilename[selectedFilename.length - 1];
     }
 
@@ -196,7 +197,7 @@
     sbFile.each(function () {
       let filePath = $(this).attr('id');
 
-      let filename = filePath.split('-');
+      let filename = filePath.split(slashKey);
       filename = filename[filename.length - 1];
 
       // Found the selected file?
