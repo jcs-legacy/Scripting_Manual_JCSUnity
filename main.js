@@ -91,6 +91,7 @@ function search_manual(req, res, next) {
   let searchKeyword = data.search_keyword;
 
   /* Conversion base on the rule. */
+  // This rule must match client side.
   searchKeyword = searchKeyword.replace(/-/g, ' ');
 
 
@@ -115,6 +116,7 @@ function search_api(req, res, next) {
   let searchKeyword = data.search_keyword;
 
   /* Conversion base on the rule. */
+  // This rule must match client side.
   searchKeyword = searchKeyword.replace(/-/g, ' ');
 
 
