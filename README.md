@@ -1,6 +1,6 @@
 # Scripting Manual - JCSUnity #
 
-Scripting manual for JCSUnity API. <br/><br/>
+Scripting manual website for JCSUnity API. <br/><br/>
 
 ## Links ##
 * Web Page : <a href="http://www.jcs-profile.com:3001">JCSUnity-Scripting-Manual</a>
