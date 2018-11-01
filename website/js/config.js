@@ -12,8 +12,23 @@
 
 // Manual config.
 const manual_name = "JCSUnity";
-const version_jcsunity = "1.8.5";
-const version_unity = "2018.2.13f1";
+
+// Version config.
+const version_title_01 = "JCSUnity Version: ";
+const version_title_02 = "Unity Version: ";
+const version_title_03 = "";
+const version_title_04 = "";
+const version_title_05 = "";
+const version_title_06 = "";
+const version_title_07 = "";
+
+const version_num_01 = "1.8.5";
+const version_num_02 = "2018.2.13f1";
+const version_num_03 = "";
+const version_num_04 = "";
+const version_num_05 = "";
+const version_num_06 = "";
+const version_num_07 = "";
 
 // Copyright text to show on the website.
 const copyright_text = "Copyright © 2018 JCSUnity Group. Built: 2018-09-28.";
