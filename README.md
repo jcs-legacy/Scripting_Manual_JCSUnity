@@ -1,5 +1,8 @@
 # Scripting Manual - JCSUnity #
 
+[![Build Status](https://travis-ci.com/jcs090218/Scripting-Manual-JCSUnity.svg?branch=master)](https://travis-ci.com/jcs090218/Scripting-Manual-JCSUnity)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+
 Scripting manual website for JCSUnity API. <br/><br/>
 
 ## Links ##
