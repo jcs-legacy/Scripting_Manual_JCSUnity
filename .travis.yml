@@ -6,6 +6,9 @@ node_js:
 before_install:
   - chmod a+x ./scripts/*.sh
 
+install:
+  - - ./scripts/setup.sh
+
 script:
   - ./scripts/start_forever.sh
   - ./scripts/stop_forever.sh
