@@ -12,7 +12,6 @@
 # Back to root directory.
 if ! [[ -n "$TRAVIS" ]]; then
     cd ..
-    echo Hooojsdfiasndmfisandfia
 fi
 
 # Run the server.
