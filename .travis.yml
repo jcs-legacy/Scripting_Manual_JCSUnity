@@ -7,7 +7,7 @@ before_install:
   - chmod a+x ./scripts/*.sh
 
 install:
-  - - ./scripts/setup.sh
+  - ./scripts/setup.sh
 
 script:
   - ./scripts/start_forever.sh
