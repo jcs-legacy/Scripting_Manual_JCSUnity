@@ -7,7 +7,7 @@ before_install:
   - chmod a+x ./scripts/*.sh
 
 install:
-  ls
+  - ls
   - ./scripts/setup.sh
 
 script:
