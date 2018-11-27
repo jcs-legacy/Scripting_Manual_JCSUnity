@@ -7,9 +7,10 @@ before_install:
   - chmod a+x ./scripts/*.sh
 
 install:
-  - ls
   - ./scripts/setup.sh
 
 script:
+  - ls
+  - cd ./Scripting_Manual_JCSUnity
   - ./scripts/start_forever.sh
   - ./scripts/stop_forever.sh
