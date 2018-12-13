@@ -22,7 +22,7 @@ const version_title_05 = "";
 const version_title_06 = "";
 const version_title_07 = "";
 
-const version_num_01 = "1.8.5";
+const version_num_01 = "1.8.7";
 const version_num_02 = "2018.3.0f2";
 const version_num_03 = "";
 const version_num_04 = "";
