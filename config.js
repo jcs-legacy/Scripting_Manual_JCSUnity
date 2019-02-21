@@ -21,6 +21,9 @@ const WEBSITE_DIR = "website";
 const API_DIR_PATH = "./website/ScriptReference/api/";
 const MANUAL_DIR_PATH = "./website/Manual/doc/";
 
+/* Action */
+const SORT_ORDER = 'directory';
+
 // Content extension to load.
 //
 // NOTE(jenchieh): have to be the same with 'client' side's
@@ -40,5 +43,7 @@ module.exports.WEBSITE_DIR = WEBSITE_DIR;
 
 module.exports.API_DIR_PATH = API_DIR_PATH;
 module.exports.MANUAL_DIR_PATH = MANUAL_DIR_PATH;
+
+module.exports.SORT_ORDER = SORT_ORDER;
 
 module.exports.CONTENT_EXTENSION = CONTENT_EXTENSION;
