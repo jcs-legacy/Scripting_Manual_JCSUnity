@@ -9,11 +9,6 @@
  */
 
 
-* {
-  margin: 0px;
-  padding: 0px;
-}
-
 html {
   width: 100%;
   height: 100%;
@@ -99,9 +94,9 @@ header {
   float: right;
   background-color: white;
   cursor: text;
-  padding-top: calc(60px - 1px - 40px);  /* This value should be work with `height'. */
+  padding-top: calc(60px - 1px - 40px);  /* This value should be work with `height`. */
   width: 250px;
-  height: calc(60px - 1px - 20px);  /* This value should be work with `padding-top' */
+  height: calc(60px - 1px - 20px);  /* This value should be work with `padding-top` */
 }
 
 #search-input-border {
@@ -173,6 +168,10 @@ header {
   overflow: auto;
 }
 
+#scroll-bar-container h3 {
+  margin: 0px;
+}
+
 #scroll-bar-title {
   font-size: 1.2em;
   font-weight: bold;
@@ -187,6 +186,10 @@ header {
 
 #index-pos {
   margin-left: 0px;
+}
+
+#index-pos ul {
+  padding: 0px;
 }
 
 #index-pos li {
@@ -260,11 +263,10 @@ header {
 
 #content-container {
   position: relative;
-  margin-left: auto;
 
   /*
-   * NOTE(jenchieh): 140px is get from all the height from different
-   * component. The header is 100px and the `scroll-bar-container'
+   * NOTE: 140px is get from all the height from different
+   * component. The header is 100px and the `scroll-bar-container`
    * have padding of 20px, including top and bottom so is 40px
    *
    * Hence, 100px + 40px = 140px
@@ -291,6 +293,10 @@ header {
   width: 100%;
   font-size: 14px;
   padding-top: 1px;
+}
+
+#content {
+  margin: 3% 1%;
 }
 
 #content-hr {
