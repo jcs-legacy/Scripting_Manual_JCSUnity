@@ -1,13 +1,3 @@
-<!--
-   - $File: JCS_PauseManager.html $
-   - $Date: 2018-10-01 03:21:34 $
-   - $Revision: $
-   - $Creator: Jen-Chieh Shen $
-   - $Notice: See LICENSE.txt for modification and distribution information
-   -                   Copyright © 2018 by Shen, Jen-Chieh $
--->
-
-
 <div id="content-header">
   <h1>JCS_PauseManager</h1>
 </div>

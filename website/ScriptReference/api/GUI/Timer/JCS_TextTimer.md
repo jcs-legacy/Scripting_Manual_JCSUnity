@@ -1,13 +1,3 @@
-<!--
-   - $File: JCS_TextTimer.html $
-   - $Date: 2019-07-16 20:53:36 $
-   - $Revision: $
-   - $Creator: Jen-Chieh Shen $
-   - $Notice: See LICENSE.txt for modification and distribution information
-   -                   Copyright © 2018 by Shen, Jen-Chieh $
--->
-
-
 <div id="content-header">
   <h1>JCS_TextTimer</h1>
 </div>

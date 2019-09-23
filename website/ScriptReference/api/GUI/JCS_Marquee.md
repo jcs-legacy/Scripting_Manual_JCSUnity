@@ -1,13 +1,3 @@
-<!--
-   - $File: JCS_Marquee.html $
-   - $Date: 2019-07-23 14:08:40 $
-   - $Revision: $
-   - $Creator: Jen-Chieh Shen $
-   - $Notice: See LICENSE.txt for modification and distribution information
-   -                   Copyright © 2019 by Shen, Jen-Chieh $
-   -->
-
-
 <div id="content-header">
   <h1>JCS_Marquee</h1>
 </div>

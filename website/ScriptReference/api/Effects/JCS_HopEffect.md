@@ -1,13 +1,3 @@
-<!--
-   - $File: JCS_HopEffect.html $
-   - $Date: 2019-07-29 17:51:33 $
-   - $Revision: $
-   - $Creator: Jen-Chieh Shen $
-   - $Notice: See LICENSE.txt for modification and distribution information
-   -                   Copyright © 2019 by Shen, Jen-Chieh $
-   -->
-
-
 <div id="content-header">
   <h1>JCS_HopEffect</h1>
 </div>

@@ -1,13 +1,3 @@
-<!--
-   - $File: JCS_TextDeltaNumber.html $
-   - $Date: 2019-07-16 20:52:43 $
-   - $Revision: $
-   - $Creator: Jen-Chieh Shen $
-   - $Notice: See LICENSE.txt for modification and distribution information
-   -                   Copyright © 2018 by Shen, Jen-Chieh $
--->
-
-
 <div id="content-header">
   <h1>JCS_TextDeltaNumber</h1>
 </div>
