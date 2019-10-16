@@ -1,39 +1,33 @@
-<div id="content-header">
-  <h1>JCS_XMLGameData</h1>
-</div>
+# JCS_XMLGameData
 
-<p>
-  Interface of storing game data as XML format.
-</p>
+Interface of storing game data as XML format.
 
 
-<br/>
-<h2>Example</h2>
-<br/>
+## Example
 
-<p>ExampleGameData.cs</p>
-<div class="code-block">
-  public class ExampleGameData : JCS_XMLGameData {
-      public string Name = "";  // Name of the player
-      public int Gold = 0;      // Cash in the game.
-  }
-  
-</div>
+ExampleGameData.cs
 
-<br/>
+```cs
+[System.Serializable]
+public class ExampleGameData : JCS_XMLGameData {
+    public string Name = "";  // Name of the player.
+    public string Gold = "";  // Cash in the game.
+}
+```
 
-<p>Usage</p>
-<div class="code-block">
-  /* Setup the path. */
-  string filePath = "/path/to/save/game.data";
-  
-  /* Load the data. */
-  var gameData = ExampleGameData.LoadFromFile-<-ExampleGameData->-(filePath);
 
-  /* Save the data. */
-  gameData.Save-<-ExampleGameData->-(filePath);
+## Usage
 
-</div>
+```cs
+/* Setup the path. */
+string filePath = "/path/to/save/game.data";
+
+/* Load the data. */
+var gameData = ExampleGameData.LoadFromFile<ExampleGameData>(filePath);
+
+/* Save the data. */
+gameData.Save<ExampleGameData>(filePath);
+```
 
 
 ## Functions

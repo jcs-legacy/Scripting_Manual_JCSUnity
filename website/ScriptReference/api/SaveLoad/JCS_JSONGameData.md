@@ -5,6 +5,8 @@ Interface to store game data in JSON format.
 
 ## Example
 
+ExampleGameData.cs
+
 ```cs
 [System.Serializable]
 public class ExampleGameData : JCS_JSONGameData {
