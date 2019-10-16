@@ -175,4 +175,8 @@
     <td>ForceGetComponent</td>
     <td>Force to get a compoennt, if not found add one new then.</td>
   </tr>
+  <tr>
+    <td>ToJson</td>
+    <td>Serialize object to JSON string.</td>
+  </tr>
 </table>
