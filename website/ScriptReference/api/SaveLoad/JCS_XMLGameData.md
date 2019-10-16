@@ -34,3 +34,17 @@
   gameData.Save-<-ExampleGameData->-(filePath);
 
 </div>
+
+
+## Functions
+
+<table>
+  <tr>
+    <td>Save</td>
+    <td>Save the game data to file.</td>
+  </tr>
+  <tr>
+    <td>LoadFromFile</td>
+    <td>Load the game data from file.</td>
+  </tr>
+</table>
