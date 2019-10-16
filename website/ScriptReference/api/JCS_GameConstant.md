@@ -1,7 +1,3 @@
-<div id="content-header">
-  <h1>JCS_GameConstant</h1>
-</div>
+# JCS_GameConstant
 
-<p>
-  Place general game constant here.
-</p>
+Place general game constant here.

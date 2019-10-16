@@ -1,26 +1,17 @@
-<div id="content-header">
-  <h1>JCS_UnityObject</h1>
-</div>
+# JCS_UnityObject
 
-<p>
-  Interface handle between multiple type of Unity Engine's declare type of gameobject.
-  This class makes sure each gameobject will still use the same variable name.
-</p>
+Interface handle between multiple type of Unity Engine's declare type of gameobject.
+This class makes sure each gameobject will still use the same variable name.
 
-<br/>
+For instance, if you want to enable/disable an gameobject. By using this interface
+you do not need to know what exactly the component you are trying to enable
+/disable. You can just call
+<span class="code-inline">GetComponent-<-JCS_UnityObject->-().LocalEnable = true;</span>
+instead of trying to identify the component type and change the specific variable
+from its component.
 
-<p>
-  For instance, if you want to enable/disable an gameobject. By using this interface
-  you do not need to know what exactly the component you are trying to enable
-  /disable. You can just call
-  <span class="code-inline">GetComponent-<-JCS_UnityObject->-().LocalEnable = true;</span>
-  instead of trying to identify the component type and change the specific variable
-  from its component.
-</p>
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>
@@ -97,9 +88,7 @@
   </tr>
 </table>
 
-<br/>
-<h2>Functions</h2>
-<br/>
+## Functions
 
 <table>
   <tr>

@@ -1,14 +1,9 @@
-<div id="content-header">
-  <h1>JCS_GUIUtil</h1>
-</div>
+# JCS_GUIUtil
 
-<p>
-  GUI related utilities functions.
-</p>
+GUI related utilities functions.s
 
-<br/>
-<h2>Functions</h2>
-<br/>
+
+## Functions
 
 <table>
   <!-- Dropdown -->

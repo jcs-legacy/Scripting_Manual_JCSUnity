@@ -1,14 +1,9 @@
-<div id="content-header">
-  <h1>JCS_Debug</h1>
-</div>
+# JCS_Debug
 
-<p>
-  Debugging related funcions.
-</p>
+Debugging related funcions.
 
-<br/>
-<h2>Functions</h2>
-<br/>
+
+## Functions
 
 <table>
   <tr>

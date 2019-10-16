@@ -1,14 +1,9 @@
-<div id="content-header">
-  <h1>JCS_Logo</h1>
-</div>
+# JCS_Logo
 
-<p>
-  A simple logo object.It will load and show briefly before loading the next scene.
-</p>
+A simple logo object.It will load and show briefly before loading the next scene.
 
-<br/>
-<h2>Variables</h2>
-<br/>
+
+## Variables
 
 <table>
   <tr>

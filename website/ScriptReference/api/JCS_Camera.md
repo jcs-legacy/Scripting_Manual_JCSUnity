@@ -1,14 +1,9 @@
-<div id="content-header">
-  <h1>JCS_Camera</h1>
-</div>
+# JCS_Camera
 
-<p>
-  Camera base class for JCSUnity.
-</p>
+Camera base class for JCSUnity.
 
-<br/>
-<h2>Functions</h2>
-<br/>
+
+## Functions
 
 <table>
   <tr>

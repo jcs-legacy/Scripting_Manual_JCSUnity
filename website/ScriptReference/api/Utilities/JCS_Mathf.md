@@ -1,14 +1,9 @@
-<div id="content-header">
-  <h1>JCS_Mathf</h1>
-</div>
+# JCS_Mathf
 
-<p>
-  Math library class.
-</p>
+Math library class.
 
-<br/>
-<h2>Functions</h2>
-<br/>
+
+## Functions
 
 <table>
   <tr>

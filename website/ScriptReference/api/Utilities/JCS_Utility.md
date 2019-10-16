@@ -1,14 +1,9 @@
-<div id="content-header">
-  <h1>JCS_Utility</h1>
-</div>
+# JCS_Utility
 
-<p>
-  All code utility is stored here.
-</p>
+All code utility is stored here.
 
-<br/>
-<h2>Functions</h2>
-<br/>
+
+## Functions
 
 <table>
   <tr>

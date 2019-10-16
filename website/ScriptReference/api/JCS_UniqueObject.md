@@ -1,8 +1,4 @@
-<div id="content-header">
-  <h1>JCS_UniqueObject</h1>
-</div>
+# JCS_UniqueObject
 
-<p>
-  Handle all the singleton object in the scene. Make sure the unique object load
-  from one level to another will still have the same consistent behaviour.
-</p>
+Handle all the singleton object in the scene. Make sure the unique object load
+from one level to another will still have the same consistent behaviour.

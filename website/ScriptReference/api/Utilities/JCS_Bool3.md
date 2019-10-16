@@ -1,14 +1,9 @@
-<div id="content-header">
-  <h1>JCS_Bool3</h1>
-</div>
+# JCS_Bool3
 
-<p>
-  Structure that holds three booleans.
-</p>
+Structure that holds three booleans.
 
-<br/>
-<h2>Variables</h2>
-<br/>
+
+## Variables
 
 <table>
   <tr>

@@ -1,14 +1,9 @@
-<div id="content-header">
-  <h1>JCS_Logger</h1>
-</div>
+# JCS_Logger
 
-<p>
-  Logger that's different from default Unity Engine's logger.
-</p>
+Logger that's different from default Unity Engine's logger.
 
-<br/>
-<h2>Functions</h2>
-<br/>
+
+## Functions
 
 <table>
   <tr>

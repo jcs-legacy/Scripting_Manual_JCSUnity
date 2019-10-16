@@ -1,14 +1,9 @@
-<div id="content-header">
-  <h1>JCS_Random</h1>
-</div>
+# JCS_Random
 
-<p>
-  Random library class.
-</p>
+Random library class.
 
-<br/>
-<h2>Functions</h2>
-<br/>
+
+## Functions
 
 <table>
   <tr>

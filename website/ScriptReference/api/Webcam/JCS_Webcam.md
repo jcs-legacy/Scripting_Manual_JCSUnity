@@ -1,12 +1,8 @@
-<div id="content-header">
-  <h1>JCS_Webcam</h1>
-</div>
+# JCS_Webcam
 
-<p>Basic webcam class usage.</p>
+Basic webcam class usage.
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables<
 
 <table>
   <tr>
@@ -20,9 +16,7 @@
 </table>
 
 
-<br/>
-<h2>Functions</h2>
-<br/>
+## Functions
 
 <table>
   <tr>

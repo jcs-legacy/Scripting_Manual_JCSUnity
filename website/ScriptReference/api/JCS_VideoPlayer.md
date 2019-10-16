@@ -1,16 +1,11 @@
-<div id="content-header">
-  <h1>JCS_VideoPlayer</h1>
-</div>
+# JCS_VideoPlayer
 
-<p>
-  VideoPlayer solution before unity version 2018.2 or newer. Please use unity
-  built-in video player component instead of this if you are using unity version
-  newer than 2018.2.
-</p>
+VideoPlayer solution before unity version 2018.2 or newer. Please use unity
+built-in video player component instead of this if you are using unity version
+newer than 2018.2.
 
-<br/>
-<h2>Functions</h2>
-<br/>
+
+## Functions
 
 <table>
   <tr>

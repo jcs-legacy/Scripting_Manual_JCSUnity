@@ -1,14 +1,9 @@
-<div id="content-header">
-  <h1>JCS_Physics</h1>
-</div>
+# JCS_Physics
 
-<p>
-  Physic related functions.
-</p>
+Physic related functions.
 
-<br/>
-<h2>Functions</h2>
-<br/>
+
+## Functions
 
 <table>
   <tr>
