@@ -1,15 +1,11 @@
-<div id="content-header">
-  <h1>ReadSceneNames</h1>
-</div>
+# ReadSceneNames
 
 <p>
   Read all the scene that are put into build setting.
 </p>
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>
