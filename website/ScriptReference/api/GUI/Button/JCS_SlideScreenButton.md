@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_SlideScreenButton</h1>
-</div>
+# JCS_SlideScreenButton
 
-<p>
-  Button will trigger the slide screen effect.
-</p>
+Button will trigger the slide screen effect.
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>

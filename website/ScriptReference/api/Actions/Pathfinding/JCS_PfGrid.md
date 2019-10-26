@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_PfGrid</h1>
-</div>
+# JCS_PfGrid
 
-<p>
-  Path finding grid gameobject.
-</p>
+Path finding grid gameobject.
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>
@@ -31,9 +25,7 @@
 </table>
 
 
-<br/>
-<h2>Functions</h2>
-<br/>
+## Functions
 
 <table>
   <tr>

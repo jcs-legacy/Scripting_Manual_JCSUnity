@@ -1,7 +1,3 @@
-<div id="content-header">
-  <h1>QuitApplicationButton</h1>
-</div>
+# QuitApplicationButton
 
-<p>
-  Button will quit the application.
-</p>
+Button will quit the application.

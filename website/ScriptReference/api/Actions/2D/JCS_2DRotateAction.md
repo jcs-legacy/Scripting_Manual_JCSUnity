@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_2DRotateAction</h1>
-</div>
+# JCS_2DRotateAction
 
-<p>
-  Action that make gameobject rotates.
-</p>
+Action that make gameobject rotates.
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>

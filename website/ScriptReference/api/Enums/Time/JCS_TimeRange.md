@@ -1,7 +1,3 @@
-<div id="content-header">
-  <h1>JCS_TimeRange</h1>
-</div>
+# JCS_TimeRange
 
-<p>
-  List of period of time.
-</p>
+List of period of time.

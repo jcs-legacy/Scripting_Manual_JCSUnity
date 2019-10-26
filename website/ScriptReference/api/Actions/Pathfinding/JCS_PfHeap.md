@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_PfHeap</h1>
-</div>
+# JCS_PfHeap
 
-<p>
-  Path finding heap.
-</p>
+Path finding heap.
 
 
-<br/>
-<h2>Functions</h2>
-<br/>
+## Functions
 
 <table>
   <tr>

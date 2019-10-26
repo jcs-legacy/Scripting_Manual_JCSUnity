@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_3DCursor</h1>
-</div>
+# JCS_3DCursor
 
-<p>
-  3D animation cursor.
-</p>
+3D animation cursor.
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>
@@ -99,9 +93,7 @@
 </table>
 
 
-<br/>
-<h2>Functions</h2>
-<br/>
+## Functions
 
 <table>
   <tr>

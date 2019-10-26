@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_Toggle</h1>
-</div>
+# JCS_Toggle
 
-<p>
-  Better version of checkbox/toggle GUI.
-</p>
+Better version of checkbox/toggle GUI.
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>
@@ -55,9 +49,7 @@
 </table>
 
 
-<br/>
-<h2>Functions</h2>
-<br/>
+## Functions
 
 <table>
   <tr>

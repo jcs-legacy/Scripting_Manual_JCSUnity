@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_TriggerSwitchBGMEvent</h1>
-</div>
+# JCS_TriggerSwitchBGMEvent
 
-<p>
-  Switch BGM when on trigger.
-</p>
+Switch BGM when on trigger.
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>

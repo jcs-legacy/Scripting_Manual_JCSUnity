@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_2DAnimation</h1>
-</div>
+# JCS_2DAnimation
 
-<p>
-  Handle frame by frame animation in the simple way.
-</p>
+Handle frame by frame animation in the simple way.
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>
@@ -59,9 +53,7 @@
 </table>
 
 
-<br/>
-<h2>Functions</h2>
-<br/>
+## Functions
 
 <table>
   <tr>

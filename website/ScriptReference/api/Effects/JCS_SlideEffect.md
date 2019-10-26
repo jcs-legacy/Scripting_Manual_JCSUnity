@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_SlideEffect</h1>
-</div>
+# JCS_SlideEffect
 
-<p>
-  Effect that slide the object to one position.
-</p>
+Effect that slide the object to one position.
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>
@@ -75,9 +69,7 @@
 </table>
 
 
-<br/>
-<h2>Functions</h2>
-<br/>
+## Functions
 
 <table>
   <tr>

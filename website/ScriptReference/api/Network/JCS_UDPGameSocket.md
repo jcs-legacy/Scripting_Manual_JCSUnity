@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_UDPGameSocket</h1>
-</div>
+# JCS_UDPGameSocket
 
-<p>
-  UDP socket class.
-</p>
+UDP socket class.
 
 
-<br/>
-<h2>Functions</h2>
-<br/>
+Functions
 
 <table>
   <tr>

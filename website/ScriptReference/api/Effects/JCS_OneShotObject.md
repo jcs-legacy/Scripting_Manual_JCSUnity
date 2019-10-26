@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_OneShotObject</h1>
-</div>
+# JCS_OneShotObject
 
-<p>
-  One shot object.
-</p>
+One shot object.
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>
@@ -39,9 +33,7 @@
 </table>
 
 
-<br/>
-<h2>Functions</h2>
-<br/>
+# Functions
 
 <table>
   <tr>

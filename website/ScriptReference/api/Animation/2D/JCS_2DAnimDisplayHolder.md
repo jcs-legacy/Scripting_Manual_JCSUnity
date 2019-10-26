@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_2DAnimDisplayHolder</h1>
-</div>
+# JCS_2DAnimDisplayHolder
 
-<p>
-  Hold an animation state for few seconds.
-</p>
+Hold an animation state for few seconds.
 
 
-<br/>
-<h2>Functions</h2>
-<br/>
+## Variables
 
 <table>
   <tr>
@@ -18,10 +12,7 @@
   </tr>
 </table>
 
-
-<br/>
-<h2>Functions</h2>
-<br/>
+## Functions
 
 <table>
   <tr>

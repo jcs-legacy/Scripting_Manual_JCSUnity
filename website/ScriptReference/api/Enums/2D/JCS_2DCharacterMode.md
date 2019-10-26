@@ -1,7 +1,3 @@
-<div id="content-header">
-  <h1>JCS_2DCharacterMode</h1>
-</div>
+# JCS_2DCharacterMode
 
-<p>
-  List of character possible state.
-</p>
+List of character possible state.

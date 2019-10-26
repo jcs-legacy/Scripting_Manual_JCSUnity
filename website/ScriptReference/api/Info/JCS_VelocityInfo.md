@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_VelocityInfo</h1>
-</div>
+# JCS_VelocityInfo
 
-<p>
-  Record the velocity for the character controller component.
-</p>
+Record the velocity for the character controller component.
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>

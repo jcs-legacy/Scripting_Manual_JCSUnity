@@ -1,7 +1,3 @@
-<div id="content-header">
-  <h1>JCS_WeatherParticle</h1>
-</div>
+# JCS_WeatherParticle
 
-<p>
-  Weahter particle base class.
-</p>
+Weahter particle base class.

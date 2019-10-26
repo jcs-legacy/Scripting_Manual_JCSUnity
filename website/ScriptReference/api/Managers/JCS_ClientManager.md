@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_ClientManager</h1>
-</div>
+# JCS_ClientManager
 
-<p>
-  Manager manage the clients that connected to this client.
-</p>
+Manager manage the clients that connected to this client.
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>
@@ -19,9 +13,7 @@
 </table>
 
 
-<br/>
-<h2>Functions</h2>
-<br/>
+## Functions
 
 <table>
   <tr>

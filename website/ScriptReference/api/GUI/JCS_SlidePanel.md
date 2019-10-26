@@ -1,17 +1,9 @@
-<div id="content-header">
-  <h1>JCS_SlidePanel</h1>
-</div>
+# JCS_SlidePanel
 
-<p>
-  Slide Panel works with
-  <a href="?page=GUI_sl_JCS_SlideScreenPanelHolder">JCS_SlideScreenPanelHolder</a>
-  .
-</p>
+Slide Panel works with [JCS_SlideScreenPanelHolder](?page=GUI_sl_JCS_SlideScreenPanelHolder).
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>

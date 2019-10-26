@@ -1,7 +1,3 @@
-<div id="content-header">
-  <h1>JCS_Packet</h1>
-</div>
+# JCS_Packet
 
-<p>
-  Base of the packet data container.
-</p>
+Base of the packet data container.

@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_SoundPlayer</h1>
-</div>
+# JCS_SoundPlayer
 
-<p>
-  Sound player for any component that need to play sound effect.
-</p>
+Sound player for any component that need to play sound effect.
 
 
-<br/>
-<h2>Functions</h2>
-<br/>
+## Functions
 
 <table>
   <tr>

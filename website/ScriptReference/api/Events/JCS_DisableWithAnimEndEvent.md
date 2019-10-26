@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_DisableWithAnimEndEvent</h1>
-</div>
+# JCS_DisableWithAnimEndEvent
 
-<p>
-  Disable the gameobject after the done playing the animation.
-</p>
+Disable the gameobject after the done playing the animation.
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>

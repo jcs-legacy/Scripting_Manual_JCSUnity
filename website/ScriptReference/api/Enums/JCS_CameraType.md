@@ -1,7 +1,3 @@
-<div id="content-header">
-  <h1>JCS_CameraType</h1>
-</div>
+# JCS_CameraType
 
-<p>
-  Type of all the camera.
-</p>
+Type of all the camera.

@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_PatchManager</h1>
-</div>
+# JCS_PatchManager
 
-<p>
-  Handle the patch for updating the game version, etc.
-</p>
+Handle the patch for updating the game version, etc.
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>

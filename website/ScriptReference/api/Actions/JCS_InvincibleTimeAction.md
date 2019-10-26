@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_InvincibleTimeAction</h1>
-</div>
+# JCS_InvincibleTimeAction
 
-<p>
-  Make live object invincible for a certain time.
-</p>
+Make live object invincible for a certain time.
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>
@@ -31,9 +25,7 @@
 </table>
 
 
-<br/>
-<h2>Functions</h2>
-<br/>
+## Functions
 
 <table>
   <tr>

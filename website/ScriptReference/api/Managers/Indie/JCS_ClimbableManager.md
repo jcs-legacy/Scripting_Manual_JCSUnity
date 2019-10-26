@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_ClimbableManager</h1>
-</div>
+# JCS_ClimbableManager
 
-<p>
-  Manage all Climbable object in the scene.
-</p>
+Manage all Climbable object in the scene.
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>

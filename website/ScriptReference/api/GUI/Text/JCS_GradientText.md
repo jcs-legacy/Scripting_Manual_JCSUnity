@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_GradientText</h1>
-</div>
+# JCS_GradientText
 
-<p>
-  Gradient text effect.
-</p>
+Gradient text effect.
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>

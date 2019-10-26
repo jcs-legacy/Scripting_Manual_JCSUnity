@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_UISettings</h1>
-</div>
+# JCS_UISettings
 
-<p>
-  UI related settings.
-</p>
+UI related settings.
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>

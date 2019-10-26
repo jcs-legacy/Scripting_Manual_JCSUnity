@@ -1,7 +1,3 @@
-<div id="content-header">
-  <h1>JCS_CircleEnemy</h1>
-</div>
+# JCS_CircleEnemy
 
-<p>
-  Enemy that will do circle movement.
-</p>
+Enemy that will do circle movement.

@@ -1,7 +1,3 @@
-<div id="content-header">
-  <h1>JCS_2DFaceType</h1>
-</div>
+# JCS_2DFaceType
 
-<p>
-  Face type.
-</p>
+Face type.

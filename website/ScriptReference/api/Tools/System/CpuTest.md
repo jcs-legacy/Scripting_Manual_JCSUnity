@@ -1,7 +1,3 @@
-<div id="content-header">
-  <h1>CpuTest</h1>
-</div>
+# CpuTest
 
-<p>
-  Run the CPU info in the game scene.
-</p>
+Run the CPU info in the game scene.

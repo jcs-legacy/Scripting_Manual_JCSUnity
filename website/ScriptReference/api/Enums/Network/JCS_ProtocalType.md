@@ -1,7 +1,3 @@
-<div id="content-header">
-  <h1>JCS_ProtocalType</h1>
-</div>
+# JCS_ProtocalType
 
-<p>
-  Network protocal type.
-</p>
+Network protocal type.

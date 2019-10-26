@@ -1,7 +1,3 @@
-<div id="content-header">
-  <h1>JCS_DialogueType</h1>
-</div>
+# JCS_DialogueType
 
-<p>
-  Type of the dialogue.
-</p>
+Type of the dialogue.

@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_SortingObject</h1>
-</div>
+# JCS_SortingObject
 
-<p>
-  Interface of all the sorting object.
-</p>
+Interface of all the sorting object.
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>

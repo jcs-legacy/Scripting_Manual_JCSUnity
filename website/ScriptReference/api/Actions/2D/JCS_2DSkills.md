@@ -1,7 +1,3 @@
-<div id="content-header">
-  <h1>JCS_2DSkills</h1>
-</div>
+# JCS_2DSkills
 
-<p>
-  2D skills identifier.
-</p>
+2D skills identifier.

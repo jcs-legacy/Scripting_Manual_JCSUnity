@@ -1,19 +1,11 @@
-<div id="content-header">
-  <h1>JCS_ButtonSelection</h1>
-</div>
+# JCS_ButtonSelection
 
-<p>
-  Button selection must work with button selection group, which is
-  <a href="?page=Input_sl_JCS_ButtonSelectionGroup">
-    JCS_ButtonSelectionGroup
-  </a>,
-
-</p>
+Button selection must work with button selection group, which is
+[JCS_ButtonSelectionGroup](?page=Input_sl_JCS_ButtonSelectionGroup).
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+
+## Variables
 
 <table>
   <tr>
@@ -59,9 +51,7 @@
 </table>
 
 
-<br/>
-<h2>Functions</h2>
-<br/>
+## Functions
 
 <table>
   <tr>

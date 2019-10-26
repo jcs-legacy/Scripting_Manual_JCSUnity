@@ -1,7 +1,3 @@
-<div id="content-header">
-  <h1>JCS_EaseMath</h1>
-</div>
+# JCS_EaseMath
 
-<p>
-  List of ease equations.
-</p>
+List of ease equations.

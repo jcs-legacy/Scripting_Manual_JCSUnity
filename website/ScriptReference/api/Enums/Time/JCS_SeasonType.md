@@ -1,7 +1,3 @@
-<div id="content-header">
-  <h1>JCS_SeasonType</h1>
-</div>
+# JCS_SeasonType
 
-<p>
-  List of season.
-</p>
+List of season.

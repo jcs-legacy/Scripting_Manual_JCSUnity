@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_ActivePanelButton</h1>
-</div>
+# JCS_ActivePanelButton
 
-<p>
-  Button that active the panel.
-</p>
+Button that active the panel.
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>

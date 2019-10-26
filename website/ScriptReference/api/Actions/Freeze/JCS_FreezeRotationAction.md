@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_FreezeRotationAction</h1>
-</div>
+# JCS_FreezeRotationAction
 
-<p>
-  Action that freeze the gameobject's rotation.
-</p>
+Action that freeze the gameobject's rotation.
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>

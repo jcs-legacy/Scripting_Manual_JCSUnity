@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_SwitchServerButton</h1>
-</div>
+# JCS_SwitchServerButton
 
-<p>
-  Button provide the ability to change from one server to the other server.
-</p>
+Button provide the ability to change from one server to the other server.
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>

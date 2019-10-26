@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_OpenURLGamePadButton</h1>
-</div>
+# JCS_OpenURLGamePadButton
 
-<p>
-  Open a URL in the default browser.
-</p>
+Open a URL in the default browser.
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>

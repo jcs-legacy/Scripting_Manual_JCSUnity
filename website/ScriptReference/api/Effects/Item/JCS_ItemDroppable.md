@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_ItemDroppable</h1>
-</div>
+# JCS_ItemDroppable
 
-<p>
-  Effect make this object able to drop items.
-</p>
+Effect make this object able to drop items.
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>
@@ -95,9 +89,7 @@
 </table>
 
 
-<br/>
-<h2>Functions</h2>
-<br/>
+## Functions
 
 <table>
   <tr>

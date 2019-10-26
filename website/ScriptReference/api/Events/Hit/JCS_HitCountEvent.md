@@ -1,16 +1,10 @@
-<div id="content-header">
-  <h1>JCS_HitCountEvent</h1>
-</div>
+# JCS_HitCountEvent
 
-<p>
-  Event that count the hit count and check if the gameobject
-  needed to by destroyed.
-</p>
+Event that count the hit count and check if the gameobject
+needed to by destroyed.
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>

@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_HueController</h1>
-</div>
+# JCS_HueController
 
-<p>
-  Simulate the hue control.
-</p>
+Simulate the hue control.
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>mFriction</tr>

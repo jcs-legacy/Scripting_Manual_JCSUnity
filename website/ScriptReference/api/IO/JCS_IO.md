@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_IO</h1>
-</div>
+# JCS_IO
 
-<p>
-  IO utilities.
-</p>
+IO utilities.
 
 
-<br/>
-<h2>Functions</h2>
-<br/>
+## Functions
 
 <table>
   <tr>

@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_DeactivePanelButton</h1>
-</div>
+# JCS_DeactivePanelButton
 
-<p>
-  Button that deactive the panel.
-</p>
+Button that deactive the panel.
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>

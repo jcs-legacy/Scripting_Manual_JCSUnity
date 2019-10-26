@@ -1,7 +1,3 @@
-<div id="content-header">
-  <h1>JCS_ExitAppButton</h1>
-</div>
+# JCS_ExitAppButton
 
-<p>
-  Button exit the application.
-</p>
+Button exit the application.

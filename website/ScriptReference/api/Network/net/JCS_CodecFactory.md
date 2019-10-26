@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_CodecFactory</h1>
-</div>
+# JCS_CodecFactory
 
-<p>
-  Factory generate the packet decodder and encoder.
-</p>
+Factory generate the packet decodder and encoder.
 
 
-<br/>
-<h2>Functions</h2>
-<br/>
+## Functions
 
 <table>
   <tr>

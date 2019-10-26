@@ -1,7 +1,3 @@
-<div id="content-header">
-  <h1>JCS_2DScrollPlatform</h1>
-</div>
+# JCS_2DScrollPlatform
 
-<p>
-  Scrolling platform tag.
-</p>
+Scrolling platform tag.

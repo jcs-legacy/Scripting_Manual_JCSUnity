@@ -1,7 +1,3 @@
-<div id="content-header">
-  <h1>JCS_AxisChannel</h1>
-</div>
+# JCS_AxisChannel
 
-<p>
-  Channel identification for gamepad.
-</p>
+Channel identification for gamepad.

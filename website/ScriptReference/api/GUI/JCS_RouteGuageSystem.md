@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_RouteGuageSystem</h1>
-</div>
+# JCS_RouteGuageSystem
 
-<p>
-  Minimap of all the racers.
-</p>
+Minimap of all the racers.
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>

@@ -1,10 +1,6 @@
-<div id="content-header">
-  <h1>JCS_ScrollbarData</h1>
-</div>
+# JCS_ScrollbarData
 
-<p>Scrollbar data container.</p>
-
-<br/>
+Scrollbar data container.
 
 <table>
   <tr>

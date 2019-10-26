@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_SoundPoolAction</h1>
-</div>
+# JCS_SoundPoolAction
 
-<p>
-  A pool of audio clips.
-</p>
+A pool of audio clips.
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>
@@ -23,9 +17,7 @@
 </table>
 
 
-<br/>
-<h2>Functions</h2>
-<br/>
+## Functions
 
 <table>
   <tr>

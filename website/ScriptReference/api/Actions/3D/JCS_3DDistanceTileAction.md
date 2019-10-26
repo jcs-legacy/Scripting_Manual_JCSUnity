@@ -1,16 +1,10 @@
-<div id="content-header">
-  <h1>JCS_3DDistanceTileAction</h1>
-</div>
+# JCS_3DDistanceTileAction
 
-<p>
-  Move a gameobject in certain distance then set the gameobject
-  back to original position relative to the gameobject that moved.
-</p>
+Move a gameobject in certain distance then set the gameobject
+back to original position relative to the gameobject that moved.
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>

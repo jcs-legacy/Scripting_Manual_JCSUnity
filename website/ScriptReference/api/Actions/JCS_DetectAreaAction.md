@@ -1,18 +1,9 @@
-<div id="content-header">
-  <h1>JCS_DetectAreaAction</h1>
-</div>
+# JCS_DetectAreaAction
 
-<p>
-  Action detects
-  <a href="?page=Actions_sl_JCS_DetectAreaObject">
-    JCS_DetectAreaObject
-  </a>.
-</p>
+Action detects [JCS_DetectAreaObject](?page=Actions_sl_JCS_DetectAreaObject).
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>
@@ -22,9 +13,7 @@
 </table>
 
 
-<br/>
-<h2>Functions</h2>
-<br/>
+## Functions
 
 <table>
   <tr>

@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_PredictCamera</h1>
-</div>
+# JCS_PredictCamera
 
-<p>
-  Camera will predict the movement and move toward the certain direction.
-</p>
+Camera will predict the movement and move toward the certain direction.
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>
@@ -123,9 +117,7 @@
 </table>
 
 
-<br/>
-<h2>Functions</h2>
-<br/>
+## Functions
 
 <table>
   <tr>

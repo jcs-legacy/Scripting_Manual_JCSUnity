@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_StaticLightning</h1>
-</div>
+# JCS_StaticLightning
 
-<p>
-  Effect does lightning splash.
-</p>
+Effect does lightning splash.
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variablesq
 
 <table>
   <tr>

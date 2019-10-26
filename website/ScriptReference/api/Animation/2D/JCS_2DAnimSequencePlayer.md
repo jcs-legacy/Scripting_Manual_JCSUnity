@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_2DAnimSequencePlayer</h1>
-</div>
+# JCS_2DAnimSequencePlayer
 
-<p>
-  Play a sequence of animation by time.
-</p>
+Play a sequence of animation by time.
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>
@@ -31,9 +25,7 @@
 </table>
 
 
-<br/>
-<h2>Functions</h2>
-<br/>
+## Functions
 
 <table>
   <tr>

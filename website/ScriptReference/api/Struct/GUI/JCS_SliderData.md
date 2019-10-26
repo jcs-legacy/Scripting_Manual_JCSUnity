@@ -1,10 +1,6 @@
-<div id="content-header">
-  <h1>JCS_SliderData</h1>
-</div>
+JCS_SliderData
 
-<p>Slider data container.</p>
-
-<br/>
+Slider data container.
 
 <table>
   <tr>

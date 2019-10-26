@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_DestinationDestroy</h1>
-</div>
+# JCS_DestinationDestroy
 
-<p>
-  Effect when reach the destination destroy this gameobject.
-</p>
+Effect when reach the destination destroy this gameobject.
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>

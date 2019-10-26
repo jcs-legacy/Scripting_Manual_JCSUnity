@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_3DWalkAction</h1>
-</div>
+# JCS_3DWalkAction
 
-<p>
-  Simulate the walk action in 3D space.
-</p>
+Simulate the walk action in 3D space.
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>
@@ -35,9 +29,7 @@
 </table>
 
 
-<br/>
-<h2>Functions</h2>
-<br/>
+## Functions
 
 <table>
   <tr>

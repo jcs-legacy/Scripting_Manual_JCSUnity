@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_DeltaNumber</h1>
-</div>
+# JCS_DeltaNumber
 
-<p>
-  System that control 0-9 number sprites and create a counter effect.
-</p>
+System that control 0-9 number sprites and create a counter effect.
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>
@@ -107,9 +101,7 @@
 </table>
 
 
-<br/>
-<h2>Functions</h2>
-<br/>
+## Functions
 
 <table>
   <tr>

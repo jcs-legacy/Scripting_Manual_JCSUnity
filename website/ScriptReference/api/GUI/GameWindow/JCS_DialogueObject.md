@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_DialogueObject</h1>
-</div>
+# JCS_DialogueObject
 
-<p>
-  Base class of Game Window.
-</p>
+Base class of Game Window.
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>
@@ -39,9 +33,7 @@
 </table>
 
 
-<br/>
-<h2>Functions</h2>
-<br/>
+## Functions
 
 <table>
   <tr>

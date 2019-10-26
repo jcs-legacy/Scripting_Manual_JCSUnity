@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_3DLiquidBarText</h1>
-</div>
+# JCS_3DLiquidBarText
 
-<p>
-  Text that render 3D liquid bar's value.
-</p>
+Text that render 3D liquid bar's value.
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>

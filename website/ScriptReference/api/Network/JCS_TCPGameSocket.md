@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_TCPGameSocket</h1>
-</div>
+# JCS_TCPGameSocket
 
-<p>
-  TCP socket class.
-</p>
+TCP socket class.
 
 
-<br/>
-<h2>Functions</h2>
-<br/>
+## Functions
 
 <table>
   <tr>

@@ -1,7 +1,3 @@
-<div id="content-header">
-  <h1>JCS_2DPlayerEffect</h1>
-</div>
+# JCS_2DPlayerEffect
 
-<p>
-  Interface of the player effect object.
-</p>
+Interface of the player effect object.

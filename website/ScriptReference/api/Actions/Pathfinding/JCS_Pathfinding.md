@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_Pathfinding</h1>
-</div>
+# JCS_Pathfinding
 
-<p>
-  Path finding core behaviour.
-</p>
+Path finding core behaviour.
 
 
-<br/>
-<h2>Functions</h2>
-<br/>
+## Functions
 
 <table>
   <tr>

@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_FreezeScaleAction</h1>
-</div>
+# JCS_FreezeScaleAction
 
-<p>
-  Action that freeze the gameobject scale.
-</p>
+Action that freeze the gameobject scale.
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>

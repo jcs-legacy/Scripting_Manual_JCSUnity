@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_2DFlyAction</h1>
-</div>
+# JCS_2DFlyAction
 
-<p>
-  Action does the AI fly action on 2D.
-</p>
+Action does the AI fly action on 2D.
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>
@@ -94,9 +88,7 @@
 </table>
 
 
-<br/>
-<h2>Functions</h2>
-<br/>
+## Functions
 
 <table>
   <tr>

@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_2DInitLookByTypeAction</h1>
-</div>
+# JCS_2DInitLookByTypeAction
 
-<p>
-  Look at the gameobject depends on the find method.
-</p>
+Look at the gameobject depends on the find method.
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>
@@ -31,9 +25,7 @@
 </table>
 
 
-<br/>
-<h2>Functions</h2>
-<br/>
+## Functions
 
 <table>
   <tr>

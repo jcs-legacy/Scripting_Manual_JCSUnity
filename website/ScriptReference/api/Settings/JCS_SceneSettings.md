@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_SceneSettings</h1>
-</div>
+# JCS_SceneSettings
 
-<p>
-  Handle the scene the better way.
-</p>
+Handle the scene the better way.
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>

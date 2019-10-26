@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_GamePadButton</h1>
-</div>
+# JCS_GamePadButton
 
-<p>
-  Button will listen to the gamepad.
-</p>
+Button will listen to the gamepad.
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>
@@ -51,16 +45,14 @@
 </table>
 
 
-<br/>
-<h2>Example</h2>
-<br/>
+## Example
 
-<p>ExampleGamePadButton.cs</p>
-<div class="code-block">
+ExampleGamePadButton.cs
+
+```cs
   public class ExampleGamePadButton : JCS_GamePadButton {
       public override JCS_OnClickCallback() {
           Debug.Log("Gamepad button click!");
       }
   }
-
-</div>
+```

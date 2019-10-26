@@ -1,16 +1,10 @@
-<div id="content-header">
-  <h1>JCS_ButtonSelectionGroupController</h1>
-</div>
+# JCS_ButtonSelectionGroupController
 
-<p>
-  Control the 'JCS_ButtonSelectionGroup' class with certain ket input,
-  without that class this class is meaningless.
-</p>
+Control the 'JCS_ButtonSelectionGroup' class with certain ket input,
+without that class this class is meaningless.
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>

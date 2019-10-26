@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_2DGameManager</h1>
-</div>
+# JCS_2DGameManager
 
-<p>
-  2D game specific manager.
-</p>
+2D game specific manager.
 
 
-<br/>
-<h2>Functions</h2>
-<br/>
+## Functions
 
 <table>
   <tr>

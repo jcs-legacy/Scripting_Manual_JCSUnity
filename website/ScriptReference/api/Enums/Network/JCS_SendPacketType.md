@@ -1,7 +1,3 @@
-<div id="content-header">
-  <h1>JCS_SendPacketType</h1>
-</div>
+# JCS_SendPacketType
 
-<p>
-  List of packet handle for sending.
-</p>
+List of packet handle for sending.

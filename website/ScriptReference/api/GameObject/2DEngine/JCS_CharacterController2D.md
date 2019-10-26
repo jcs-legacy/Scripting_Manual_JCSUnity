@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_CharacterController2D</h1>
-</div>
+# JCS_CharacterController2D
 
-<p>
-  Character Controller using Unity 2D Engine.
-</p>
+Character Controller using Unity 2D Engine.
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>
@@ -39,9 +33,7 @@
 </table>
 
 
-<br/>
-<h2>Functions</h2>
-<br/>
+## Functions
 
 <table>
   <tr>

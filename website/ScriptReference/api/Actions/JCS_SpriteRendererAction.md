@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_SpriteRendererAction</h1>
-</div>
+# JCS_SpriteRendererAction
 
-<p>
-  Action flip the sprite renderer to the vector direction.
-</p>
+Action flip the sprite renderer to the vector direction.
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>

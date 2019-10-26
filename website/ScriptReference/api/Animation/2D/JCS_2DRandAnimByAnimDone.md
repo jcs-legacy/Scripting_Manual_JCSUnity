@@ -1,8 +1,3 @@
-<div id="content-header">
-  <h1>JCS_2DRandAnimByAnimDone</h1>
-</div>
+# JCS_2DRandAnimByAnimDone
 
-<p>
-  Play a random animation if the current animation
-  is done playing it.
-</p>
+Play a random animation if the current animation is done playing it.

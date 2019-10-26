@@ -1,11 +1,6 @@
-<div id="content-header">
-  <h1>JCS_InputFieldData</h1>
-</div>
+# JCS_InputFieldData
 
-
-<p>InputField data container.</p>
-
-<br/>
+InputField data container.
 
 <table>
   <tr>

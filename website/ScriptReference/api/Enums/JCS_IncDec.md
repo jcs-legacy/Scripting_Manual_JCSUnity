@@ -1,7 +1,3 @@
-<div id="content-header">
-  <h1>JCS_IncDec</h1>
-</div>
+# JCS_IncDec
 
-<p>
-  Increment/Decrement enum.
-</p>
+Increment/Decrement enum.

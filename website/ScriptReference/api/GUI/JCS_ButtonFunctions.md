@@ -1,7 +1,3 @@
-<div id="content-header">
-  <h1>JCS_ButtonFunctions</h1>
-</div>
+# JCS_ButtonFunctions
 
-<p>
-  Functions operation.
-</p>
+Functions operation.

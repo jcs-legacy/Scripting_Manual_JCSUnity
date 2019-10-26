@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_2DPositionPlatform</h1>
-</div>
+# JCS_2DPositionPlatform
 
-<p>
-  Platform accept oblique angle.
-</p>
+Platform accept oblique angle.
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>

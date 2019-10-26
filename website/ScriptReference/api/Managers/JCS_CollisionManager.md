@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_CollisionManager</h1>
-</div>
+# JCS_CollisionManager
 
-<p>
-  Take care of all the collision that could happen in the game.
-</p>
+Take care of all the collision that could happen in the game.
 
 
-<br/>
-<h2>Functions</h2>
-<br/>
+## Functions
 
 <table>
   <tr>

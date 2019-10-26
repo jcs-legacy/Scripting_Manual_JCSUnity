@@ -1,8 +1,3 @@
-<div id="content-header">
-  <h1>JCS_DefaultClientHandler</h1>
-</div>
+# JCS_DefaultClientHandler
 
-<p>
-  Default Packet handler. Example usage of
-  <a href="?page=Network_sl_Interface_sl_JCS_ClientHandler">JCS_ClientHandler</a>
-</p>
+Default Packet handler. Example usage of [JCS_ClientHandler](?page=Network_sl_Interface_sl_JCS_ClientHandler).

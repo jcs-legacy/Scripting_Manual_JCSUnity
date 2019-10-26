@@ -1,16 +1,9 @@
-<div id="content-header">
-  <h1>JCS_2DActiveSkillAction</h1>
-</div>
+# JCS_2DActiveSkillAction
 
-<p>
-  Spawn a skill and destroy itself after done displaying
-  the skill effect.
-</p>
+Spawn a skill and destroy itself after done displaying the skill effect.
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>
@@ -40,9 +33,7 @@
 </table>
 
 
-<br/>
-<h2>Functions</h2>
-<br/>
+## Functions
 
 <table>
   <tr>

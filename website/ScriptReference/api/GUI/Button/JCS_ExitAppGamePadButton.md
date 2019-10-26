@@ -1,7 +1,3 @@
-<div id="content-header">
-  <h1>JCS_ExitAppGamePadButton</h1>
-</div>
+# JCS_ExitAppGamePadButton
 
-<p>
-  
-</p>
+Button exit the application. (Gamepad)

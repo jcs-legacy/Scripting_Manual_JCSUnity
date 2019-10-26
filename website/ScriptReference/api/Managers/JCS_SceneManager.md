@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_SceneManager</h1>
-</div>
+# JCS_SceneManager
 
-<p>
-  Better version of scene manager.
-</p>
+Better version of scene manager.
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>
@@ -39,9 +33,7 @@
 </table>
 
 
-<br/>
-<h2>Functions</h2>
-<br/>
+## Functions
 
 <table>
   <tr>

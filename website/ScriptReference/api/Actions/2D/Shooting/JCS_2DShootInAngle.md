@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_2DShootInAngle</h1>
-</div>
+# JCS_2DShootInAngle
 
-<p>
-  Do the shoot action in specific angle.
-</p>
+Do the shoot action in specific angle.
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>

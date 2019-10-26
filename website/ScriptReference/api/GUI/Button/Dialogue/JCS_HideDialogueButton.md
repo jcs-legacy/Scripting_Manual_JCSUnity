@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_HideDialogueButton</h1>
-</div>
+# JCS_HideDialogueButton
 
-<p>
-  Click the button to hide multiple dialogue.
-</p>
+Click the button to hide multiple dialogue.
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>

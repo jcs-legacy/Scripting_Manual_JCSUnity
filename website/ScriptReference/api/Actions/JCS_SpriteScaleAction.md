@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_SpriteScaleAction</h1>
-</div>
+# JCS_SpriteScaleAction
 
-<p>
-  Action scale the sprite's gameobject to the vector direction.
-</p>
+Action scale the sprite's gameobject to the vector direction.
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>

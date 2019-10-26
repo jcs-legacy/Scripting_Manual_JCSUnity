@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_DestroySpawnEffect</h1>
-</div>
+# JCS_DestroySpawnEffect
 
-<p>
-  Effect that spawn a gameobject after this gameobject is destroyed.
-</p>
+Effect that spawn a gameobject after this gameobject is destroyed.
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+# Variables
 
 <table>
   <tr>

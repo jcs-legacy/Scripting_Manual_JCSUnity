@@ -1,7 +1,3 @@
-<div id="content-header">
-  <h1>JCS_PlayerManager</h1>
-</div>
+# JCS_PlayerManager
 
-<p>
-  Take care of all the player in the scene.
-</p>
+Take care of all the player in the scene.

@@ -1,8 +1,4 @@
-<div id="content-header">
-  <h1>JCS_ExitAppOnlineGamePadButton</h1>
-</div>
+# JCS_ExitAppOnlineGamePadButton
 
-<p>
-  Exit to the online exit application scene, to ensure we are disconnected to
-  the server. (Gamepad)
-</p>
+Exit to the online exit application scene, to ensure we are disconnected to
+the server. (Gamepad)

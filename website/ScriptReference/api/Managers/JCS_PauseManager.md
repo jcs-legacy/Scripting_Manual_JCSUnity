@@ -1,17 +1,11 @@
-<div id="content-header">
-  <h1>JCS_PauseManager</h1>
-</div>
+# JCS_PauseManager
 
-<p>
-  If you are working some kind of game that need the pause screen, you
-  definitly need the pause manager to add it onto "JCS_Managers" transform
-  in the Hierarchy.
-</p>
+If you are working some kind of game that need the pause screen, you
+definitly need the pause manager to add it onto "JCS_Managers" transform
+in the Hierarchy.
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>
@@ -21,9 +15,7 @@
 </table>
 
 
-<br/>
-<h2>Functions</h2>
-<br/>
+## Functions
 
 <table>
   <tr>

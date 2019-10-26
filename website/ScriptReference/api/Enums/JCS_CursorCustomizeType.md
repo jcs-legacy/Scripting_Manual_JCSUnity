@@ -1,7 +1,3 @@
-<div id="content-header">
-  <h1>JCS_CursorCustomizeType</h1>
-</div>
+# JCS_CursorCustomizeType
 
-<p>
-  Cursor state type.
-</p>
+Cursor state type.

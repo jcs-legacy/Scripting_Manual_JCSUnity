@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_SpriteTimer</h1>
-</div>
+# JCS_SpriteTimer
 
-<p>
-  Timer system using sprite 0 to 9.
-</p>
+Timer system using sprite 0 to 9.
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>
@@ -119,9 +113,7 @@
 </table>
 
 
-<br/>
-<h2>Functions</h2>
-<br/>
+## Functions
 
 <table>
   <tr>

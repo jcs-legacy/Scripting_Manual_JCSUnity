@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>InspectorLockToggle</h1>
-</div>
+# InspectorLockToggle
 
-<p>
-  Implementation of the inspector lock toggle functionalities.
-</p>
+Implementation of the inspector lock toggle functionalities.
 
 
-<br/>
-<h2>Keys</h2>
-<br/>
+## Keys
 
 <table>
   <tr>

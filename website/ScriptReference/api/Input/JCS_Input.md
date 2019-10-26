@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_Input</h1>
-</div>
+# JCS_Input
 
-<p>
-  Rewrap Input from Unity Engine and add more functionalities.
-</p>
+Rewrap Input from Unity Engine and add more functionalities.
 
 
-<br/>
-<h2>Functions</h2>
-<br/>
+## Functions
 
 <table>
   <tr>

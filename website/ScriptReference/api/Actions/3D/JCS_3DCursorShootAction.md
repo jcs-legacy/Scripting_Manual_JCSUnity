@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_3DCursorShootAction</h1>
-</div>
+# JCS_3DCursorShootAction
 
-<p>
-  Shoot bullet toward the cursor position in 3D space.
-</p>
+Shoot bullet toward the cursor position in 3D space.
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>

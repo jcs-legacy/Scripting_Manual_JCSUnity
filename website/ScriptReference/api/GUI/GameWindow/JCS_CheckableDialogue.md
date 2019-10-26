@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_CheckableDialogue</h1>
-</div>
+# JCS_CheckableDialogue
 
-<p>
-  When cursor or some trigger active, will show the object information on it.
-</p>
+When cursor or some trigger active, will show the object information on it.
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>

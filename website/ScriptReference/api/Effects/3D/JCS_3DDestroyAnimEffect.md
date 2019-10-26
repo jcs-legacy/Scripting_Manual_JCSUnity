@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_3DDestroyAnimEffect</h1>
-</div>
+# JCS_3DDestroyAnimEffect
 
-<p>
-  Play the animation when the gameobject is destroyed.
-</p>
+Play the animation when the gameobject is destroyed.
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>

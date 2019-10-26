@@ -1,7 +1,3 @@
-<div id="content-header">
-  <h1>ToSettingButton</h1>
-</div>
+# ToSettingButton
 
-<p>
-  Button will direct to settings panel.
-</p>
+Button will direct to settings panel.

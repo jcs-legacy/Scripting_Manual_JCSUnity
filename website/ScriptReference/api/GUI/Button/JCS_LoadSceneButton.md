@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_LoadSceneButton</h1>
-</div>
+# JCS_LoadSceneButton
 
-<p>
-  Button will load the target scene.
-</p>
+Button will load the target scene.
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>

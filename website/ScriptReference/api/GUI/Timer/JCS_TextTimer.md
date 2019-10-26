@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_TextTimer</h1>
-</div>
+# JCS_TextTimer
 
-<p>
-  Render timer in the text.
-</p>
+Render timer in the text.
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>
@@ -63,9 +57,7 @@
 </table>
 
 
-<br/>
-<h2>Functions</h2>
-<br/>
+## Functions
 
 <table>
   <tr>

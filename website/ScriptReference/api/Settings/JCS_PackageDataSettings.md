@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_PackageDataSettings</h1>
-</div>
+# JCS_PackageDataSettings
 
-<p>
-  Package data settings.
-</p>
+Package data settings.
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>

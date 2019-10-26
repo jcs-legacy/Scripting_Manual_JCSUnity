@@ -1,7 +1,3 @@
-<div id="content-header">
-  <h1>JCS_TweenType</h1>
-</div>
+# JCS_TweenType
 
-<p>
-  List of all the tween action.
-</p>
+List of all the tween action.

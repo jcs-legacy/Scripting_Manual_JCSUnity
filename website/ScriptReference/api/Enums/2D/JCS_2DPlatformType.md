@@ -1,7 +1,3 @@
-<div id="content-header">
-  <h1>JCS_2DPlatformType</h1>
-</div>
+# JCS_2DPlatformType
 
-<p>
-  List of all platform type.
-</p>
+ List of all platform type.

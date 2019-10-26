@@ -1,7 +1,3 @@
-<div id="content-header">
-  <h1>JCS_RayIgnore</h1>
-</div>
+# JCS_RayIgnore
 
-<p>
-  Tage to ignore by the raycast system from JCSUnity.
-</p>
+Tage to ignore by the raycast system from JCSUnity.

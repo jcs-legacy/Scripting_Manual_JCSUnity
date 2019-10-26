@@ -1,7 +1,3 @@
-<div id="content-header">
-  <h1>JCS_RecvPacketType</h1>
-</div>
+# JCS_RecvPacketType
 
-<p>
-  List of packet handle for receiving.
-</p>
+List of packet handle for receiving.

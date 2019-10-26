@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_SimpleTrackAction</h1>
-</div>
+# JCS_SimpleTrackAction
 
-<p>
-  The action that moves toward a position.
-</p>
+The action that moves toward a position.
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>
@@ -35,9 +29,7 @@
 </table>
 
 
-<br/>
-<h2>Functions</h2>
-<br/>
+## Functions
 
 <table>
   <tr>

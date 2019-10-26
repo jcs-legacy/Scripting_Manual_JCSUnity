@@ -1,7 +1,3 @@
-<div id="content-header">
-  <h1>JCS_DialogueScript</h1>
-</div>
+# JCS_DialogueScript
 
-<p>
-  Interface of the dialogue script.
-</p>
+Interface of the dialogue script.

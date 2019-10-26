@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_DragDropObject</h1>
-</div>
+# JCS_DragDropObject
 
-<p>
-  Drag and drop effect.
-</p>
+Drag and drop effect.
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>
@@ -19,9 +13,7 @@
 </table>
 
 
-<br/>
-<h2>Functions</h2>
-<br/>
+## Functions
 
 <table>
   <tr>

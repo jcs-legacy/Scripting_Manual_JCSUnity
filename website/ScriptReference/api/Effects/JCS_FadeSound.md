@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_FadeSound</h1>
-</div>
+# JCS_FadeSound
 
-<p>
-  Effect that fade the sound.
-</p>
+Effect that fade the sound.
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>
@@ -23,9 +17,7 @@
 </table>
 
 
-<br/>
-<h2>Functions</h2>
-<br/>
+## Functions
 
 <table>
   <tr>

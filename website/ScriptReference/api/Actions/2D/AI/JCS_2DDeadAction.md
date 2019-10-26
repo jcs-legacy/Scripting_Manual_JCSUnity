@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_2DDeadAction</h1>
-</div>
+# JCS_2DDeadAction
 
-<p>
-  Dead action for live object.
-</p>
+Dead action for live object.
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>

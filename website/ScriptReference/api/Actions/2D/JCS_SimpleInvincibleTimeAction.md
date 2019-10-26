@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_SimpleInvincibleTimeAction</h1>
-</div>
+# JCS_SimpleInvincibleTimeAction
 
-<p>
-  Action shows invincible time.
-</p>
+Action shows invincible time.
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>
@@ -35,9 +29,7 @@
 </table>
 
 
-<br/>
-<h2>Functions</h2>
-<br/>
+## Functions
 
 <table>
   <tr>

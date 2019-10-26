@@ -1,7 +1,3 @@
-<div id="content-header">
-  <h1>JCS_2DSideScrollerPlayer</h1>
-</div>
+# JCS_2DSideScrollerPlayer
 
-<p>
-  Basic side scroll player controller.
-</p>
+Basic side scroll player controller.

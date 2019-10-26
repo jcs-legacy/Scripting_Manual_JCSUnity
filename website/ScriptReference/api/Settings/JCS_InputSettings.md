@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_InputSettings</h1>
-</div>
+# JCS_InputSettings
 
-<p>
-  Handle cross platform input settings.
-</p>
+Handle cross platform input settings.
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>
@@ -27,9 +21,7 @@
 </table>
 
 
-<br/>
-<h2>Functions</h2>
-<br/>
+## Functions
 
 <table>
   <tr>

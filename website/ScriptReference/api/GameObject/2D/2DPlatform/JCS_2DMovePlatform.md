@@ -1,7 +1,3 @@
-<div id="content-header">
-  <h1>JCS_2DMovePlatform</h1>
-</div>
+# JCS_2DMovePlatform
 
-<p>
-  Moving platform tag.
-</p>
+Moving platform tag.

@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_UnPauseGameButton</h1>
-</div>
+# JCS_UnPauseGameButton
 
-<p>
-  Button that unpause the game.
-</p>
+Button that unpause the game.
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>
@@ -19,9 +13,7 @@
 </table>
 
 
-<br/>
-<h2>Functions</h2>
-<br/>
+## Function
 
 <table>
   <tr>

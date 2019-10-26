@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_2DWalkAction</h1>
-</div>
+# JCS_2DWalkAction
 
-<p>
-  Action does the AI walk action in 2D.
-</p>
+Action does the AI walk action in 2D.
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>
@@ -63,9 +57,7 @@
 </table>
 
 
-<br/>
-<h2>Functions</h2>
-<br/>
+## Functions
 
 <table>
   <tr>

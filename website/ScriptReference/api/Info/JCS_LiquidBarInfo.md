@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_LiquidBarInfo</h1>
-</div>
+# JCS_LiquidBarInfo
 
-<p>
-  Hold all the informations for liquid bar.
-</p>
+Hold all the informations for liquid bar.
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>

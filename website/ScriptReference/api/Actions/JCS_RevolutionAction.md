@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_RevolutionAction</h1>
-</div>
+# JCS_RevolutionAction
 
-<p>
-  Action to make the revolution to an object.
-</p>
+Action to make the revolution to an object.
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>

@@ -1,7 +1,3 @@
-<div id="content-header">
-  <h1>JCS_AttackerInfo</h1>
-</div>
+# JCS_AttackerInfo
 
-<p>
-  Record down the attacker's information.
-</p>
+Record down the attacker's information.

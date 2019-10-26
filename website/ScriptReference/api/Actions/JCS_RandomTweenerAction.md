@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_RandomTweenerAction</h1>
-</div>
+# JCS_RandomTweenerAction
 
-<p>
-  Randomize the tweener in a certain time.
-</p>
+Randomize the tweener in a certain time.
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>

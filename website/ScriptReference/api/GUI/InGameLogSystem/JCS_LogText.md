@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_LogText</h1>
-</div>
+# JCS_LogText
 
-<p>
-  Log text for JCS_IGLogSystem to handle.
-</p>
+Log text for JCS_IGLogSystem to handle.
 
 
-<br/>
-<h2>Functions</h2>
-<br/>
+## Functions
 
 <table>
   <tr>

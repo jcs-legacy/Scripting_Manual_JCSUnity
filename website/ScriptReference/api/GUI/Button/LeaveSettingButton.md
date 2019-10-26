@@ -1,7 +1,3 @@
-<div id="content-header">
-  <h1>LeaveSettingButton</h1>
-</div>
+# LeaveSettingButton
 
-<p>
-  Leave the settings panel button.
-</p>
+Leave the settings panel button.

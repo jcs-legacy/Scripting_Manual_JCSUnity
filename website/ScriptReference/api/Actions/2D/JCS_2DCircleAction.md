@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_2DCircleAction</h1>
-</div>
+# JCS_2DCircleAction
 
-<p>
-  Do the circle action.
-</p>
+Do the circle action.
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>

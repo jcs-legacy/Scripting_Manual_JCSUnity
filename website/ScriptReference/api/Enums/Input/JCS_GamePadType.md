@@ -1,7 +1,3 @@
-<div id="content-header">
-  <h1>JCS_GamePadType</h1>
-</div>
+# JCS_GamePadType
 
-<p>
-  List of gamepad type.
-</p>
+List of gamepad type.

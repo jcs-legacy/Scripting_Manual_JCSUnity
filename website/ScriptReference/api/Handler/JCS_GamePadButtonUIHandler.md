@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_GamePadButtonUIHandler</h1>
-</div>
+# JCS_GamePadButtonUIHandler
 
-<p>
-  Switch the button UI depends on if the gamepad connection.
-</p>
+Switch the button UI depends on if the gamepad connection.
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>

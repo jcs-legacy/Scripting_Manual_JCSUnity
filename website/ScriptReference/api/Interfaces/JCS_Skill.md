@@ -1,7 +1,3 @@
-<div id="content-header">
-  <h1>JCS_Skill</h1>
-</div>
+# JCS_Skill
 
-<p>
-  Interface of all the skill.
-</p>
+Interface of all the skill.

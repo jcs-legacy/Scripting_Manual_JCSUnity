@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_GameManager</h1>
-</div>
+# JCS_GameManager
 
-<p>
-  Manager that manage the game behaviour.
-</p>
+Manager that manage the game behaviour.
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>

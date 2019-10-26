@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_DestroyParticleEffect</h1>
-</div>
+# JCS_DestroyParticleEffect
 
-<p>
-  Effect when the gameobject get destroyed, spawn a particle system.
-</p>
+Effect when the gameobject get destroyed, spawn a particle system.
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>

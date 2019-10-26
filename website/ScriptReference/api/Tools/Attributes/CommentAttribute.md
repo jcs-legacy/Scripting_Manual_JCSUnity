@@ -1,7 +1,3 @@
-<div id="content-header">
-  <h1>CommentAttribute</h1>
-</div>
+# CommentAttribute
 
-<p>
-  Allow you to have comment and tooltip in the same attribute block.
-</p>
+Allow you to have comment and tooltip in the same attribute block.

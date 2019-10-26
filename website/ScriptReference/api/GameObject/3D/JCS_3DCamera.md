@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_3DCamera</h1>
-</div>
+# JCS_3DCamera
 
-<p>
-  Basic camera in 3D game.
-</p>
+Basic camera in 3D game.
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>
@@ -107,9 +101,7 @@
 </table>
 
 
-<br/>
-<h2>Functions</h2>
-<br/>
+## Functions
 
 <table>
   <tr>

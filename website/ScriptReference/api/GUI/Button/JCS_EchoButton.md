@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_EchoButton</h1>
-</div>
+# JCS_EchoButton
 
-<p>
-  Echo out a string on the console window when this button triggered.
-</p>
+Echo out a string on the console window when this button triggered.
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>

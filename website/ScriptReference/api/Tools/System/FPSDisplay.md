@@ -1,7 +1,3 @@
-<div id="content-header">
-  <h1>FPSDisplay</h1>
-</div>
+# FPSDisplay
 
-<p>
-  Display the FPS in the game scene.
-</p>
+Display the FPS in the game scene.

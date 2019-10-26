@@ -1,7 +1,3 @@
-<div id="content-header">
-  <h1>JCS_CounterEvent</h1>
-</div>
+# JCS_CounterEvent
 
-<p>
-  Event handle operate the task after a certain time.
-</p>
+Event handle operate the task after a certain time.

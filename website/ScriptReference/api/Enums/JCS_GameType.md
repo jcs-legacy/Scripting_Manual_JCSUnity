@@ -1,7 +1,3 @@
-<div id="content-header">
-  <h1>JCS_GameType</h1>
-</div>
+# JCS_GameType
 
-<p>
-  Type of the game.
-</p>
+Type of the game.

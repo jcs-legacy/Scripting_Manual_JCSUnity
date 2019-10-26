@@ -1,7 +1,3 @@
-<div id="content-header">
-  <h1>JCS_GradientType</h1>
-</div>
+# JCS_GradientType
 
-<p>
-  Gradient direction type.
-</p>
+Gradient direction type.

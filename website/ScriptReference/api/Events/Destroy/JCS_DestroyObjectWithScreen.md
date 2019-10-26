@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_DestroyObjectWithScreen</h1>
-</div>
+# JCS_DestroyObjectWithScreen
 
-<p>
-  Destroy the gameobject when the object is no longer render on the screen.
-</p>
+Destroy the gameobject when the object is no longer render on the screen.
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>

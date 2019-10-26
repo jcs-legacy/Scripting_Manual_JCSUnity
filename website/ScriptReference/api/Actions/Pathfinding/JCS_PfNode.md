@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_PfNode</h1>
-</div>
+# JCS_PfNode
 
-<p>
-  Path finding node.
-</p>
+Path finding node.
 
 
-<br/>
-<h2>Functions</h2>
-<br/>
+## Functions
 
 <table>
   <tr>

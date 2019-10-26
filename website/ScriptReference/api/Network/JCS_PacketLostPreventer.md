@@ -1,18 +1,12 @@
-<div id="content-header">
-  <h1>JCS_PacketLostPreventer</h1>
-</div>
+# JCS_PacketLostPreventer
 
-<p>
-  Prevent the packet have been lost. If the packet is lost we
-  keep tracking the packet and resend the responed until the
-  server's response had arrived. This usually deal with the
-  UDP type communication.
-</p>
+Prevent the packet have been lost. If the packet is lost we
+keep tracking the packet and resend the responed until the
+server's response had arrived. This usually deal with the
+UDP type communication.
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>
@@ -26,9 +20,7 @@
 </table>
 
 
-<br/>
-<h2>Functions</h2>
-<br/>
+## Functions
 
 <table>
   <tr>

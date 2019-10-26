@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_2DPushEffect</h1>
-</div>
+# JCS_2DPushEffect
 
-<p>
-  Push effect that pushes the player.
-</p>
+Push effect that pushes the player.
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>

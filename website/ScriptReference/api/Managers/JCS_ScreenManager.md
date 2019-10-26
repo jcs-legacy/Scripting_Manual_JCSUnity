@@ -1,15 +1,8 @@
-<div id="content-header">
-  <h1>JCS_ScreenManager</h1>
-</div>
+# JCS_ScreenManager
 
-<p>
-  Manages screen action.
-</p>
+Manages screen action.
 
-
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>
@@ -31,9 +24,7 @@
 </table>
 
 
-<br/>
-<h2>Functions</h2>
-<br/>
+## Functions
 
 <table>
   <tr>

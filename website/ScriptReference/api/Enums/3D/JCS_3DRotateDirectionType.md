@@ -1,7 +1,3 @@
-<div id="content-header">
-  <h1>JCS_3DRotateDirectionType</h1>
-</div>
+# JCS_3DRotateDirectionType
 
-<p>
-  Type of the rotation.
-</p>
+Type of the rotation.

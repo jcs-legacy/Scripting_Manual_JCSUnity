@@ -1,7 +1,3 @@
-<div id="content-header">
-  <h1>JCS_2DCursorShootAction</h1>
-</div>
+# JCS_2DCursorShootAction
 
-<p>
-  Shoot a bullet toward the cursor position in 2D space.
-</p>
+Shoot a bullet toward the cursor position in 2D space.

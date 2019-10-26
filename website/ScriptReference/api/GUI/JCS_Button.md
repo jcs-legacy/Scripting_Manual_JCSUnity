@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_Button</h1>
-</div>
+# JCS_Button
 
-<p>
-  Button wrapper for more usable functionalities.
-</p>
+Button wrapper for more usable functionalities.
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>
@@ -43,16 +37,14 @@
 </table>
 
 
-<br/>
-<h2>Example</h2>
-<br/>
+## Example
 
-<p>ExampleButton.cs</p>
-<div class="code-block">
+ExampleButton.cs
+
+```cs
   class ExampleButton : JCS_Button {
       public override void JCS_OnClickCallback() {
           Debug.Log("On click!"");
       }
   }
-  
-</div>
+```

@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_DisableWithCertainRangeEvent</h1>
-</div>
+# JCS_DisableWithCertainRangeEvent
 
-<p>
-  Disable gameobject when certain range was met.
-</p>
+Disable gameobject when certain range was met.
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>

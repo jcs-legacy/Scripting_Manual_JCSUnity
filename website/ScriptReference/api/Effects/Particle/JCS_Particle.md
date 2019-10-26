@@ -1,7 +1,3 @@
-<div id="content-header">
-  <h1>JCS_Particle</h1>
-</div>
+# JCS_Particle
 
-<p>
-  Particle base class for polynorphism.
-</p>
+Particle base class for polynorphism.

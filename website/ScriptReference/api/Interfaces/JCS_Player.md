@@ -1,7 +1,3 @@
-<div id="content-header">
-  <h1>JCS_Player</h1>
-</div>
+# JCS_Player
 
-<p>
-  Player interface identification.
-</p>
+Player interface identification.

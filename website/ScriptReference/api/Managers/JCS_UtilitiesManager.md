@@ -1,7 +1,3 @@
-<div id="content-header">
-  <h1>JCS_UtilitiesManager</h1>
-</div>
+# JCS_UtilitiesManager
 
-<p>
-  Manager manage all the utilities in the game.
-</p>
+Manager manage all the utilities in the game.

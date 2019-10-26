@@ -1,7 +1,3 @@
-<div id="content-header">
-  <h1>JCS_AIAction</h1>
-</div>
+# JCS_AIAction
 
-<p>
-  AI action interface.
-</p>
+AI action interface.

@@ -1,16 +1,10 @@
-<div id="content-header">
-  <h1>JCS_ButtonSelectionGroup</h1>
-</div>
+# JCS_ButtonSelectionGroup
 
-<p>
-  Group multiple selection and handle it so you can tell which selection is
-  selected.
-</p>
+Group multiple selection and handle it so you can tell which selection is
+selected.
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>
@@ -31,9 +25,7 @@
 </table>
 
 
-<br/>
-<h2>Functions</h2>
-<br/>
+## Functions
 
 <table>
   <tr>

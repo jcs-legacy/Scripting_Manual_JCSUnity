@@ -1,7 +1,3 @@
-<div id="content-header">
-  <h1>JCS_FadeType</h1>
-</div>
+# JCS_FadeType
 
-<p>
-  Fade in/out and none.
-</p>
+Fade in/out and none.

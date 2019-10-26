@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_TimeManager</h1>
-</div>
+# JCS_TimeManager
 
-<p>
-  Holding all the information about the time in real life.
-</p>
+Holding all the information about the time in real life.
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>
@@ -27,9 +21,7 @@
 </table>
 
 
-<br/>
-<h2>Functions</h2>
-<br/>
+## Functions
 
 <table>
   <tr>

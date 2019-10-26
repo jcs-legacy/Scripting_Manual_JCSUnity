@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_CashObject</h1>
-</div>
+# JCS_CashObject
 
-<p>
-  In game item represents cash.
-</p>
+In game item represents cash.
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>

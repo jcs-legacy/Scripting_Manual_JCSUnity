@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_3DMouseMovement</h1>
-</div>
+# JCS_3DMouseMovement
 
-<p>
-  Simulate the mouse movement in 3d games.
-</p>
+Simulate the mouse movement in 3d games.
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>

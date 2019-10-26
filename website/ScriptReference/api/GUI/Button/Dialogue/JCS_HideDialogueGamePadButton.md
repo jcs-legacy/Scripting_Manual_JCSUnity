@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_HideDialogueGamePadButton</h1>
-</div>
+# JCS_HideDialogueGamePadButton
 
-<p>
-  Click the button to hide multiple dialogue. (Gamepad)
-</p>
+Click the button to hide multiple dialogue. (Gamepad)
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>

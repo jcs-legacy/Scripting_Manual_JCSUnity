@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_ApplicationManager</h1>
-</div>
+# JCS_ApplicationManager
 
-<p>
-  Interface communicate to application layer.
-</p>
+Interface communicate to application layer.
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>
@@ -23,9 +17,7 @@
 </table>
 
 
-<br/>
-<h2>Functions</h2>
-<br/>
+## Functions
 
 <table>
   <tr>

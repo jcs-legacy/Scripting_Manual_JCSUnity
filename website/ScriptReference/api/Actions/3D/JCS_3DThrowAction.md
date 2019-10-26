@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_3DThrowAction</h1>
-</div>
+# JCS_3DThrowAction
 
-<p>
-  Thorws a gameobject toward another gameobject.
-</p>
+Thorws a gameobject toward another gameobject.
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>
@@ -23,9 +17,7 @@
 </table>
 
 
-<br/>
-<h2>Functions</h2>
-<br/>
+## Functions
 
 <table>
   <tr>

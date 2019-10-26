@@ -1,7 +1,3 @@
-<div id="content-header">
-  <h1>JCS_SoundType</h1>
-</div>
+# JCS_SoundType
 
-<p>
-  Sound in space.
-</p>
+Sound in space.

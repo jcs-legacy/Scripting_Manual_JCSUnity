@@ -1,7 +1,3 @@
-<div id="content-header">
-  <h1>JCS_LiveObjectManager</h1>
-</div>
+# JCS_LiveObjectManager
 
-<p>
-  Handle of all the AI in the scene.
-</p>
+Handle of all the AI in the scene.

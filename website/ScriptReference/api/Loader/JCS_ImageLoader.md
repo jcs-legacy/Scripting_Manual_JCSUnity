@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_ImageLoader</h1>
-</div>
+# JCS_ImageLoader
 
-<p>
-  Image loader, load an external image file to Unity usable sprite.
-</p>
+Image loader, load an external image file to Unity usable sprite.
 
 
-<br/>
-<h2>Functions</h2>
-<br/>
+## Functions
 
 <table>
   <tr>
@@ -27,20 +21,17 @@
 </table>
 
 
-<br/>
-<h2>Example</h2>
-<br/>
+## Example
 
-<div class="code-block">
-  string filePath = "path/to/image.png";
+```cs
+string filePath = "path/to/image.png";
 
-  // Get the image as texture.
-  Texture2D tex = JCS_ImageLoader.LoadTexture(filePath);
+// Get the image as texture.
+Texture2D tex = JCS_ImageLoader.LoadTexture(filePath);
 
-  // Convert texture to sprite.
-  Sprite sp = JCS_ImageLoader.Create(tex);
+// Convert texture to sprite.
+Sprite sp = JCS_ImageLoader.Create(tex);
 
-  // Combine the two functions just use.
-  sp = JCS_ImageLoader.LoadImage(filePath);
-  
-</div>
+// Combine the two functions just use.
+sp = JCS_ImageLoader.LoadImage(filePath);
+```

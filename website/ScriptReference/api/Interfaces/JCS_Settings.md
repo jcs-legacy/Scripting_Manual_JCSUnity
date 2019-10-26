@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_Settings</h1>
-</div>
+# JCS_Settings
 
-<p>
-  Interface of all setting class.
-</p>
+Interface of all setting class.
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>
@@ -19,9 +13,7 @@
 </table>
 
 
-<br/>
-<h2>Functions</h2>
-<br/>
+## Functions
 
 <table>
   <tr>
@@ -35,12 +27,11 @@
 </table>
 
 
-<br/>
-<h2>Example</h2>
-<br/>
+## Example
 
-<p>ExampleSetting.cs</p>
-<div class="code-block">
+ExampleSetting.cs
+
+```cs
   public class ExampleSetting : MonoBehaviour
   {
       private void Awake ()
@@ -49,5 +40,4 @@
           instance = CheckSingleton(instance, this);
       }
   }
-
-</div>
+```

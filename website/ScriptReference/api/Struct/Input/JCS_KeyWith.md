@@ -1,20 +1,6 @@
-<!--
-   - $File: JCS_KeyWith.html $
-   - $Date: 2018-10-01 02:48:25 $
-   - $Revision: $
-   - $Creator: Jen-Chieh Shen $
-   - $Notice: See LICENSE.txt for modification and distribution information
-   -                   Copyright © 2018 by Shen, Jen-Chieh $
--->
+# JCS_KeyWith
 
-
-<div id="content-header">
-  <h1>JCS_KeyWith</h1>
-</div>
-
-<p>Data Struct hold the combination of key information.</p>
-
-<br/>
+Data Struct hold the combination of key information.
 
 <table>
   <tr>

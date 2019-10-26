@@ -1,7 +1,3 @@
-<div id="content-header">
-  <h1>JCS_Action</h1>
-</div>
+# JCS_Action
 
-<p>
-  Interface of the action.
-</p>
+Interface of the action.

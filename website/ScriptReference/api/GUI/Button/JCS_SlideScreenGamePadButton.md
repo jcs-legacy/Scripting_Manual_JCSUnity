@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_SlideScreenGamePadButton</h1>
-</div>
+# JCS_SlideScreenGamePadButton
 
-<p>
-  Button will trigger the slide screen effect. (Gamepad)
-</p>
+Button will trigger the slide screen effect. (Gamepad)
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>

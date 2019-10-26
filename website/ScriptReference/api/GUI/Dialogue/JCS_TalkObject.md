@@ -1,7 +1,3 @@
-<div id="content-header">
-  <h1>JCS_TalkObject</h1>
-</div>
+# JCS_TalkObject
 
-<p>
-  Make the game object talkable.
-</p>
+Make the game object talkable.

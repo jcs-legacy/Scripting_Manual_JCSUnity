@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_InputManager</h1>
-</div>
+# JCS_InputManager
 
-<p>
-  Take care of the cross platform input.
-</p>
+Take care of the cross platform input.
 
 
-<br/>
-<h2>Functions</h2>
-<br/>
+## Functions
 
 <table>
   <tr>

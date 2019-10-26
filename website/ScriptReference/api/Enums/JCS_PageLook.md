@@ -1,7 +1,3 @@
-<div id="content-header">
-  <h1>JCS_PageLook</h1>
-</div>
+# JCS_PageLook
 
-<p>
-  Type of the dialogue system.
-</p>
+Type of the dialogue system.

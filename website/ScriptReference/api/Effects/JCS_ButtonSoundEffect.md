@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_ButtonSoundEffect</h1>
-</div>
+# JCS_ButtonSoundEffect
 
-<p>
-  Customize your own button sound base on different circumstance.
-</p>
+Customize your own button sound base on different circumstance.
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>
@@ -123,9 +117,7 @@
 </table>
 
 
-<br/>
-<h2>Functions</h2>
-<br/>
+## Functions
 
 <table>
   <tr>

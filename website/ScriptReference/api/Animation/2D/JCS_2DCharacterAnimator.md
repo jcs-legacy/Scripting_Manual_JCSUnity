@@ -1,7 +1,3 @@
-<div id="content-header">
-  <h1>JCS_2DCharacterAnimator</h1>
-</div>
+# JCS_2DCharacterAnimator
 
-<p>
-  Player must have the animation implemented. (Obsolete)
-</p>
+Player must have the animation implemented. (Obsolete)

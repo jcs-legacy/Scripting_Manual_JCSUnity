@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_SequenceSlidePanel</h1>
-</div>
+# JCS_SequenceSlidePanel
 
-<p>
-  Sequently toggle the panels action.
-</p>
+Sequently toggle the panels action.
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>

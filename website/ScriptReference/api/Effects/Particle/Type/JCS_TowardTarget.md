@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_TowardTarget</h1>
-</div>
+# JCS_TowardTarget
 
-<p>
-  Particle will lerp to the target position.
-</p>
+Particle will lerp to the target position.
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>

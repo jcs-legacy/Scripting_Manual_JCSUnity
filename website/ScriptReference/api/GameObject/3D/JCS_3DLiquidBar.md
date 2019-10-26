@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_3DLiquidBar</h1>
-</div>
+# JCS_3DLiquidBar
 
-<p>
-  3D liquid bar, do thing like health bar, mana ber, etc.
-</p>
+3D liquid bar, do thing like health bar, mana ber, etc.
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>
@@ -23,9 +17,7 @@
 </table>
 
 
-<br/>
-<h2>Functions</h2>
-<br/>
+## Functions
 
 <table>
   <tr>

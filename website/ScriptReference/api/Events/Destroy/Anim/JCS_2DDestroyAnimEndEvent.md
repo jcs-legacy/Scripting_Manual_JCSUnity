@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_2DDestroyAnimEndEvent</h1>
-</div>
+# JCS_2DDestroyAnimEndEvent
 
-<p>
-  Destroy the gameobject after done playing the 2D animation.
-</p>
+Destroy the gameobject after done playing the 2D animation.
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>

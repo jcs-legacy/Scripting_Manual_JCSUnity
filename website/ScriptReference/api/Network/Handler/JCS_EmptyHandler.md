@@ -1,7 +1,3 @@
-<div id="content-header">
-  <h1>JCS_EmptyHandler</h1>
-</div>
+# JCS_EmptyHandler
 
-<p>
-  Empty packet handler, could be any packet handler placeholder.
-</p>
+Empty packet handler, could be any packet handler placeholder.

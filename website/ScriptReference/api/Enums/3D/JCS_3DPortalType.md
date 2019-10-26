@@ -1,7 +1,3 @@
-<div id="content-header">
-  <h1>JCS_3DPortalType</h1>
-</div>
+# JCS_3DPortalType
 
-<p>
-  Type of the 3D portal.
-</p>
+Type of the 3D portal.

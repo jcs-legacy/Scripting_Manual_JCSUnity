@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_PushThrowAction</h1>
-</div>
+# JCS_PushThrowAction
 
-<p>
-  Action that throw the object to a position.
-</p>
+Action that throw the object to a position.
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>
@@ -27,9 +21,7 @@
 </table>
 
 
-<br/>
-<h2>Functions</h2>
-<br/>
+## Functions
 
 <table>
   <tr>

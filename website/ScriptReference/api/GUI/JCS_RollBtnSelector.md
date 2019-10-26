@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_RollBtnSelector</h1>
-</div>
+# JCS_RollBtnSelector
 
-<p>
-  A bunch of buttons do roll effect.
-</p>
+A bunch of buttons do roll effect.
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>
@@ -43,9 +37,7 @@
 </table>
 
 
-<br/>
-<h2>Functions</h2>
-<br/>
+## Functions
 
 <table>
   <tr>

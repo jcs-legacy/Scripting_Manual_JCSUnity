@@ -1,7 +1,3 @@
-<div id="content-header">
-  <h1>JCS_Bullet</h1>
-</div>
+# JCS_Bullet
 
-<p>
-  Basic class for bullet movement.
-</p>
+Basic class for bullet movement.

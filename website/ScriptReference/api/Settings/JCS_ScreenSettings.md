@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_ScreenSettings</h1>
-</div>
+# JCS_ScreenSettings
 
-<p>
-  Screen related settings.
-</p>
+Screen related settings.
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>
@@ -47,9 +41,7 @@
 </table>
 
 
-<br/>
-<h2>Functions</h2>
-<br/>
+## Functions
 
 <table>
   <tr>

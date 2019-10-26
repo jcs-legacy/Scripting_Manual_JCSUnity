@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_DestroyObjectWithTime</h1>
-</div>
+# JCS_DestroyObjectWithTime
 
-<p>
-  Destroy the gameobject by time.
-</p>
+Destroy the gameobject by time.
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>

@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_IGLogSystem</h1>
-</div>
+# JCS_IGLogSystem
 
-<p>
-  In game log system.
-</p>
+In game log system.
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>
@@ -19,9 +13,7 @@
 </table>
 
 
-<br/>
-<h2>Functions</h2>
-<br/>
+## Functions
 
 <table>
   <tr>

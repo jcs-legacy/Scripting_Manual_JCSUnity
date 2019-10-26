@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_OneJump</h1>
-</div>
+# JCS_OneJump
 
-<p>
-  Effect makes the item jumps and spreads.
-</p>
+Effect makes the item jumps and spreads.
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>
@@ -32,9 +26,7 @@
 </table>
 
 
-<br/>
-<h2>Functions</h2>
-<br/>
+## Functions
 
 <table>
   <tr>

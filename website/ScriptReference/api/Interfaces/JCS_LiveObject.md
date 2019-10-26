@@ -1,7 +1,3 @@
-<div id="content-header">
-  <h1>JCS_LiveObject</h1>
-</div>
+# JCS_LiveObject
 
-<p>
-  Live object interface identification.
-</p>
+Live object interface identification.

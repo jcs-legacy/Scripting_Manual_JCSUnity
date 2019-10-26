@@ -1,7 +1,3 @@
-<div id="content-header">
-  <h1>JCS_AnimPoolAction</h1>
-</div>
+# JCS_AnimPoolAction
 
-<p>
-  Animation pool action.
-</p>
+Animation pool action.

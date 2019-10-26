@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_2DWaveEffect</h1>
-</div>
+# JCS_2DWaveEffect
 
-<p>
-  Effect that make wave effect on the gameobject.
-</p>
+Effect that make wave effect on the gameobject.
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>
@@ -35,9 +29,7 @@
 </table>
 
 
-<br/>
-<h2>Functions</h2>
-<br/>
+## Functions
 
 <table>
   <tr>

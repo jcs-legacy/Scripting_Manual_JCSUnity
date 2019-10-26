@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_DamageText</h1>
-</div>
+# JCS_DamageText
 
-<p>
-  Damage text on the mob.
-</p>
+Damage text on the mob.
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>
@@ -90,9 +84,7 @@
 </table>
 
 
-<br/>
-<h2>Functions</h2>
-<br/>
+## Functions
 
 <table>
   <tr>

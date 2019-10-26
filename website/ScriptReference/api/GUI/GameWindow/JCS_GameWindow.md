@@ -1,7 +1,3 @@
-<div id="content-header">
-  <h1>JCS_GameWindow</h1>
-</div>
+# JCS_GameWindow
 
-<p>
-  Game Window base on the Dialogue object.
-</p>
+Game Window base on the Dialogue object.

@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_2DTrackBullet</h1>
-</div>
+# JCS_2DTrackBullet
 
-<p>
-  Bullet that will track the object.
-</p>
+Bullet that will track the object.
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>

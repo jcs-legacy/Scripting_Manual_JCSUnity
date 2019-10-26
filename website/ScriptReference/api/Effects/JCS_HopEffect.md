@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_HopEffect</h1>
-</div>
+# JCS_HopEffect
 
-<p>
-  Make object hop for a force.
-</p>
+Make object hop for a force.
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>
@@ -27,9 +21,7 @@
 </table>
 
 
-<br/>
-<h2>Functions</h2>
-<br/>
+## Functions
 
 <table>
   <tr>
@@ -39,11 +31,6 @@
 </table>
 
 
-<br/>
-<br/>
-<hr>
-<h2>** Demo **</h2>
-<hr>
-<br/>
+## ** Demo **
 
 <img src="./images/Effects/JCS_HopEffect/demo.gif"/>

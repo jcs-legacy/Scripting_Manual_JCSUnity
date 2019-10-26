@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_3DTrackAction</h1>
-</div>
+# JCS_3DTrackAction
 
-<p>
-  Track a gameobject in 3D space.
-</p>
+Track a gameobject in 3D space.
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>

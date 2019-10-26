@@ -1,7 +1,3 @@
-<div id="content-header">
-  <h1>JCS_UnityObjectType</h1>
-</div>
+# JCS_UnityObjectType
 
-<p>
-  Unity Engine's type.
-</p>
+Unity Engine's type.

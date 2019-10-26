@@ -1,7 +1,3 @@
-<div id="content-header">
-  <h1>JCS_DynamicScene</h1>
-</div>
+# JCS_DynamicScene
 
-<p>
-  Dynamic scene base class.
-</p>
+Dynamic scene base class.

@@ -1,7 +1,3 @@
-<div id="content-header">
-  <h1>JCS_AnchorPresetsType</h1>
-</div>
+# JCS_AnchorPresetsType
 
-<p>
-  Anchore Presets type.
-</p>
+Anchore Presets type.

@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_SoundManager</h1>
-</div>
+# JCS_SoundManager
 
-<p>
-  Manage of all the music, sound and SFX in the game.
-</p>
+Manage of all the music, sound and SFX in the game.
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>
@@ -31,9 +25,7 @@
 </table>
 
 
-<br/>
-<h2>Functions</h2>
-<br/>
+## Functions
 
 <table>
   <tr>

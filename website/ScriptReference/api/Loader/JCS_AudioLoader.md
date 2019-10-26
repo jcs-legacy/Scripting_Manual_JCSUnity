@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_AudioLoader</h1>
-</div>
+# JCS_AudioLoader
 
-<p>
-  Audio loader, load an external audio file.
-</p>
+Audio loader, load an external audio file.
 
 
-<br/>
-<h2>Functions</h2>
-<br/>
+## Functions
 
 <table>
   <tr>
@@ -19,11 +13,9 @@
 </table>
 
 
-<br/>
-<h2>Example</h2>
-<br/>
+## Example
 
-<div class="code-block">
+```cs
   private void Start()
   {
       string filePath = "path/to/file.ogg";
@@ -33,12 +25,11 @@
       StartCoroutine(JCS_AudioLoader.LoadAudio(cl, filePath, DoneLoadMusic));
   }
 
-  /// -<-summary->-
+  /// <summary>
   /// Callback after the audio is loaded.
-  /// -<-/summary->-
+  /// </summary>
   private void DoneLoadMusic(AudioClip ac)
   {
       Debug.Log("Done loading the audio file!");
   }
-
-</div>
+```

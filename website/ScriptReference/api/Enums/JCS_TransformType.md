@@ -1,7 +1,3 @@
-<div id="content-header">
-  <h1>JCS_TransformType</h1>
-</div>
+# JCS_TransformType
 
-<p>
-  List of transform properties.
-</p>
+List of transform properties.

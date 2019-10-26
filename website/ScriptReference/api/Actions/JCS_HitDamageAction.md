@@ -1,16 +1,9 @@
-<div id="content-header">
-  <h1>JCS_HitDamageAction</h1>
-</div>
+# JCS_HitDamageAction
 
-<p>
-  Simulate the action when object damage the player by
-  hitting with his body.
-</p>
+Simulate the action when object damage the player by hitting with his body.
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>

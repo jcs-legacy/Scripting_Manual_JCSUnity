@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_PathRequestManager</h1>
-</div>
+# JCS_PathRequestManager
 
-<p>
-  Manage all the path finding requests.
-</p>
+Manage all the path finding requests.
 
 
-<br/>
-<h2>Functions</h2>
-<br/>
+## Functions
 
 <table>
   <tr>

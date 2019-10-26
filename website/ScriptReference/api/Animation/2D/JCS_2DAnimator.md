@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_2DAnimator</h1>
-</div>
+# JCS_2DAnimator
 
-<p>
-  Hold sequence of animations and play it by condition.
-</p>
+Hold sequence of animations and play it by condition.
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>
@@ -27,9 +21,7 @@
 </table>
 
 
-<br/>
-<h2>Functions</h2>
-<br/>
+## Functions
 
 <table>
   <tr>

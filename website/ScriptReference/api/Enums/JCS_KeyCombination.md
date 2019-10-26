@@ -1,7 +1,3 @@
-<div id="content-header">
-  <h1>JCS_KeyCombination</h1>
-</div>
+# JCS_KeyCombination
 
-<p>
-  Key combination.
-</p>
+Key combination.

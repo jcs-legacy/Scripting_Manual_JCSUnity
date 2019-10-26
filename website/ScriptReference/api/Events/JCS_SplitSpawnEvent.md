@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_SplitSpawnEvent</h1>
-</div>
+# JCS_SplitSpawnEvent
 
-<p>
-  Spawn multiple objects in a row.
-</p>
+Spawn multiple objects in a row.
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>

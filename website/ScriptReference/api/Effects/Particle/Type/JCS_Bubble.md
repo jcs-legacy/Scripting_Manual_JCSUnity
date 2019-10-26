@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_Bubble</h1>
-</div>
+# JCS_Bubble
 
-<p>
-  The component make the bubble movement.
-</p>
+The component make the bubble movement.
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>

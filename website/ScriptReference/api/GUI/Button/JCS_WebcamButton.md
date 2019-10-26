@@ -1,7 +1,3 @@
-<div id="content-header">
-  <h1>JCS_WebcamButton</h1>
-</div>
+# JCS_WebcamButton
 
-<p>
-  Take snap shoot from webcam.
-</p>
+Take snap shoot from webcam.

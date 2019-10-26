@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_DialogueSystem</h1>
-</div>
+# JCS_DialogueSystem
 
-<p>
-  Dialogue system core implementation.
-</p>
+Dialogue system core implementation.
 
 
-<br/>
-<h2>Functions</h2>
-<br/>
+## Functions
 
 <table>
   <tr>
@@ -51,9 +45,7 @@
 </table>
 
 
-<br/>
-<h2>Functions</h2>
-<br/>
+## Functions
 
 <table>
   <tr>

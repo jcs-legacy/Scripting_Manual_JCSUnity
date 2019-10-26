@@ -1,10 +1,6 @@
-<div id="content-header">
-  <h1>JCS_DropdownData</h1>
-</div>
+# JCS_DropdownData
 
-<p>Dropdown data container.</p>
-
-<br/>
+Dropdown data container.
 
 <table>
   <tr>

@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_PortalManager</h1>
-</div>
+# JCS_PortalManager
 
-<p>
-  Handle all the portal in the scene.
-</p>
+Handle all the portal in the scene.
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>
@@ -19,9 +13,7 @@
 </table>
 
 
-<br/>
-<h2>Functions</h2>
-<br/>
+## Functions
 
 <table>
   <tr>

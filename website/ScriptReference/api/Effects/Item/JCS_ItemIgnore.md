@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_ItemIgnore</h1>
-</div>
+# JCS_ItemIgnore
 
-<p>
-  When every item touch this will ignore the collision.
-</p>
+When every item touch this will ignore the collision.
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>

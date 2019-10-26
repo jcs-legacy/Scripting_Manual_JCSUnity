@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_2DSequenceShootActionNoDetection</h1>
-</div>
+# JCS_2DSequenceShootActionNoDetection
 
-<p>
-  Shoot bullets toward the cursor position in sequence.
-</p>
+Shoot bullets toward the cursor position in sequence.
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>
@@ -39,9 +33,7 @@
 </table>
 
 
-<br/>
-<h2>Functions</h2>
-<br/>
+## Functionsq
 
 <table>
   <tr>

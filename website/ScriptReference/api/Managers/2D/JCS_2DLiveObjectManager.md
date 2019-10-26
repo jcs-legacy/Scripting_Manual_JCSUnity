@@ -1,16 +1,9 @@
-<div id="content-header">
-  <h1>JCS_2DLiveObjectManager</h1>
-</div>
+# JCS_2DLiveObjectManager
 
-<p>
-  Handle all the 2d live object in the scene.
-</p>
+Handle all the 2d live object in the scene.
 
 
-
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>
@@ -24,9 +17,7 @@
 </table>
 
 
-<br/>
-<h2>Functions</h2>
-<br/>
+## Functions
 
 <table>
   <tr>

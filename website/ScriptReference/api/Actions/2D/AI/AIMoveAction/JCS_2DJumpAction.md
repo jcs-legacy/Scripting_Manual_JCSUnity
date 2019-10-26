@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_2DJumpAction</h1>
-</div>
+# JCS_2DJumpAction
 
-<p>
-  Action does the AI jump action in 2D.
-</p>
+Action does the AI jump action in 2D.
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>
@@ -43,9 +37,7 @@
 </table>
 
 
-<br/>
-<h2>Functions</h2>
-<br/>
+## Functions
 
 <table>
   <tr>

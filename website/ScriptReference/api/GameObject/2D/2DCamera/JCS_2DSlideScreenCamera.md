@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_2DSlideScreenCamera</h1>
-</div>
+# JCS_2DSlideScreenCamera
 
-<p>
-  Camera for GUI or canvas space.
-</p>
+Camera for GUI or canvas space.
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>
@@ -23,9 +17,7 @@
 </table>
 
 
-<br/>
-<h2>Functions</h2>
-<br/>
+## Functions
 
 <table>
   <tr>

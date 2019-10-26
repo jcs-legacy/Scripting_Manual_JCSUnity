@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_2DPushLiveObject</h1>
-</div>
+# JCS_2DPushLiveObject
 
-<p>
-  Effect that pushes the 2d live object.
-</p>
+Effect that pushes the 2d live object.
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>
@@ -23,9 +17,7 @@
 </table>
 
 
-<br/>
-<h2>Functions</h2>
-<br/>
+## Functionsq
 
 <table>
   <tr>

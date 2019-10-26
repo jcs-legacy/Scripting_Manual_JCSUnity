@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_PositionCastAction</h1>
-</div>
+# JCS_PositionCastAction
 
-<p>
-  Cast the current transform to certain space.
-</p>
+Cast the current transform to certain space.
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>
@@ -19,9 +13,7 @@
 </table>
 
 
-<br/>
-<h2>Functions</h2>
-<br/>
+## Functions
 
 <table>
   <tr>

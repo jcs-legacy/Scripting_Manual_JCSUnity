@@ -1,16 +1,10 @@
-<div id="content-header">
-  <h1>JCS_SoundProxyAction</h1>
-</div>
+# JCS_SoundProxyAction
 
-<p>
-  Action spawns a new gameobject and play the sound, after the
-  sound is played the gameobject will be destroyed.
-</p>
+Action spawns a new gameobject and play the sound, after the
+sound is played the gameobject will be destroyed.
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>

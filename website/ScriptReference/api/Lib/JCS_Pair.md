@@ -1,7 +1,3 @@
-<div id="content-header">
-  <h1>JCS_Pair</h1>
-</div>
+# JCS_Pair
 
-<p>
-  Pair data structure, simply contain two type of data.
-</p>
+Pair data structure, simply contain two type of data.

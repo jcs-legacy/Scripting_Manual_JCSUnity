@@ -1,16 +1,9 @@
-<div id="content-header">
-  <h1>JCS_3DPositionTileAction</h1>
-</div>
+# JCS_3DPositionTileAction
 
-<p>
-  If gameobject goes a certain range set back
-  to original positioin.
-</p>
+If gameobject goes a certain range set back to original positioin.
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>

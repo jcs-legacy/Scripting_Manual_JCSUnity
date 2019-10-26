@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_DeactivePanelGamePadButton</h1>
-</div>
+# JCS_DeactivePanelGamePadButton
 
-<p>
-  Button that deactive the panel. (Gamepad)
-</p>
+Button that deactive the panel. (Gamepad)
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>

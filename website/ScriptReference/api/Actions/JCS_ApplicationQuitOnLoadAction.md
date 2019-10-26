@@ -1,7 +1,3 @@
-<div id="content-header">
-  <h1>JCS_ApplicationQuitOnLoadAction</h1>
-</div>
+# JCS_ApplicationQuitOnLoadAction
 
-<p>
-  Close the application when the level is loaded.
-</p>
+Close the application when the level is loaded.

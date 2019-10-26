@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_ParticleSystem</h1>
-</div>
+# JCS_ParticleSystem
 
-<p>
-  Particle System thats spawns `JCS_Particle` object.
-</p>
+Particle System thats spawns `JCS_Particle` object.
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>
@@ -107,9 +101,7 @@
 </table>
 
 
-<br/>
-<h2>Functions</h2>
-<br/>
+## Functions
 
 <table>
   <tr>

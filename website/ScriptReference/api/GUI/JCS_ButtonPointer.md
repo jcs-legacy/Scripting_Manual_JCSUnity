@@ -1,16 +1,10 @@
-<div id="content-header">
-  <h1>JCS_ButtonPointer</h1>
-</div>
+# JCS_ButtonPointer
 
-<p>
-  Pointer points to the button, to acknowledge the player which button is
-  the player currently selected.
-</p>
+Pointer points to the button, to acknowledge the player which button is
+the player currently selected.
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>

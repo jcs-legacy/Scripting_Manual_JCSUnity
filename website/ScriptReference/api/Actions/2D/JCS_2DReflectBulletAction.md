@@ -1,7 +1,4 @@
-<div id="content-header">
-  <h1>JCS_2DReflectBulletAction</h1>
-</div>
+# JCS_2DReflectBulletAction
 
-<p>
-  Object that reflect the bullet.
-</p>
+Object that reflect the bullet.
+

@@ -1,7 +1,3 @@
-<div id="content-header">
-  <h1>JCS_3DPlayer</h1>
-</div>
+# JCS_3DPlayer
 
-<p>
-  3D base player.
-</p>
+3D base player.

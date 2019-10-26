@@ -1,7 +1,3 @@
-<div id="content-header">
-  <h1>JCS_KeyActionType</h1>
-</div>
+# JCS_KeyActionType
 
-<p>
-  Key input type.
-</p>
+Key input type.

@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_AlphaObject</h1>
-</div>
+# JCS_AlphaObject
 
-<p>
-  Transition with alpha channel.
-</p>
+Transition with alpha channel.
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>

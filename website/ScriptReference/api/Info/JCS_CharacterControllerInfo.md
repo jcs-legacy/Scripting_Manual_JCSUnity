@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_CharacterControllerInfo</h1>
-</div>
+# JCS_CharacterControllerInfo
 
-<p>
-  Hold all the info for the character controller.
-</p>
+Hold all the info for the character controller.
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>

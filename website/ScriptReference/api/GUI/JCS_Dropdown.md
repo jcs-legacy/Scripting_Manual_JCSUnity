@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_Dropdown</h1>
-</div>
+# JCS_Dropdown
 
-<p>
-  A better version of dropdown handle for uGUI.
-</p>
+A better version of dropdown handle for uGUI.
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>
@@ -27,9 +21,7 @@
 </table>
 
 
-<br/>
-<h2>Functions</h2>
-<br/>
+## Functions
 
 <table>
   <tr>

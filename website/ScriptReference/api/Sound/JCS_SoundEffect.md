@@ -1,7 +1,3 @@
-<div id="content-header">
-  <h1>JCS_SoundEffect</h1>
-</div>
+# JCS_SoundEffect
 
-<p>
-  Sound Effect for enivronment use.
-</p>
+Sound Effect for enivronment use.

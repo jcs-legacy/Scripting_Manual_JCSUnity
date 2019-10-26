@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_NetworkConstant</h1>
-</div>
+# JCS_NetworkConstant
 
-<p>
-  Store all the network constants/configurations here.
-</p>
+Store all the network constants/configurations here.
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>

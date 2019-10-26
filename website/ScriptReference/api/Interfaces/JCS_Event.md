@@ -1,7 +1,3 @@
-<div id="content-header">
-  <h1>JCS_Event</h1>
-</div>
+# JCS_Event
 
-<p>
-  Event base class.
-</p>
+Event base class.

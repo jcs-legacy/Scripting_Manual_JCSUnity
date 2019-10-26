@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_LiquidBarText</h1>
-</div>
+# JCS_LiquidBarText
 
-<p>
-  Text to show the current value for the liquid bar.
-</p>
+Text to show the current value for the liquid bar.
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>

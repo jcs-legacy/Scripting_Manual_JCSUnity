@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_BinaryReader</h1>
-</div>
+ # JCS_BinaryReader
 
-<p>
-  Custom binary reader.
-</p>
+Custom binary reader.
 
 
-<br/>
-<h2>Functions</h2>
-<br/>
+## Functions
 
 <table>
   <tr>

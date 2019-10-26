@@ -1,7 +1,3 @@
-<div id="content-header">
-  <h1>JCS_GameSocket</h1>
-</div>
+# JCS_GameSocket
 
-<p>
-  Game socket interface.
-</p>
+Game socket interface.

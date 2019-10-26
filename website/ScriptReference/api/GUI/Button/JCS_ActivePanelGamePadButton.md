@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_ActivePanelGamePadButton</h1>
-</div>
+# JCS_ActivePanelGamePadButton
 
-<p>
-  Button that active the panel. (Gamepad)
-</p>
+Button that active the panel. (Gamepad)
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>

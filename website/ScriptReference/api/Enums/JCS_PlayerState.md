@@ -1,7 +1,3 @@
-<div id="content-header">
-  <h1>JCS_PlayerState</h1>
-</div>
+# JCS_PlayerState
 
-<p>
-  List of cutsom player state.
-</p>
+List of cutsom player state.

@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_ToggleSign</h1>
-</div>
+# JCS_ToggleSign
 
-<p>
-  Sign of the toggle button.
-</p>
+Sign of the toggle button.
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>

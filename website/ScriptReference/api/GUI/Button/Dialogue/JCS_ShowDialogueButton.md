@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_ShowDialogueButton</h1>
-</div>
+# JCS_ShowDialogueButton
 
-<p>
-  Click the button to show multiple dialogue.
-</p>
+Click the button to show multiple dialogue.
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>

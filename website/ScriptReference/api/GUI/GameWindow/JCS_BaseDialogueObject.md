@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_BaseDialogueObject</h1>
-</div>
+# JCS_BaseDialogueObject
 
-<p>
-  Base dialogue define.
-</p>
+Base dialogue define.
 
 
-<br/>
-<h2>Functions</h2>
-<br/>
+## Functions
 
 <table>
   <tr>

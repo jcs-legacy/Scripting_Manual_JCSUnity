@@ -1,7 +1,3 @@
-<div id="content-header">
-  <h1>JCS_WhiteScreen</h1>
-</div>
+# JCS_WhiteScreen
 
-<p>
-  White screen for effect usage.
-</p>
+White screen for effect usage.

@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_GUITextPool</h1>
-</div>
+# JCS_GUITextPool
 
-<p>
-  Text pool using Unity Engine's uGUI system.
-</p>
+Text pool using Unity Engine's uGUI system.
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>

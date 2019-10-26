@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_HitListEvent</h1>
-</div>
+# JCS_HitListEvent
 
-<p>
-  Check if the object hit something on the list.
-</p>
+Check if the object hit something on the list.
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>

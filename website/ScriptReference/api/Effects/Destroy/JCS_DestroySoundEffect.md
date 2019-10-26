@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_DestroySoundEffect</h1>
-</div>
+# JCS_DestroySoundEffect
 
-<p>
-  Effect that play the sound after the gameobject is destroyed.
-</p>
+Effect that play the sound after the gameobject is destroyed.
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>

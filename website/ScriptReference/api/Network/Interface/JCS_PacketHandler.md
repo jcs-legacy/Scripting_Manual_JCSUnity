@@ -1,7 +1,3 @@
-<div id="content-header">
-  <h1>JCS_PacketHandler</h1>
-</div>
+# JCS_PacketHandler
 
-<p>
-  Basis for packet handler.
-</p>
+Basis for packet handler.

@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_ShowDialogueGamePadButton</h1>
-</div>
+# JCS_ShowDialogueGamePadButton
 
-<p>
-  Click the button to show multiple dialogue. (Gamepad)
-</p>
+Click the button to show multiple dialogue. (Gamepad)
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>

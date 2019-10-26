@@ -1,7 +1,3 @@
-<div id="content-header">
-  <h1>JCS_2DLiveObject</h1>
-</div>
+# JCS_2DLiveObject
 
-<p>
-  2D live object identifier.
-</p>
+2D live object identifier.

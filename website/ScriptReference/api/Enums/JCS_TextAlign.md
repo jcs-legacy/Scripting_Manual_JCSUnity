@@ -1,7 +1,3 @@
-<div id="content-header">
-  <h1>JCS_TextAlign</h1>
-</div>
+# JCS_TextAlign
 
-<p>
-  Text alignment.
-</p>
+Text alignment.

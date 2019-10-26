@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_ScriptTester</h1>
-</div>
+# JCS_ScriptTester
 
-<p>
-  Tester to test the script system/dialgoue system.
-</p>
+Tester to test the script system/dialgoue system.
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>

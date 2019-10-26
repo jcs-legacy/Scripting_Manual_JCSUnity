@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_2DDynamicSceneManager</h1>
-</div>
+# JCS_2DDynamicSceneManager
 
-<p>
-  Scene manager manage the scene order by object in the hierarchy.
-</p>
+Scene manager manage the scene order by object in the hierarchy.
 
 
-<br/>
-<h2>Functions</h2>
-<br/>
+## Functions
 
 <table>
   <tr>

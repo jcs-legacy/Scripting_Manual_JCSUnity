@@ -1,7 +1,3 @@
-<div id="content-header">
-  <h1>JCS_PanelChild</h1>
-</div>
+# JCS_PanelChild
 
-<p>
-  Identify to panel's children.
-</p>
+Identify to panel's children.

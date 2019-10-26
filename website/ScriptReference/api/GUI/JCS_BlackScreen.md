@@ -1,7 +1,3 @@
-<div id="content-header">
-  <h1>JCS_BlackScreen</h1>
-</div>
+# JCS_BlackScreen
 
-<p>
-  Black screen for effect usage.
-</p>
+Black screen for effect usage.

@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_TextAnimation</h1>
-</div>
+# JCS_TextAnimation
 
-<p>
-  Text animation that will display text accordingly.
-</p>
+Text animation that will display text accordingly.
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
     <tr>
@@ -35,9 +29,7 @@
 </table>
 
 
-<br/>
-<h2>Functions</h2>
-<br/>
+## Functions
 
 <table>
   <tr>
@@ -47,20 +39,10 @@
 </table>
 
 
-<br/>
-<br/>
-<hr>
-<h2>** Demo **</h2>
-<hr>
-<br/>
+## ** Demo **
 
 <img src="./images/GUI/Text/JCS_TextAnimation/demo.gif"/>
 
-<br/>
-<br/>
-<hr>
-<h2>** Inpsector View **</h2>
-<hr>
-<br/>
+## ** Inpsector View **
 
 <img src="./images/GUI/Text/JCS_TextAnimation/inspector.png"/>

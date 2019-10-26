@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_ApplyDamageTextToLiveObjectAction</h1>
-</div>
+# JCS_ApplyDamageTextToLiveObjectAction
 
-<p>
-  Apply the damage to live object by automatically.
-</p>
+Apply the damage to live object by automatically.
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>
@@ -66,9 +60,7 @@
 </table>
 
 
-<br/>
-<h2>Functions</h2>
-<br/>
+## Functions
 
 <table>
   <tr>

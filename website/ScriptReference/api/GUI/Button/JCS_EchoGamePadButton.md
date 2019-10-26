@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_EchoGamePadButton</h1>
-</div>
+# JCS_EchoGamePadButton
 
-<p>
-  Echo out a string on the console window when this button triggered. (Gamepad)
-</p>
+Echo out a string on the console window when this button triggered. (Gamepad)
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>

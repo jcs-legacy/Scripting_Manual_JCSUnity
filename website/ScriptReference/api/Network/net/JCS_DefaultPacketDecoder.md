@@ -1,7 +1,3 @@
-<div id="content-header">
-  <h1>JCS_DefaultPacketDecoder</h1>
-</div>
+# JCS_DefaultPacketDecoder
 
-<p>
-  Decoder, use to decode the packet received.
-</p>
+Decoder, use to decode the packet received.

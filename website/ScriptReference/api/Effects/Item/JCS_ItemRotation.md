@@ -1,7 +1,3 @@
-<div id="content-header">
-  <h1>JCS_ItemRotation</h1>
-</div>
+# JCS_ItemRotation
 
-<p>
-  Item rotation effect.
-</p>
+Item rotation effect.

@@ -1,7 +1,3 @@
-<div id="content-header">
-  <h1>JCS_DestroyParticleEndEvent</h1>
-</div>
+# JCS_DestroyParticleEndEvent
 
-<p>
-  Destroy when the particle system ends.
-</p>
+Destroy when the particle system ends.

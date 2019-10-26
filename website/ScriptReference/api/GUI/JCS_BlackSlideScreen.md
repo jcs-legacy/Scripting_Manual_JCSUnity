@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_BlackSlideScreen</h1>
-</div>
+# JCS_BlackSlideScreen
 
-<p>
-  Black slide screen for effect usage.
-</p>
+Black slide screen for effect usage.
 
 
-<br/>
-<h2>Functions</h2>
-<br/>
+## Functions
 
 <table>
   <tr>

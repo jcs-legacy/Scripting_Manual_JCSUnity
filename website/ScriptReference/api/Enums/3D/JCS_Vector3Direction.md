@@ -1,7 +1,3 @@
-<div id="content-header">
-  <h1>JCS_Vector3Direction</h1>
-</div>
+# JCS_Vector3Direction
 
-<p>
-  Vector 3 with enum.
-</p>
+Vector 3 with enum.

@@ -1,7 +1,3 @@
-<div id="content-header">
-  <h1>JCS_Align</h1>
-</div>
+# JCS_Align
 
-<p>
-  Align sides.
-</p>
+Align sides.

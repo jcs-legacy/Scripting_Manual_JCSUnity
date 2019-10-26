@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_LoadSceneGamePadButton</h1>
-</div>
+# JCS_LoadSceneGamePadButton
 
-<p>
-  Button will load the target scene. (Gamepad)
-</p>
+Button will load the target scene. (Gamepad)
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>

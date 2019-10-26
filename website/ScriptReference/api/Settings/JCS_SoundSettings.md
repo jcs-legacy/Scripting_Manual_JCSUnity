@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_SoundSettings</h1>
-</div>
+# JCS_SoundSettings
 
-<p>
-  Sound related settings.
-</p>
+Sound related settings.
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>

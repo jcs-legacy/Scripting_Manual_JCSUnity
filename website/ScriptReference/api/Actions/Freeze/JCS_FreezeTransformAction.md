@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_FreezeTransformAction</h1>
-</div>
+# JCS_FreezeTransformAction
 
-<p>
-  Action that freeze the gameobject position, rotation and scale.
-</p>
+Action that freeze the gameobject position, rotation and scale.
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>

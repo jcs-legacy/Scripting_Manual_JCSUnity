@@ -1,7 +1,3 @@
-<div id="content-header">
-  <h1>JCS_ApplicationCloseSimulateSceneTextAction</h1>
-</div>
+# JCS_ApplicationCloseSimulateSceneTextAction
 
-<p>
-  Text shown in the application close simluate scene.
-</p>
+Text shown in the application close simluate scene.

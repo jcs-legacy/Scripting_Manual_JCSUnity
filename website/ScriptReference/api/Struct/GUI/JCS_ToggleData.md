@@ -1,10 +1,6 @@
-<div id="content-header">
-  <h1>JCS_ToggleData</h1>
-</div>
+JCS_ToggleData
 
-<p>Toggle data container.</p>
-
-<br/>
+Toggle data container.
 
 <table>
   <tr>

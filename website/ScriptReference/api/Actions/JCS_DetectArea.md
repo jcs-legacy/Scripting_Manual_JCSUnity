@@ -1,10 +1,3 @@
-<div id="content-header">
-  <h1>JCS_DetectArea</h1>
-</div>
+# JCS_DetectArea
 
-<p>
-  The collider to detect
-  <a href="?page=Actions_sl_JCS_DetectAreaObject">
-    JCS_DetectAreaObject
-  </a>.
-</p>
+The collider to detect [JCS_DetectAreaObject](?page=Actions_sl_JCS_DetectAreaObject).

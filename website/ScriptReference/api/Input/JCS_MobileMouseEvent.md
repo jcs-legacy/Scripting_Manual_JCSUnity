@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_MobileMouseEvent</h1>
-</div>
+# JCS_MobileMouseEvent
 
-<p>
-  Use this to receiving the single from mobile touch input/bufffer.
-</p>
+Use this to receiving the single from mobile touch input/bufffer.
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>

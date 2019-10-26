@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_2DLight</h1>
-</div>
+# JCS_2DLight
 
-<p>
-  2D sprite light object.
-</p>
+2D sprite light object.
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>

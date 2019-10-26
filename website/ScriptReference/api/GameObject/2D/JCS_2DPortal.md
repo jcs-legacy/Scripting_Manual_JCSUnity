@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_2DPortal</h1>
-</div>
+# JCS_2DPortal
 
-<p>
-  2D portal.
-</p>
+2D portal.
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>
@@ -43,9 +37,7 @@
 </table>
 
 
-<br/>
-<h2>Functions</h2>
-<br/>
+## Functions
 
 <table>
   <tr>

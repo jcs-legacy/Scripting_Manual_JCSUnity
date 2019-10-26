@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_SlideInput</h1>
-</div>
+# JCS_SlideInput
 
-<p>
-  Use this to receive the slide input from the device buffer.
-</p>
+Use this to receive the slide input from the device buffer.
 
 
-<br/>
-<h2>Functions</h2>
-<br/>
+## Functions
 
 <table>
   <tr>

@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_GameWindowHandler</h1>
-</div>
+# JCS_GameWindowHandler
 
-<p>
-  Object to create the instance of Game Window.
-</p>
+Object to create the instance of Game Window.
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>

@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_Vector</h1>
-</div>
+# JCS_Vector
 
-<p>
-  Vector data structure implementation.
-</p>
+Vector data structure implementation.
 
 
-<br/>
-<h2>Functions</h2>
-<br/>
+## Functions
 
 <table>
   <tr>

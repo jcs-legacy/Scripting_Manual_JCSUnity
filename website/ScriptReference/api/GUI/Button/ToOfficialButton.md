@@ -1,7 +1,3 @@
-<div id="content-header">
-  <h1>ToOfficialButton</h1>
-</div>
+# ToOfficialButton
 
-<p>
-  Button will direct to official page url.
-</p>
+Button will direct to official page url.

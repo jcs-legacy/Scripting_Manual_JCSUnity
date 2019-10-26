@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_ApplicationSettings</h1>
-</div>
+# JCS_ApplicationSettings
 
-<p>
-  Application related settings will be put here.
-</p>
+Application related settings will be put here.
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>

@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_3DGoStraightAction</h1>
-</div>
+# JCS_3DGoStraightAction
 
-<p>
-  Move forward base on their own direction.
-</p>
+Move forward base on their own direction.
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>

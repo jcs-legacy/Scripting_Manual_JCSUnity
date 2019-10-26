@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_ColorTweener</h1>
-</div>
+# JCS_ColorTweener
 
-<p>
-  Color tweener.
-</p>
+Color tweener.
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>
@@ -67,9 +61,7 @@
 </table>
 
 
-<br/>
-<h2>Functions</h2>
-<br/>
+## Functions
 
 <table>
   <tr>

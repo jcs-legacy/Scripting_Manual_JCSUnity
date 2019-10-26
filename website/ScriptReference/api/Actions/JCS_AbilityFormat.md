@@ -1,7 +1,3 @@
-<div id="content-header">
-  <h1>JCS_AbilityFormat</h1>
-</div>
+# JCS_AbilityFormat
 
-<p>
-  Ability format interface.
-</p>
+Ability format interface.

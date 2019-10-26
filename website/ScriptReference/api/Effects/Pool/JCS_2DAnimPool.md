@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_2DAnimPool</h1>
-</div>
+# JCS_2DAnimPool
 
-<p>
-  Pool of 2D animation.
-</p>
+Pool of 2D animation.
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>

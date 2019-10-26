@@ -1,7 +1,3 @@
-<div id="content-header">
-  <h1>JCS_SpeedLayer</h1>
-</div>
+# JCS_SpeedLayer
 
-<p>
-  Layer of the speed.
-</p>
+Layer of the speed.

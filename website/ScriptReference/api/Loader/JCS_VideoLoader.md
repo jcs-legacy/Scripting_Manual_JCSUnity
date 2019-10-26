@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_VideoLoader</h1>
-</div>
+# JCS_VideoLoader
 
-<p>
-  Video loader, load an external video file.
-</p>
+Video loader, load an external video file.
 
 
-<br/>
-<h2>Functions</h2>
-<br/>
+## Functions
 
 <table>
   <tr>
@@ -19,15 +13,12 @@
 </table>
 
 
-<br/>
-<h2>Examle</h2>
-<br/>
+## Example
 
-<div class="code-block">
-  VideoPlayer vp = GetComponent-<-VideoPlayer->-();
+```cs
+VideoPlayer vp = GetComponent<VideoPlayer>();
 
-  string filePath = "path/to/video/file.mp4";
+string filePath = "path/to/video/file.mp4";
 
-  JCS_VideoLoader.LoadVideo(vp, filePath);
-  
-</div>
+JCS_VideoLoader.LoadVideo(vp, filePath);
+```

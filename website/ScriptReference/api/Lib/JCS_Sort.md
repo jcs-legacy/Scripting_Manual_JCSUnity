@@ -1,19 +1,10 @@
-<div id="content-header">
-  <h1>JCS_Sort</h1>
-</div>
+# JCS_Sort
 
-<p>
-  Sort layer for
-  <a href="?page=Interfaces_sl_JCS_SortingObject">
-    JCS_SortingObject
-  </a>.
-  This will help sort the object by using the order index.
-</p>
+Sort layer for [JCS_SortingObject](?page=Interfaces_sl_JCS_SortingObject).
+This will help sort the object by using the order index.
 
 
-<br/>
-<h2>Functions</h2>
-<br/>
+## Functions
 
 <table>
   <tr>
@@ -27,22 +18,19 @@
 </table>
 
 
-<br/>
-<h2>Example</h2>
-<br/>
+## Example
 
-<p>SortObjectExample.cs</p>
-<div class="code-block">
+SortObjectExample.cs
+
+```cs
   pubic class SortObjectExample : JCS_SortingObject {
       // Just an example class.
   }
+```
 
-</div>
+Usage
 
-<br/>
-
-<p>Usage</p>
-<div class="code-block">
+```cs
   // Collect all SortObjectExample.
   SortObjectExample[] soes = parentObj.GetComponentsInChildren-<-SortObjectExample->-();
 
@@ -54,5 +42,4 @@
 
   // Do th insertion sort.
   sortExample.InsertionSort();
-
-</div>
+```

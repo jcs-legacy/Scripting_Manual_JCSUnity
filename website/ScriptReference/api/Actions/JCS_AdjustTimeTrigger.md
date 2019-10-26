@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_AdjustTimeTrigger</h1>
-</div>
+# JCS_AdjustTimeTrigger
 
-<p>
-  Trigger a event while the time is reached.
-</p>
+Trigger a event while the time is reached.
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>
@@ -31,9 +25,7 @@
 </table>
 
 
-<br/>
-<h2>Functions</h2>
-<br/>
+## Functions
 
 <table>
   <tr>

@@ -1,7 +1,3 @@
-<div id="content-header">
-  <h1>JCS_2DBullet</h1>
-</div>
+# JCS_2DBullet
 
-<p>
-  Bullet base class.
-</p>
+Bullet base class.

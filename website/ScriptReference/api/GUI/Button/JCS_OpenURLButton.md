@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_OpenURLButton</h1>
-</div>
+# JCS_OpenURLButton
 
-<p>
-  Open a URL in the default browser.
-</p>
+Open a URL in the default browser.
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>

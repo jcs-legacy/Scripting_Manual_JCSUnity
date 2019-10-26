@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_ToggleGamePadButton</h1>
-</div>
+# JCS_ToggleGamePadButton
 
-<p>
-  Button that have two callback can toggle each other. (Gamepad)
-</p>
+Button that have two callback can toggle each other. (Gamepad)
 
 
-<br/>
-<h2>Functions</h2>
-<br/>
+## Functions
 
 <table>
   <tr>

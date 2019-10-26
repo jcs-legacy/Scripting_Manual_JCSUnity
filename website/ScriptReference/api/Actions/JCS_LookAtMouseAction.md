@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_LookAtMouseAction</h1>
-</div>
+# JCS_LookAtMouseAction
 
-<p>
-  Action make gameobject look at the mouse position.
-</p>
+Action make gameobject look at the mouse position.
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>

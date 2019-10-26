@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_WaitDestroySoundEndEvent</h1>
-</div>
+# JCS_WaitDestroySoundEndEvent
 
-<p>
-  Ensure while playing the sound, this gameobject does not get destroyed.
-</p>
+Ensure while playing the sound, this gameobject does not get destroyed.
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>

@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_2DMoveTile</h1>
-</div>
+# JCS_2DMoveTile
 
-<p>
-  Moving tile usually as a background.
-</p>
+Moving tile usually as a background.
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>

@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_EnvironmentSoundPlayer</h1>
-</div>
+# JCS_EnvironmentSoundPlayer
 
-<p>
-  Sound player specific for environment sound.
-</p>
+Sound player specific for environment sound.
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>

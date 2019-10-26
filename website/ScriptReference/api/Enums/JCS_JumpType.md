@@ -1,7 +1,3 @@
-<div id="content-header">
-  <h1>JCS_JumpType</h1>
-</div>
+# JCS_JumpType
 
-<p>
-  List of type of jumping action.
-</p>
+List of type of jumping action.

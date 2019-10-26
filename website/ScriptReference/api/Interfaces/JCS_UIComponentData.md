@@ -1,7 +1,3 @@
-<div id="content-header">
-  <h1>JCS_UIComponentData</h1>
-</div>
+# JCS_UIComponentData
 
-<p>
-  UI component data root struct.
-</p>
+UI component data root struct.

@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_GamePadAnimationHandler</h1>
-</div>
+# JCS_GamePadAnimationHandler
 
-<p>
-  Handle the animation between weather the gamepad is plugged/unplugged.
-</p>
+Handle the animation between weather the gamepad is plugged/unplugged.
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>

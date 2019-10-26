@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_RelativeFreezePositionAction</h1>
-</div>
+# JCS_RelativeFreezePositionAction
 
-<p>
-  Action freeze the gameobject by relative distance.
-</p>
+Action freeze the gameobject by relative distance.
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>

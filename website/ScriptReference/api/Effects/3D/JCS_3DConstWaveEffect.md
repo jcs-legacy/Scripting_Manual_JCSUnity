@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_3DConstWaveEffect</h1>
-</div>
+# JCS_3DConstWaveEffect
 
-<p>
-  Effect that does constant wave.
-</p>
+Effect that does constant wave.
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>

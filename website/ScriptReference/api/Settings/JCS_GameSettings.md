@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_GameSettings</h1>
-</div>
+# JCS_GameSettings
 
-<p>
-  Hold the general game settings.
-</p>
+Hold the general game settings.
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>

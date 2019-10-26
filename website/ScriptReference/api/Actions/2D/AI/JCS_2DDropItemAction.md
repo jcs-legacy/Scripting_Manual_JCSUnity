@@ -1,15 +1,9 @@
-<div id="content-header">
-  <h1>JCS_2DDropItemAction</h1>
-</div>
+# JCS_2DDropItemAction
 
-<p>
-  Action makes the gameobject drops item.
-</p>
+Action makes the gameobject drops item.
 
 
-<br/>
-<h2>Variables</h2>
-<br/>
+## Variables
 
 <table>
   <tr>
