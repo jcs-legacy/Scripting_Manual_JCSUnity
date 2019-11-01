@@ -5,9 +5,9 @@ JCSUnity. To use this information, you should be familiar with Unity Scripting A
 and the concept of the basic game engine architecture.
 
 This scripting reference is layouted corresponding to JCSUnity scripts
-section under
-[JCSUnity assets folder](https://github.com/jcs090218/JCSUnity/tree/master/Assets/JCSUnity/Scripts)  
-. In addition, is organized according to the classes avaliable to scripts which
+section under 
+[JCSUnity assets folder](https://github.com/jcs090218/JCSUnity/tree/master/Assets/JCSUnity/Scripts). 
+In addition, is organized according to the classes avaliable to scripts which
 are described along with their variables, functions and any other relevant
 information to use.
 

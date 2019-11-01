@@ -5,8 +5,7 @@ This class makes sure each gameobject will still use the same variable name.
 
 For instance, if you want to enable/disable an gameobject. By using this interface
 you do not need to know what exactly the component you are trying to enable
-/disable. You can just call
-<span class="code-inline">GetComponent-<-JCS_UnityObject->-().LocalEnable = true;</span>
+/disable. You can just call `GetComponent<JCS_UnityObject>().LocalEnable = true;`
 instead of trying to identify the component type and change the specific variable
 from its component.
 
@@ -87,6 +86,7 @@ from its component.
     <td>Flip the gameobject in y-axis.</td>
   </tr>
 </table>
+
 
 ## Functions
 
