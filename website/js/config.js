@@ -13,6 +13,9 @@
 // Manual config.
 const manual_name = "JCSUnity";
 
+const header_color = '#222C37';
+const arrow_color = '#19E3B1';
+
 // Version config.
 const version_title_01 = "JCSUnity Version: ";
 const version_title_02 = "Unity Version: ";
