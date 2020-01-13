@@ -253,9 +253,13 @@
   function initPage() {
     initGlobalPage();
     if (checkPageFound(manualPage)) {
+      document.title = manual_name + ' - Scripting Manual';
       initManulPage();
     } else if (checkPageFound(scriptReferencePage)) {
+      document.title = manual_name + ' - Scripting API';
       initScriptReferencePage();
+    } else {
+      console.log("[ERROR] This page section doesn't exists");
     }
   }
 
@@ -465,7 +469,7 @@
 
     jQuery.get(fullPath, function (text) {
       showdown.setFlavor('github');
-      let converter = new showdown.Converter();
+      let converter = new showdown.Converter({ extensions: ['codehighlight'] });
       converter.setOption('simpleLineBreaks', false);
       let html = converter.makeHtml(text);
       content.html(html);
