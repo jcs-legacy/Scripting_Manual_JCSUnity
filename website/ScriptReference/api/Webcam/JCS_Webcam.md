@@ -2,7 +2,7 @@
 
 Basic webcam class usage.
 
-## Variables<
+## Variables
 
 <table>
   <tr>
