@@ -58,6 +58,10 @@ header {
   font-size: 18px;
 }
 
+#selection-tab a {
+  text-decoration: none;
+}
+
 #selection-tab {
   display: inline-block;
   position: absolute;
