@@ -25,7 +25,7 @@ const version_title_05 = "";
 const version_title_06 = "";
 const version_title_07 = "";
 
-const version_num_01 = "1.9.6";
+const version_num_01 = "2.0.1";
 const version_num_02 = "2019.3.3f1";
 const version_num_03 = "";
 const version_num_04 = "";
