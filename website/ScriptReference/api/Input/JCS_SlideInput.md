@@ -23,8 +23,8 @@ Use this to receive the slide input from the device buffer.
 <td>Drag displacement.</td>
 </tr>
 <tr>
-<td>Multiple touches distance in average.TouchDistance</td>
-<td></td>
+<td>TouchDistance</td>
+<td>Multiple touches distance in average.</td>
 </tr>
 <tr>
 <td>DeltaPos</td>
