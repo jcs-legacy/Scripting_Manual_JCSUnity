@@ -23,11 +23,19 @@ Use this to receive the slide input from the device buffer.
 <td>Drag displacement.</td>
 </tr>
 <tr>
+<td>DeltaPos</td>
+<td>Delta value changes on the screen.</td>
+</tr>
+<tr>
+<td>MultiTouches</td>
+<td>Flag to check if mult touches.</td>
+</tr>
+<tr>
 <td>TouchDistance</td>
 <td>Multiple touches distance in average.</td>
 </tr>
 <tr>
-<td>DeltaPos</td>
-<td>Delta value changes on the screen.</td>
+<td>TouchDistanceDelta</td>
+<td>The multi touches distance delta changes per frame.</td>
 </tr>
 </table>
