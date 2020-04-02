@@ -6,8 +6,8 @@ The point to point simple path action.
 
 <table>
 <tr>
-<td>List of points for setting up the path.Points</td>
-<td></td>
+<td>Points</td>
+<td>List of points for setting up the path.</td>
 </tr>
 
 <tr>
