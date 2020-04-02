@@ -2,7 +2,6 @@
 
 Button that active the panel.
 
-
 ## Variables
 
 <table>
