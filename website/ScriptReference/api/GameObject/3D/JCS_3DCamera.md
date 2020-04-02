@@ -21,11 +21,6 @@ Basic camera in 3D game.
 </tr>
 
 <tr>
-<td>mSmoothTrack</td>
-<td>Do the smooth track instead of hard track."</td>
-</tr>
-
-<tr>
 <td>mSmoothTrackFriction</td>
 <td>How fast the camera track in each axis?</td>
 </tr>

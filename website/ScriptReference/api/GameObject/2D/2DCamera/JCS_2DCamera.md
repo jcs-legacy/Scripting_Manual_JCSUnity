@@ -16,13 +16,18 @@ Basic camera for 2d Games.
 </tr>
 
 <tr>
-<td>mHardTrack</td>
-<td>Hard track the target's transform?</td>
+<td>mResetVelocityToZeroWhileNotActive</td>
+<td>Set velocity to zero while the follow not active.</td>
 </tr>
 
 <tr>
-<td>mResetVelocityToZeroWhileNotActive</td>
-<td>Set velocity to zero while the follow not active.</td>
+<td>mFrictionX</td>
+<td>How fast this camera move toward the target. (x-axis)</td>
+</tr>
+
+<tr>
+<td>mFrictionY</td>
+<td>How fast this camera move toward the target. (y-axis)</td>
 </tr>
 
 <tr>
@@ -68,16 +73,6 @@ Basic camera for 2d Games.
 <tr>
 <td>mScrollFriction</td>
 <td>How fast it scroll. (Zoom In/Out)</td>
-</tr>
-
-<tr>
-<td>mFrictionX</td>
-<td>How fast this camera move toward the target. (x-axis)</td>
-</tr>
-
-<tr>
-<td>mFrictionY</td>
-<td>How fast this camera move toward the target. (y-axis)</td>
 </tr>
 
 <tr>
