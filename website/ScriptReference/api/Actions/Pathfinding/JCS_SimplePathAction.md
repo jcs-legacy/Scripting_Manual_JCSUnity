@@ -14,6 +14,11 @@ The point to point simple path action.
 <td>mRandom</td>
 <td>Random Random the path by randomizing the target point</td>
 </tr>
+
+<tr>
+<td>AcceptRange</td>
+<td>Range that will stop the movement.</td>
+</tr>
 </table>
 
 ## Require Components
