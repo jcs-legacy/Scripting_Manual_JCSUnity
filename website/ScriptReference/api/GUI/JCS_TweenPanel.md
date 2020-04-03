@@ -11,8 +11,8 @@ Panel that can do tween effect.
 </tr>
 
 <tr>
-<td>mTargetValue</td>
-<td>Do the tween effect to this value.</td>
+<td>TweenInfos</td>
+<td>List of tweener informations.</td>
 </tr>
 
 <tr>
