@@ -11,8 +11,8 @@ Player control that works with camera relatively.
 </tr>
 
 <tr>
-<td>Distance to place look point object.LookDistance</td>
-<td></td>
+<td>LookDistance</td>
+<td>Distance to place look point object.</td>
 </tr>
 
 <tr>
