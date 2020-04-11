@@ -11,13 +11,8 @@ Basic camera in 3D game.
 </tr>
 
 <tr>
-<td>mTargetAngle</td>
-<td>Angle when looking at the target.</td>
-</tr>
-
-<tr>
-<td>mTargetAngle</td>
-<td>Angle when looking at the target.</td>
+<td>mTargetRevolution</td>
+<td>Targeting revolution.</td>
 </tr>
 
 <tr>
@@ -26,13 +21,18 @@ Basic camera in 3D game.
 </tr>
 
 <tr>
-<td>mRotateSpeed</td>
+<td>mRotateFriction</td>
 <td>How fast this camera rotates.</td>
 </tr>
 
 <tr>
-<td>mAcceptRange</td>
-<td>Range when rotating to the target rotation.</td>
+<td>mRotateAngle</td>
+<td>Angle that rotate once.</td>
+</tr>
+
+<tr>
+<td>mResetTargetAngle</td>
+<td>Angle when reset the camera.</td>
 </tr>
 
 <tr>
@@ -116,12 +116,12 @@ Basic camera in 3D game.
 </tr>
 
 <tr>
-<td>mMinDistance</td>
+<td>MinDistance</td>
 <td>Mininum distance camera can approach to?</td>
 </tr>
 
 <tr>
-<td>mMaxDistance</td>
+<td>MaxDistance</td>
 <td>Maxinum distance camera can far away from?</td>
 </tr>
 </table>
