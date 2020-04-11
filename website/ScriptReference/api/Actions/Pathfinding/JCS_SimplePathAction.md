@@ -11,8 +11,8 @@ The point to point simple path action.
 </tr>
 
 <tr>
-<td>mRandom</td>
-<td>Random Random the path by randomizing the target point</td>
+<td>PathActionType</td>
+<td>Type of the path action.</td>
 </tr>
 
 <tr>
