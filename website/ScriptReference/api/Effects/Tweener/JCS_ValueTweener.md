@@ -30,7 +30,7 @@ Can only use for `float`.
 <tr>
 <td>Duration</td>
 <td>How fast it moves on value.</td>
-</tr>>
+</tr>
 
 <tr>
 <td>Easing</td>
