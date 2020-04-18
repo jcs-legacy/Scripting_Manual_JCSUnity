@@ -42,3 +42,12 @@ Can only use for `float`.
 <td>Callback after easing.</td>
 </tr>
 </table>
+
+## Functions
+
+<table>
+<tr>
+<td>DoTween</td>
+<td>Tween the value.</td>
+</tr>
+</table>
