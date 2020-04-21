@@ -11,7 +11,6 @@ in order to have JCSUnity work correctly in Unity Engine.
 * JCS_UtilitiesManager
 * JCS_GameManager
 * JCS_InputManager
-* JCS_MobileMouseEvent
 * JCS_UIManager
 * JCS_UndoRedoComponent
 * JCS_Canvas
@@ -32,6 +31,7 @@ in order to have JCSUnity work correctly in Unity Engine.
 * JCS_SlidePanel
 * JCS_GUILiquidBar
 * JCS_SlideEffect
+* JCS_MobileMouseEvent
 * JCS_DynamicSceneManager
 * JCS_TweenPanel
 * JCS_RollBtnSelector
