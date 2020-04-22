@@ -46,12 +46,12 @@ Use this to receive the slide input from the device buffer.
 </tr>
 
 <tr>
-<td>mMouseType</td>
+<td>MouseType</td>
 <td>Mouse event type of identify the touch event.</td>
 </tr>
 
 <tr>
-<td>mDetectTouchCount</td>
+<td>DetectTouchCount</td>
 <td>Touch count that will detect as touched.</td>
 </tr>
 </table>
