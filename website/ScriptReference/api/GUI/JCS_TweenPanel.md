@@ -6,13 +6,8 @@ Panel that can do tween effect.
 
 <table>
 <tr>
-<td>mIsActive</td>
-<td>Is panel active/tweened?</td>
-</tr>
-
-<tr>
-<td>TweenInfos</td>
-<td>List of tweener informations.</td>
+<td>OverrideTween</td>
+<td>Override the tween animation while is still playing.</td>
 </tr>
 
 <tr>
