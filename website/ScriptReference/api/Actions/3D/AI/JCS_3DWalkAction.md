@@ -26,13 +26,13 @@ Simulate the walk action in 3D space.
 </tr>
 
 <tr>
-<td>TargetTime</td>
-<td>Time to target the enemy.</td>
+<td>MinOffDistance</td>
+<td>Minimum randomly add vector with magnitude of distance at target position.</td>
 </tr>
 
 <tr>
-<td>AdjustTargetTime</td>
-<td>Adjust a bit of the attack time.</td>
+<td>MaxOffDistance</td>
+<td>Maximum randomly add vector with magnitude of distance at target position.</td>
 </tr>
 </table>
 
@@ -47,5 +47,10 @@ Simulate the walk action in 3D space.
 <tr>
 <td>NavMeshArrive</td>
 <td>Check if the nav mesh agent arrive the destination.</td>
+</tr>
+
+<tr>
+<td>IsArrived</td>
+<td>Check if nav mesh agent path completed.</td>
 </tr>
 </table>
