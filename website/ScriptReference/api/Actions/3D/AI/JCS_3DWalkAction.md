@@ -16,13 +16,18 @@ Simulate the walk action in 3D space.
 </tr>
 
 <tr>
+<td>AcceptRemainDistance</td>
+<td>What value count as path complete action.</td>
+</tr>
+
+<tr>
 <td>RangeDistance</td>
-<td>Range that enemy will try to get close to."</td>
+<td>Range that enemy will try to get close to.</td>
 </tr>
 
 <tr>
 <td>AdjustRangeDistance</td>
-<td>Randomly adjusts the range distance."</td>
+<td>Randomly adjusts the range distance.</td>
 </tr>
 
 <tr>
