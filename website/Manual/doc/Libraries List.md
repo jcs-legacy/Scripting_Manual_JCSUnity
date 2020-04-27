@@ -2,14 +2,11 @@
 
 Please download these library yourself.
 
-
 ### Necessary
 
-* SpriteMask : https://www.assetstore.unity3d.com/en/#!/content/27642
 * StandaloneFileBrowser : https://github.com/gkngkc/UnityStandaloneFileBrowser (included)
 * Tweener : https://github.com/PeterVuorela/Tweener (included)
 * UI-Polygon : https://github.com/CiaccoDavide/Unity-UI-Polygon (included)
-
 
 ### Recommanded
 
