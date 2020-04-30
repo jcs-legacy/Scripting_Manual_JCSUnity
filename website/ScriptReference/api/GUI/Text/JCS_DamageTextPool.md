@@ -11,12 +11,12 @@ Reusable damage text pool.
 </tr>
 
 <tr>
-<td>mDamagetText</td>
+<td>DamagetText</td>
 <td>Damage text clone.</td>
 </tr>
 
 <tr>
-<td>mSpacingPerText</td>
+<td>SpacingPerText</td>
 <td>Spacing per damage text.</td>
 </tr>
 
@@ -26,22 +26,27 @@ Reusable damage text pool.
 </tr>
 
 <tr>
+<td>FaceCamera</td>
+<td>Face the camera when called damage text.</td>
+</tr>
+
+<tr>
 <td>mHitSound</td>
 <td>Sound when spawns.</td>
 </tr>
 
 <tr>
-<td>mZiggeEffect</td>
+<td>ZiggeEffect</td>
 <td>Do the zigge effect?</td>
 </tr>
 
 <tr>
-<td>mRightAlign</td>
+<td>RightAlign</td>
 <td>Right align value.</td>
 </tr>
 
 <tr>
-<td>mLeftAlign</td>
+<td>LeftAlign</td>
 <td>Left align value.</td>
 </tr>
 </table>
