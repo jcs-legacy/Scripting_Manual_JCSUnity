@@ -21,16 +21,6 @@ Simulate the walk action in 3D space.
 </tr>
 
 <tr>
-<td>RangeDistance</td>
-<td>Range that enemy will try to get close to.</td>
-</tr>
-
-<tr>
-<td>AdjustRangeDistance</td>
-<td>Randomly adjusts the range distance.</td>
-</tr>
-
-<tr>
 <td>MinOffDistance</td>
 <td>Minimum randomly add vector with magnitude of distance at target position.</td>
 </tr>
@@ -38,6 +28,21 @@ Simulate the walk action in 3D space.
 <tr>
 <td>MaxOffDistance</td>
 <td>Maximum randomly add vector with magnitude of distance at target position.</td>
+</tr>
+
+<tr>
+<td>SelfDistance</td>
+<td>Self distance without target transform interact.</td>
+</tr>
+
+<tr>
+<td>RangeDistance</td>
+<td>Range that enemy will try to get close to.</td>
+</tr>
+
+<tr>
+<td>AdjustRangeDistance</td>
+<td>Randomly adjusts the range distance.</td>
 </tr>
 </table>
 
@@ -57,5 +62,10 @@ Simulate the walk action in 3D space.
 <tr>
 <td>IsArrived</td>
 <td>Check if nav mesh agent path completed.</td>
+</tr>
+
+<tr>
+<td>InRangeDistance</td>
+<td>Check if the transform in the range of the distance.</td>
 </tr>
 </table>
