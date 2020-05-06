@@ -16,6 +16,16 @@ Simulate the walk action in 3D space.
 </tr>
 
 <tr>
+<td>AllowOverlapDestination</td>
+<td>Allow each walk action having the same destination.</td>
+</tr>
+
+<tr>
+<td>OverlapDistance</td>
+<td>Distance that would count as overlap destination.</td>
+</tr>
+
+<tr>
 <td>AcceptRemainDistance</td>
 <td>What value count as path complete action.</td>
 </tr>
