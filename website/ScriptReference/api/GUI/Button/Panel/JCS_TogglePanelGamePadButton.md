@@ -9,8 +9,14 @@ Button that toggle one panel. (Game Pad)
 <td>DialogueObject</td>
 <td>Panel (dialogue) you want to toggle.</td>
 </tr>
+
 <tr>
 <td>TweenPanel</td>
 <td>Panel (tween) you want to toggle.</td>
+</tr>
+
+<tr>
+<td>PlaySound</td>
+<td>Play dialogue sound.</td>
 </tr>
 </table>
