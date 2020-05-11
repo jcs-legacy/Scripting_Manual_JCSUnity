@@ -2,13 +2,11 @@
 [![Release Tag](https://img.shields.io/github/tag/jcs090218/Scripting-Manual-JCSUnity.svg?label=release)](https://github.com/jcs090218/Scripting-Manual-JCSUnity/releases/latest)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
-
 # Scripting Manual - JCSUnity
 
 Scripting manual website for JCSUnity API. 
 
+## Links
 
-## Links ##
-
-* *Website* : <a href="http://www.jcs-profile.com:3001">JCSUnity-Scripting-Manual</a>
+* *Website* : [Scripting-Manual-JCSUnity](http://www.jcs-profile.com:3001)
 * *JCSUnity* : https://github.com/jcs090218/JCSUnity
