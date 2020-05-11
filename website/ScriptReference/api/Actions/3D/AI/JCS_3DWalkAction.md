@@ -16,6 +16,11 @@ Simulate the walk action in 3D space.
 </tr>
 
 <tr>
+<td>SearchCount</td>
+<td>Count for how many search per frame.</td>
+</tr>
+
+<tr>
 <td>AllowOverlapDestination</td>
 <td>Allow each walk action having the same destination.</td>
 </tr>
