@@ -1,6 +1,6 @@
-# JCS_2DShakeEffect
+# JCS_3DShakeEffect
 
-Effect that shake the transform in 2D.
+Effect that shake the transform in 3D.
 
 ## Variables
 
