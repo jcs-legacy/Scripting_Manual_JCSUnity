@@ -2,26 +2,15 @@
 
 Path finding unit.
 
-
 ## Variables
 
-<table>
-  <tr>
-    <td>mSpeed</td>
-    <td>Move speed.</td>
-  </tr>
-</table>
-
+| Name | Description |
+|:---|:---|
+| mSpeed | Move speed. |
 
 ## Functions
 
-<table>
-  <tr>
-    <td>ActivePathfinding</td>
-    <td>Make the path finding request and start doing the track movement.</td>
-  </tr>
-  <tr>
-    <td>OnPathFound</td>
-    <td>Delay the request function call.</td>
-  </tr>
-</table>
+| Name | Description |
+|:---|:---|
+| ActivePathfinding | Make the path finding request and start doing the track movement. |
+| OnPathFound | Delay the request function call. |

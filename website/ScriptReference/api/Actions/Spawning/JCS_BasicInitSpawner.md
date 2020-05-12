@@ -2,102 +2,33 @@
 
 Spawn transforms at the initialize time.
 
-
 ## Variables
 
-<table>
-  <tr>
-    <td>mSpawnList</td>
-    <td>List of transform you want to spawn.</td>
-  </tr>
-  <tr>
-    <td>mSpawnCount</td>
-    <td>How many transform you want to spawn?</td>
-  </tr>
-  <tr>
-    <td>mRandPosX</td>
-    <td>Spawn the item random position, in x-axis.</td>
-  </tr>
-  <tr>
-    <td>mRandPosRangeX</td>
-    <td>Randomize value in x-axis.</td>
-  </tr>
-  <tr>
-    <td>mRandPosY</td>
-    <td>Spawn the item random position, in y-axis.</td>
-  </tr>
-  <tr>
-    <td>mRandPosRangeY</td>
-    <td>Randomize value in y-axis.</td>
-  </tr>
-  <tr>
-    <td>mRandPosZ</td>
-    <td>Spawn the item random position, in z-axis.</td>
-  </tr>
-  <tr>
-    <td>mRandPosRangeZ</td>
-    <td>Randomize value in z-axis.</td>
-  </tr>
-  <tr>
-    <td>mRandRotationX</td>
-    <td>Randomize the rotation in x-axis?</td>
-  </tr>
-  <tr>
-    <td>mRandRotRangeX</td>
-    <td>Random rotation in range in x-axis.</td>
-  </tr>
-  <tr>
-    <td>mRandRotationY</td>
-    <td>Randomize the rotation in y-axis?</td>
-  </tr>
-  <tr>
-    <td>mRandRotRangeY</td>
-    <td>Random rotation in range in y-axis.</td>
-  </tr>
-  <tr>
-    <td>mRandRotationZ</td>
-    <td>Randomize the rotation in z-axis?</td>
-  </tr>
-  <tr>
-    <td>mRandRotRangeZ</td>
-    <td>Random rotation in range in z-axis.</td>
-  </tr>
-  <tr>
-    <td>mRandScaleX</td>
-    <td>Randomize the scale in x-axis?</td>
-  </tr>
-  <tr>
-    <td>mRandScaleRangeX</td>
-    <td>Random scale in range in x-axis.</td>
-  </tr>
-  <tr>
-    <td>mRandScaleY</td>
-    <td>Randomize the scale in y-axis?</td>
-  </tr>
-  <tr>
-    <td>mRandScaleRangeY</td>
-    <td>Random scale in range in y-axis.</td>
-  </tr>
-  <tr>
-    <td>mRandScaleZ</td>
-    <td>Randomize the scale in z-axis?</td>
-  </tr>
-  <tr>
-    <td>mRandScaleRangeZ</td>
-    <td>Random scale in range in z-axis.</td>
-  </tr>
-</table>
-
+| Name | Description |
+|:---|:---|
+| mSpawnList | List of transform you want to spawn. |
+| mSpawnCount | How many transform you want to spawn? |
+| mRandPosX | Spawn the item random position, in x-axis. |
+| mRandPosRangeX | Randomize value in x-axis. |
+| mRandPosY | Spawn the item random position, in y-axis. |
+| mRandPosRangeY | Randomize value in y-axis. |
+| mRandPosZ | Spawn the item random position, in z-axis. |
+| mRandPosRangeZ | Randomize value in z-axis. |
+| mRandRotationX | Randomize the rotation in x-axis? |
+| mRandRotRangeX | Random rotation in range in x-axis. |
+| mRandRotationY | Randomize the rotation in y-axis? |
+| mRandRotRangeY | Random rotation in range in y-axis. |
+| mRandRotationZ | Randomize the rotation in z-axis? |
+| mRandRotRangeZ | Random rotation in range in z-axis. |
+| mRandScaleX | Randomize the scale in x-axis? |
+| mRandScaleRangeX | Random scale in range in x-axis. |
+| mRandScaleY | Randomize the scale in y-axis? |
+| mRandScaleRangeY | Random scale in range in y-axis. |
+| mRandScaleZ | Randomize the scale in z-axis? |
+| mRandScaleRangeZ | Random scale in range in z-axis. |
 
 ## Functions
-
-<table>
-  <tr>
-    <td>SpawnATransform</td>
-    <td>Spawn a random transform.</td>
-  </tr>
-  <tr>
-    <td>InitSpawn</td>
-    <td>Spawn the transforms once.</td>
-  </tr>
-</table>
+| Name | Description |
+|:---|:---|
+| SpawnATransform | Spawn a random transform. |
+| InitSpawn | Spawn the transforms once. |

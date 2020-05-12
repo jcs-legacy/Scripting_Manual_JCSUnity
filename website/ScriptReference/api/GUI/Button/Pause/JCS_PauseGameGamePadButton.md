@@ -2,22 +2,14 @@
 
 Button that pause the game. (Gamepad)
 
-
 ## Variables
 
-<table>
-  <tr>
-    <td>mJCSButton</td>
-    <td>Button that will call to pause the button.</td>
-  </tr>
-</table>
-
+| Name | Description |
+|:---|:---|
+| mJCSButton | Button that will call to pause the button. |
 
 ## Functions
 
-<table>
-  <tr>
-    <td>PauseGame</td>
-    <td>Pause the game.</td>
-  </tr>
-</table>
+| Name | Description |
+|:---|:---|
+| PauseGame | Pause the game. |

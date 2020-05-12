@@ -2,38 +2,12 @@
 
 Path finding grid gameobject.
 
-
 ## Variables
-
-<table>
-  <tr>
-    <td>mUnwalkableMask</td>
-    <td>Mask to detect the unwalkable object.</td>
-  </tr>
-  <tr>
-    <td>mGridiWorldSize</td>
-    <td>Size of the whole grid map."</td>
-  </tr>
-  <tr>
-    <td>mNodeRadius</td>
-    <td>Size of each grid.</td>
-  </tr>
-  <tr>
-    <td>mDirection</td>
-    <td>Direction the grid approach to.</td>
-  </tr>
-</table>
-
+| mUnwalkableMask | Mask to detect the unwalkable object. |
+| mGridiWorldSize | Size of the whole grid map." |
+| mNodeRadius | Size of each grid. |
+| mDirection | Direction the grid approach to. |
 
 ## Functions
-
-<table>
-  <tr>
-    <td>GetNeighbours</td>
-    <td>Get the nodes around.</td>
-  </tr>
-  <tr>
-    <td>NodeFromWorldPoint</td>
-    <td>Find the node base on world position.</td>
-  </tr>
-</table>
+| GetNeighbours | Get the nodes around. |
+| NodeFromWorldPoint | Find the node base on world position. |

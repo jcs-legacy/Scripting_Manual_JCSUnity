@@ -2,42 +2,19 @@
 
 Handle liquid bar.
 
-
 ## Variables
 
-<table>
-  <tr>
-    <td>LiquidBar</td>
-    <td>Liquid bar to handle.</td>
-  </tr>
-</table>
-
+| Name | Description |
+|:---|:---|
+| LiquidBar | Liquid bar to handle. |
 
 ## Functions
 
-<table>
-  <tr>
-    <td>SetCurrentValue</td>
-    <td>Set the liquid bar value.</td>
-  </tr>
-  <tr>
-    <td>Full</td>
-    <td>Make the liquid bar value to maximum value.</td>
-  </tr>
-  <tr>
-    <td>Lack</td>
-    <td>Make the liquid bar value to minimum value.</td>
-  </tr>
-  <tr>
-    <td>IsAbleToCast</td>
-    <td>Check if the liquid bar have enough value.</td>
-  </tr>
-  <tr>
-    <td>DeltaAdd</td>
-    <td>Add to the current value.</td>
-  </tr>
-  <tr>
-    <td>DeltaSub</td>
-    <td>Subtract the current value.</td>
-  </tr>
-</table>
+| Name | Description |
+|:---|:---|
+| SetCurrentValue | Set the liquid bar value. |
+| Full | Make the liquid bar value to maximum value. |
+| Lack | Make the liquid bar value to minimum value. |
+| IsAbleToCast | Check if the liquid bar have enough value. |
+| DeltaAdd | Add to the current value. |
+| DeltaSub | Subtract the current value. |

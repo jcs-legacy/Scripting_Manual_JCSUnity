@@ -2,26 +2,15 @@
 
 Destroy the gameobject after plays the animation back and forth once.
 
-
 ## Variables
 
-<table>
-  <tr>
-    <td>mPlayTimes</td>
-    <td>How many times to plays back and forth before destorying.</td>
-  </tr>
-</table>
-
+| Name | Description |
+|:---|:---|
+| mPlayTimes | How many times to plays back and forth before destorying. |
 
 ## Functions
 
-<table>
-  <tr>
-    <td>PlayForth</td>
-    <td>Play the animation forth once.</td>
-  </tr>
-  <tr>
-    <td>PlayBack</td>
-    <td>Play the animation back once.</td>
-  </tr>
-</table>
+| Name | Description |
+|:---|:---|
+| PlayForth | Play the animation forth once. |
+| PlayBack | Play the animation back once. |

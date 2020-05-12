@@ -2,12 +2,8 @@
 
 Sound player specific for environment sound.
 
-
 ## Variables
 
-<table>
-  <tr>
-    <td>mEnvironmentSound</td>
-    <td>Sound to play for environment sound.</td>
-  </tr>
-</table>
+| Name | Description |
+|:---|:---|
+| mEnvironmentSound | Sound to play for environment sound. |

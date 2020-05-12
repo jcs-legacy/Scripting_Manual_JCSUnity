@@ -2,30 +2,16 @@
 
 Thorws a gameobject toward another gameobject.
 
-
 ## Variables
 
-<table>
-  <tr>
-    <td>mActive</td>
-    <td>Is this component active?</td>
-  </tr>
-  <tr>
-    <td>mGravityProduct</td>
-    <td>Mulitply the gravity.</td>
-  </tr>
-</table>
-
+| Name | Description |
+|:---|:---|
+| mActive | Is this component active? |
+| mGravityProduct | Mulitply the gravity. |
 
 ## Functions
 
-<table>
-  <tr>
-    <td>ThrowByTime</td>
-    <td>Do the throw action by time.</td>
-  </tr>
-  <tr>
-    <td>ThrowByForce</td>
-    <td>Do the throw action by calculate the kinematic.</td>
-  </tr>
-</table>
+| Name | Description |
+|:---|:---|
+| ThrowByTime | Do the throw action by time. |
+| ThrowByForce | Do the throw action by calculate the kinematic. |

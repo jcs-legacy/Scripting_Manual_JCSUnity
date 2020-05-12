@@ -2,12 +2,8 @@
 
 When object is on destroy, play the sound.
 
+## Variables
 
-## Variablesq
-
-<table>
-  <tr>
-    <td>mAudioClip</td>
-    <td>Audio clip to plays.</td>
-  </tr>
-</table>
+| Name | Description |
+|:---|:---|
+| mAudioClip | Audio clip to plays. |

@@ -2,26 +2,15 @@
 
 Pool of sound.
 
-
 ## Variables
 
-<table>
-  <tr>
-    <td>mAudioClips</td>
-    <td>Pool of the audio clips.</td>
-  </tr>
-  <tr>
-    <td>mSoundSettingType</td>
-    <td>Sound type you want to organize.</td>
-  </tr>
-</table>
-
+| Name | Description |
+|:---|:---|
+| mAudioClips | Pool of the audio clips. |
+| mSoundSettingType | Sound type you want to organize. |
 
 ## Functions
 
-<table>
-  <tr>
-    <td>GetRandomSound</td>
-    <td>Get an audio clip from the pool randomly.</td>
-  </tr>
-</table>
+| Name | Description |
+|:---|:---|
+| GetRandomSound | Get an audio clip from the pool randomly. |

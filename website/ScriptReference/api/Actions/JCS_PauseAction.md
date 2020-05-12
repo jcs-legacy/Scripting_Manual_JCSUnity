@@ -2,22 +2,14 @@
 
 Action that you will stop the components.
 
-
 ## Variables
 
-<table>
-  <tr>
-    <td>mActionList</td>
-    <td>List of components that you will want to pause.</td>
-  </tr>
-</table>
-
+| Name | Description |
+|:---|:---|
+| mActionList | List of components that you will want to pause. |
 
 ## Functions
 
-<table>
-  <tr>
-    <td>EnableBehaviourInTheList</td>
-    <td>Enable/Disable the behaviour component in the list.</td>
-  </tr>
-</table>
+| Name | Description |
+|:---|:---|
+| EnableBehaviourInTheList | Enable/Disable the behaviour component in the list. |

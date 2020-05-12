@@ -4,39 +4,12 @@ Player control that works with camera relatively.
 
 ## Variables
 
-<table>
-<tr>
-<td>LookPoint</td>
-<td>Object the character want to look at.</td>
-</tr>
-
-<tr>
-<td>LookDistance</td>
-<td>Distance to place look point object.</td>
-</tr>
-
-<tr>
-<td>JumpForce</td>
-<td>How hard this player jumps.</td>
-</tr>
-
-<tr>
-<td>UpKey</td>
-<td>Keys that goes forward.</td>
-</tr>
-
-<tr>
-<td>DownKey</td>
-<td>Keys that goes backward.</td>
-</tr>
-
-<tr>
-<td>RightKey</td>
-<td>Keys that goes right.</td>
-</tr>
-
-<tr>
-<td>LeftKey</td>
-<td>Keys that goes left.</td>
-</tr>
-</table>
+| Name | Description |
+|:---|:---|
+| LookPoint | Object the character want to look at. |
+| LookDistance | Distance to place look point object. |
+| JumpForce | How hard this player jumps. |
+| UpKey | Keys that goes forward. |
+| DownKey | Keys that goes backward. |
+| RightKey | Keys that goes right. |
+| LeftKey | Keys that goes left. |

@@ -2,22 +2,14 @@
 
 Button that have two callback can toggle each other.
 
-
 ## Variables
 
-<table>
-  <tr>
-    <td>mActive</td>
-    <td>Is the toggle button currently active?</td>
-  </tr>
-</table>
-
+| Name | Description |
+|:---|:---|
+| mActive | Is the toggle button currently active? |
 
 ## Functions
 
-<table>
-  <tr>
-    <td>Toggle</td>
-    <td>Toggle the button.</td>
-  </tr>
-</table>
+| Name | Description |
+|:---|:---|
+| Toggle | Toggle the button. |

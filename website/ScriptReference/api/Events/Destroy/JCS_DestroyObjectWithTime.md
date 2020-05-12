@@ -4,29 +4,10 @@ Destroy the gameobject by time.
 
 ## Variables
 
-<table>
-<tr>
-<td>mDestroyTime</td>
-<td>Target time to destroy.</td>
-</tr>
-
-<tr>
-<td>mDestroyWithAlphaEffect</td>
-<td>While destroying, fade out the gameobject.</td>
-</tr>
-
-<tr>
-<td>FadeObjects</td>
-<td>Fade out objects that fade out after the time is up.</td>
-</tr>
-
-<tr>
-<td>FadeObjects</td>
-<td>Fade out objects that fade out after the time is up.</td>
-</tr>
-
-<tr>
-<td>FadeTime</td>
-<td>How long it fades.</td>
-</tr>
-</table>
+| Name | Description |
+|:---|:---|
+| mDestroyTime | Target time to destroy. |
+| mDestroyWithAlphaEffect | While destroying, fade out the gameobject. |
+| FadeObjects | Fade out objects that fade out after the time is up. |
+| FadeObjects | Fade out objects that fade out after the time is up. |
+| FadeTime | How long it fades. |

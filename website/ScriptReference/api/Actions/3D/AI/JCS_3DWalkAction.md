@@ -4,83 +4,25 @@ Simulate the walk action in 3D space.
 
 ## Variables
 
-<table>
-<tr>
-<td>Active</td>
-<td>Check weather you want do this action.</td>
-</tr>
-
-<tr>
-<td>WalkType</td>
-<td>Type of the walk behaviour calculation.</td>
-</tr>
-
-<tr>
-<td>SearchCount</td>
-<td>Count for how many search per frame.</td>
-</tr>
-
-<tr>
-<td>AllowOverlapDestination</td>
-<td>Allow each walk action having the same destination.</td>
-</tr>
-
-<tr>
-<td>OverlapDistance</td>
-<td>Distance that would count as overlap destination.</td>
-</tr>
-
-<tr>
-<td>AcceptRemainDistance</td>
-<td>What value count as path complete action.</td>
-</tr>
-
-<tr>
-<td>MinOffDistance</td>
-<td>Minimum randomly add vector with magnitude of distance at target position.</td>
-</tr>
-
-<tr>
-<td>MaxOffDistance</td>
-<td>Maximum randomly add vector with magnitude of distance at target position.</td>
-</tr>
-
-<tr>
-<td>SelfDistance</td>
-<td>Self distance without target transform interact.</td>
-</tr>
-
-<tr>
-<td>RangeDistance</td>
-<td>Range that enemy will try to get close to.</td>
-</tr>
-
-<tr>
-<td>AdjustRangeDistance</td>
-<td>Randomly adjusts the range distance.</td>
-</tr>
-</table>
+| Name | Description |
+|:---|:---|
+| Active | Check weather you want do this action. |
+| WalkType | Type of the walk behaviour calculation. |
+| SearchCount | Count for how many search per frame. |
+| AllowOverlapDestination | Allow each walk action having the same destination. |
+| OverlapDistance | Distance that would count as overlap destination. |
+| AcceptRemainDistance | What value count as path complete action. |
+| MinOffDistance | Minimum randomly add vector with magnitude of distance at target position. |
+| MaxOffDistance | Maximum randomly add vector with magnitude of distance at target position. |
+| SelfDistance | Self distance without target transform interact. |
+| RangeDistance | Range that enemy will try to get close to. |
+| AdjustRangeDistance | Randomly adjusts the range distance. |
 
 ## Functions
 
-<table>
-<tr>
-<td>TargetOne</td>
-<td>Target one player and do in taget action.</td>
-</tr>
-
-<tr>
-<td>NavMeshArrive</td>
-<td>Check if the nav mesh agent arrive the destination.</td>
-</tr>
-
-<tr>
-<td>IsArrived</td>
-<td>Check if nav mesh agent path completed.</td>
-</tr>
-
-<tr>
-<td>InRangeDistance</td>
-<td>Check if the transform in the range of the distance.</td>
-</tr>
-</table>
+| Name | Description |
+|:---|:---|
+| TargetOne | Target one player and do in taget action. |
+| NavMeshArrive | Check if the nav mesh agent arrive the destination. |
+| IsArrived | Check if nav mesh agent path completed. |
+| InRangeDistance | Check if the transform in the range of the distance. |

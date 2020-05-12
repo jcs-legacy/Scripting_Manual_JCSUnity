@@ -2,94 +2,32 @@
 
 Effect that slide the object to one position.
 
-
 ## Variables
 
-<table>
-  <tr>
-    <td>mIsActive</td>
-    <td>Is this effect currently active.</td>
-  </tr>
-  <tr>
-    <td>mPanelRoot</td>
-    <td>The panel root object.</td>
-  </tr>
-  <tr>
-    <td>mEventTrigger</td>
-    <td>Event trigger system.</td>
-  </tr>
-  <tr>
-    <td>mAxis</td>
-    <td>Direction object slides.</td>
-  </tr>
-  <tr>
-    <td>mDistance</td>
-    <td>How far the object slides.</td>
-  </tr>
-  <tr>
-    <td>mFriction</td>
-    <td>How fast the object slides.</td>
-  </tr>
-  <tr>
-    <td>mAutoAddEvent</td>
-    <td>Add event to event trigger system.</td>
-  </tr>
-  <tr>
-    <td>mActiveEventTriggerType</td>
-    <td>Event trigger type to active the the slide effect.</td>
-  </tr>
-  <tr>
-    <td>mDeactiveEventTriggerType</td>
-    <td>Event trigger type to deactive the the slide effect.</td>
-  </tr>
-  <tr>
-    <td>mActiveClip</td>
-    <td>If slide out, do the sound.</td>
-  </tr>
-  <tr>
-    <td>mDeactiveClip</td>
-    <td>If slide back the original position, do the sound.</td>
-  </tr>
-  <tr>
-    <td>mIgnoreX</td>
-    <td>Don't track on x-axis.</td>
-  </tr>
-  <tr>
-    <td>mIgnoreY</td>
-    <td>Don't track on y-axis.</td>
-  </tr>
-  <tr>
-    <td>mIgnoreZ</td>
-    <td>Don't track on z-axis?</td>
-  </tr>
-  <tr>
-    <td>mActiveButton</td>
-    <td>Button that active this effect.</td>
-  </tr>
-</table>
-
+| Name | Description |
+|:---|:---|
+| mIsActive | Is this effect currently active. |
+| mPanelRoot | The panel root object. |
+| mEventTrigger | Event trigger system. |
+| mAxis | Direction object slides. |
+| mDistance | How far the object slides. |
+| mFriction | How fast the object slides. |
+| mAutoAddEvent | Add event to event trigger system. |
+| mActiveEventTriggerType | Event trigger type to active the the slide effect. |
+| mDeactiveEventTriggerType | Event trigger type to deactive the the slide effect. |
+| mActiveClip | If slide out, do the sound. |
+| mDeactiveClip | If slide back the original position, do the sound. |
+| mIgnoreX | Don't track on x-axis. |
+| mIgnoreY | Don't track on y-axis. |
+| mIgnoreZ | Don't track on z-axis? |
+| mActiveButton | Button that active this effect. |
 
 ## Functions
 
-<table>
-  <tr>
-    <td>JCS_OnMouseOver</td>
-    <td>Call it when is on mouse over.</td>
-  </tr>
-  <tr>
-    <td>JCS_OnMouseExit</td>
-    <td>Call it When is on mouse exit.</td>
-  </tr>
-  <tr>
-    <td>Active</td>
-    <td>Active the effect.</td>
-  </tr>
-  <tr>
-    <td>Deactive</td>
-    <td>Deactive the effect.</td>
-  </tr>
-  <tr>
-    <td>IsIdle</td>
-    <td>Is the object idle.</td>
-  </tr>
-</table>
+| Name | Description |
+|:---|:---|
+| JCS_OnMouseOver | Call it when is on mouse over. |
+| JCS_OnMouseExit | Call it When is on mouse exit. |
+| Active | Active the effect. |
+| Deactive | Deactive the effect. |
+| IsIdle | Is the object idle. |

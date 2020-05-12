@@ -2,12 +2,8 @@
 
 Path finding core behaviour.
 
-
 ## Functions
 
-<table>
-  <tr>
-    <td>StartFindPath</td>
-    <td>Start finding the path.</td>
-  </tr>
-</table>
+| Name | Description |
+|:---|:---|
+| StartFindPath | Start finding the path. |

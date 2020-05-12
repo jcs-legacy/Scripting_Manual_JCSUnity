@@ -2,38 +2,18 @@
 
 Effect that make wave effect on the gameobject.
 
-
 ## Variables
 
-<table>
-  <tr>
-    <td>mWaveRestPosition</td>
-    <td>Height offset.</td>
-  </tr>
-  <tr>
-    <td>mAmplitude</td>
-    <td>How intense the wave is."</td>
-  </tr>
-  <tr>
-    <td>mFrequency</td>
-    <td>How fast per period in wave.</td>
-  </tr>
-  <tr>
-    <td>mEffectAxis</td>
-    <td>Axis the wave move on.</td>
-  </tr>
-  <tr>
-    <td>mEffectTime</td>
-    <td>How long the effect takes.</td>
-  </tr>
-</table>
-
+| Name | Description |
+|:---|:---|
+| mWaveRestPosition | Height offset. |
+| mAmplitude | How intense the wave is. |
+| mFrequency | How fast per period in wave. |
+| mEffectAxis | Axis the wave move on. |
+| mEffectTime | How long the effect takes. |
 
 ## Functions
 
-<table>
-  <tr>
-    <td>DoWaveEffect</td>
-    <td>Do the wave effect.</td>
-  </tr>
-</table>
+| Name | Description |
+|:---|:---|
+| DoWaveEffect | Do the wave effect. |

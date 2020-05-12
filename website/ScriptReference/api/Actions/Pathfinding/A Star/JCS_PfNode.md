@@ -2,12 +2,8 @@
 
 Path finding node.
 
-
 ## Functions
 
-<table>
-  <tr>
-    <td>CompareTo</td>
-    <td>Compre the two nodes.</td>
-  </tr>
-</table>
+| Name | Description |
+|:---|:---|
+| CompareTo | Compre the two nodes. |

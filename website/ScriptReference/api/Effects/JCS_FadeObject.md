@@ -4,48 +4,18 @@ Fade object to a particular alpha channel.
 
 ## Variables
 
-<table>
-<tr>
-<td>mFadeTime</td>
-<td>How long it fades.</td>
-</tr>
-
-<tr>
-<td>mOverrideFade</td>
-<td>Override the action before it complete the action.</td>
-</tr>
-
-<tr>
-<td>mFadeInAmount</td>
-<td>Maxinum of fade value.</td>
-</tr>
-
-<tr>
-<td>mFadeOutAmount</td>
-<td>Mininum of fade value.</td>
-</tr>
-</table>
+| Name | Description |
+|:---|:---|
+| mFadeTime | How long it fades. |
+| mOverrideFade | Override the action before it complete the action. |
+| mFadeInAmount | Maxinum of fade value. |
+| mFadeOutAmount | Mininum of fade value. |
 
 ## Functions
 
-<table>
-<tr>
-<td>IsFadeIn</td>
-<td>Check if the object is fade in?</td>
-</tr>
-
-<tr>
-<td>IsFadeOut</td>
-<td>Check if the object is fade out.</td>
-</tr>
-
-<tr>
-<td>FadeOut</td>
-<td>Fade out the object.</td>
-</tr>
-
-<tr>
-<td>FadeIn</td>
-<td>Fade in the object.</td>
-</tr>
-</table>
+| Name | Description |
+|:---|:---|
+| IsFadeIn | Check if the object is fade in? |
+| IsFadeOut | Check if the object is fade out. |
+| FadeOut | Fade out the object. |
+| FadeIn | Fade in the object. |

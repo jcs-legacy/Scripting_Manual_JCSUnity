@@ -2,40 +2,15 @@
 
 Effect that does constant wave.
 
-
 ## Variables
 
-<table>
-  <tr>
-    <td>mTransformType</td>
-    <td>Apply to which transform's attribute.</td>
-  </tr>
-  <tr>
-    <td>mEffectLocal</td>
-    <td>Effect on the local position.</td>
-  </tr>
-  <tr>
-    <td>mEffect</td>
-    <td>Is the effect current active.</td>
-  </tr>
-  <tr>
-    <td>mAmplitude</td>
-    <td>How much force goes up and down.</td>
-  </tr>
-  <tr>
-    <td>mFrequency</td>
-    <td>How often the wave goes up and down.</td>
-  </tr>
-  <tr>
-    <td>mAxis</td>
-    <td>Effect on which axis.</td>
-  </tr>
-  <tr>
-    <td>mRandomizeAmplitudeAtStart</td>
-    <td>Randomize the amplitude on the start event.</td>
-  </tr>
-  <tr>
-    <td>mRandomizeFrequencyAtStart</td>
-    <td>Randomize the frequency on the start event.</td>
-  </tr>
-</table>
+| Name | Description |
+|:---|:---|
+| mTransformType | Apply to which transform's attribute. |
+| mEffectLocal | Effect on the local position. |
+| mEffect | Is the effect current active. |
+| mAmplitude | How much force goes up and down. |
+| mFrequency | How often the wave goes up and down. |
+| mAxis | Effect on which axis. |
+| mRandomizeAmplitudeAtStart | Randomize the amplitude on the start event. |
+| mRandomizeFrequencyAtStart | Randomize the frequency on the start event. |

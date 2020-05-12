@@ -2,26 +2,14 @@
 
 Drag and drop effect.
 
-
 ## Variables
 
-<table>
-  <tr>
-    <td>mDragDropType</td>
-    <td>Type of the drag and drop target.</td>
-  </tr>
-</table>
-
+| Name | Description |
+|:---|:---|
+| mDragDropType | Type of the drag and drop target. |
 
 ## Functions
 
-<table>
-  <tr>
-    <td>JCS_OnDrag</td>
-    <td>Call when on drag.</td>
-  </tr>
-  <tr>
-    <td>JCS_OnDrop</td>
-    <td>Call when on drop.</td>
-  </tr>
-</table>
+| Name | Description |
+|:---|:---|
+| JCS_OnDrag | Call when on drag. || JCS_OnDrop | Call when on drop. |

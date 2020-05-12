@@ -4,108 +4,30 @@ Basic camera for 2d Games.
 
 ## Variables
 
-<table>
-<tr>
-<td>mSetToPlayerPositionAtStart</td>
-<td>Set the camera's position to the player when the game starts?</td>
-</tr>
-
-<tr>
-<td>mTargetTransform</td>
-<td>Target transform information.</td>
-</tr>
-
-<tr>
-<td>mResetVelocityToZeroWhileNotActive</td>
-<td>Set velocity to zero while the follow not active.</td>
-</tr>
-
-<tr>
-<td>mFrictionX</td>
-<td>How fast this camera move toward the target. (x-axis)</td>
-</tr>
-
-<tr>
-<td>mFrictionY</td>
-<td>How fast this camera move toward the target. (y-axis)</td>
-</tr>
-
-<tr>
-<td>mFreezeInRuntime</td>
-<td>Do freeze in runtime?</td>
-</tr>
-
-<tr>
-<td>mFreezeX</td>
-<td>Freeze on X axis?</td>
-</tr>
-
-<tr>
-<td>mFreezeY</td>
-<td>Freeze on Y axis?</td>
-</tr>
-
-<tr>
-<td>mFreezeZ</td>
-<td>Freeze on Z axis?</td>
-</tr>
-
-<tr>
-<td>mZoomEffect</td>
-<td>Do the zoom effect?</td>
-</tr>
-
-<tr>
-<td>ZoomWithMouseOrTouch</td>
-<td>Zoom with the mouse or touches.</td>
-</tr>
-
-<tr>
-<td>ScrollRange_Mouse</td>
-<td>Distance once you scroll with mouse.</td>
-</tr>
-
-<tr>
-<td>ScrollRange_Touch</td>
-<td>Distance once you scroll with multi-touch.</td>
-</tr>
-
-<tr>
-<td>mScrollFriction</td>
-<td>How fast it scroll. (Zoom In/Out)</td>
-</tr>
-
-<tr>
-<td>mMax_X_PositionInScene</td>
-<td>Maxinum this camera can go in x-axis.</td>
-</tr>
-
-<tr>
-<td>mMin_X_PositionInScene</td>
-<td>Mininum this camera can go in x-axis.</td>
-</tr>
-
-<tr>
-<td>mMax_Y_PositionInScene</td>
-<td>Maxinum this camera can go in y-axis.</td>
-</tr>
-
-<tr>
-<td>mMin_Y_PositionInScene</td>
-<td>ininum this camera can go in y-axis.</td>
-</tr>
-</table>
+| Name | Description |
+|:---|:---|
+| mSetToPlayerPositionAtStart | Set the camera's position to the player when the game starts? |
+| mTargetTransform | Target transform information. |
+| mResetVelocityToZeroWhileNotActive | Set velocity to zero while the follow not active. |
+| mFrictionX | How fast this camera move toward the target. (x-axis) |
+| mFrictionY | How fast this camera move toward the target. (y-axis) |
+| mFreezeInRuntime | Do freeze in runtime? |
+| mFreezeX | Freeze on X axis? |
+| mFreezeY | Freeze on Y axis? |
+| mFreezeZ | Freeze on Z axis? |
+| mZoomEffect | Do the zoom effect? |
+| ZoomWithMouseOrTouch | Zoom with the mouse or touches. |
+| ScrollRange_Mouse | Distance once you scroll with mouse. |
+| ScrollRange_Touch | Distance once you scroll with multi-touch. |
+| mScrollFriction | How fast it scroll. (Zoom In/Out) |
+| mMax_X_PositionInScene | Maxinum this camera can go in x-axis. |
+| mMin_X_PositionInScene | Mininum this camera can go in x-axis. |
+| mMax_Y_PositionInScene | Maxinum this camera can go in y-axis. |
+| mMin_Y_PositionInScene | ininum this camera can go in y-axis. |
 
 ## Functions
 
-<table>
-<tr>
-<td>SetToTargetImmediate</td>
-<td>Set to the target's position in frame.</td>
-</tr>
-
-<tr>
-<td>ZoomCamera</td>
-<td>Do the zooming on Z axis.</td>
-</tr>
-</table>
+| Name | Description |
+|:---|:---|
+| SetToTargetImmediate | Set to the target's position in frame. |
+| ZoomCamera | Do the zooming on Z axis. |

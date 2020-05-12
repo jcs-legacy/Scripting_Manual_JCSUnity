@@ -2,30 +2,16 @@
 
 Camera that track mutliple transforms.
 
-
 ## Variables
 
-<table>
-  <tr>
-    <td>mCamerSpeed</td>
-    <td>How fast the caemra moves.</td>
-  </tr>
-  <tr>
-    <td>mCameraFriction</td>
-    <td>How fast the caemra zoom in/out.</td>
-  </tr>
-</table>
-
+| Name | Description |
+|:---|:---|
+| mCamerSpeed | How fast the caemra moves. |
+| mCameraFriction | How fast the caemra zoom in/out. |
 
 ## Functions
 
-<table>
-  <tr>
-    <td>AddTargetToTrackList</td>
-    <td>Add a target to track list.</td>
-  </tr>
-  <tr>
-    <td>RemoveTargetFromTrackList</td>
-    <td>Remove a target from track list.</td>
-  </tr>
-</table>
+| Name | Description |
+|:---|:---|
+| AddTargetToTrackList | Add a target to track list. |
+| RemoveTargetFromTrackList | Remove a target from track list. |
