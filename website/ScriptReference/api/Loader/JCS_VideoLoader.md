@@ -2,16 +2,11 @@
 
 Video loader, load an external video file.
 
-
 ## Functions
 
-<table>
-  <tr>
-    <td>LoadVideo</td>
-    <td>Load an external video file.</td>
-  </tr>
-</table>
-
+| Name | Description |
+|:---|:---|
+| LoadVideo | Load an external video file. |
 
 ## Example
 

@@ -1,17 +1,12 @@
 # JCS_INIFileReader
 
-Initialize file reader, utility will read the <span class="code-inline">.ini</span> or <span class="code-inline">.properties</span> file.
-
+Initialize file reader, utility will read the `.ini` or `.properties` file.
 
 ## Functions
 
-<table>
-  <tr>
-    <td>ReadINIFile</td>
-    <td>Read the .ini file and returns it value.</td>
-  </tr>
-</table>
-
+| Name | Description |
+|:---|:---|
+| ReadINIFile | Read the .ini file and returns it value. |
 
 ## Example
 

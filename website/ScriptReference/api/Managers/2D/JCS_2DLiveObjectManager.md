@@ -2,26 +2,15 @@
 
 Handle all the 2d live object in the scene.
 
-
 ## Variables
 
-<table>
-  <tr>
-    <td>LIVE_OBJECT_LIST</td>
-    <td>All the live object in the scene.</td>
-  </tr>
-  <tr>
-    <td>TIME_TO_FIND_ALL_LIVE_OBJECT_IN_SCENE</td>
-    <td>Time to find all the live object in the scene periodically.</td>
-  </tr>
-</table>
-
+| Name | Description |
+|:---|:---|
+| LIVE_OBJECT_LIST | All the live object in the scene. |
+| TIME_TO_FIND_ALL_LIVE_OBJECT_IN_SCENE | Time to find all the live object in the scene periodically. |
 
 ## Functions
 
-<table>
-  <tr>
-    <td>DestroyAllLiveObject</td>
-    <td>Destroy all the live object in the scene.</td>
-  </tr>
-</table>
+| Name | Description |
+|:---|:---|
+| DestroyAllLiveObject | Destroy all the live object in the scene. |

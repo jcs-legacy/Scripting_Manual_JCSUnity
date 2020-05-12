@@ -2,9 +2,8 @@
 
 Scrollbar data container.
 
-<table>
-  <tr>
-    <td>value</td>
-    <td>Scrollbar position value.</td>
-  </tr>
-</table>
+## Variables
+
+| Name | Description |
+|:---|:---|
+| value | Scrollbar position value. |

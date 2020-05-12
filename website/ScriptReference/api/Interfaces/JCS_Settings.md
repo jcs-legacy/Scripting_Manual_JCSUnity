@@ -2,30 +2,18 @@
 
 Interface of all setting class.
 
-
 ## Variables
 
-<table>
-  <tr>
-    <td>instance</td>
-    <td>Hold the settings class instance for ensuring is singleton.</td>
-  </tr>
-</table>
-
+| Name | Description |
+|:---|:---|
+| instance | Hold the settings class instance for ensuring is singleton. |
 
 ## Functions
 
-<table>
-  <tr>
-    <td>CheckSingleton</td>
-    <td>Force the setting object singleton.</td>
-  </tr>
-  <tr>
-    <td>TransferData</td>
-    <td>Transfter data through one scene to another scene.</td>
-  </tr>
-</table>
-
+| Name | Description |
+|:---|:---|
+| CheckSingleton | Force the setting object singleton. |
+| TransferData | Transfter data through one scene to another scene. |
 
 ## Example
 

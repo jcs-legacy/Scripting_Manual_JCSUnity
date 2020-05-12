@@ -4,42 +4,18 @@ Take care of the cross platform input.
 
 ## Variables
 
-<table>
-<tr>
-<td>Support_OnMouseEnter</td>
-<td>Support OnMouseEnter event from mobile.</td>
-</tr>
-<tr>
-<td>Support_OnMouseExit</td>
-<td>Support OnMouseExit event from mobile.</td>
-</tr>
-<tr>
-<td>Support_OnMouseDown</td>
-<td>Support OnMouseDown event from mobile.</td>
-</tr>
-<tr>
-<td>Support_OnMouseUp</td>
-<td>Support OnMouseUp event from mobile.</td>
-</tr>
-<tr>
-<td>Support_OnMouseOver</td>
-<td>Support OnMouseOver event from mobile.</td>
-</tr>
-<tr>
-<td>Support_OnMouseDrag</td>
-<td>Support OnMouseDrag event from mobile.</td>
-</tr>
-</table>
+| Name | Description |
+|:---|:---|
+| Support_OnMouseEnter | Support OnMouseEnter event from mobile. |
+| Support_OnMouseExit | Support OnMouseExit event from mobile. |
+| Support_OnMouseDown | Support OnMouseDown event from mobile. |
+| Support_OnMouseUp | Support OnMouseUp event from mobile. |
+| Support_OnMouseOver | Support OnMouseOver event from mobile. |
+| Support_OnMouseDrag | Support OnMouseDrag event from mobile. |
 
 ## Functions
 
-<table>
-<tr>
-<td>GetGlobalSlideInput</td>
-<td>Slide input receiver.</td>
-</tr>
-<tr>
-<td>GetGlobalMobileMouseEvent</td>
-<td>Handle mobile event component.</td>
-</tr>
-</table>
+| Name | Description |
+|:---|:---|
+| GetGlobalSlideInput | Slide input receiver. |
+| GetGlobalMobileMouseEvent | Handle mobile event component. |

@@ -2,16 +2,11 @@
 
 Audio loader, load an external audio file.
 
-
 ## Functions
 
-<table>
-  <tr>
-    <td>LoadAudio</td>
-    <td>Load the music from the path in runtime.</td>
-  </tr>
-</table>
-
+| Name | Description |
+|:---|:---|
+| LoadAudio | Load the music from the path in runtime. |
 
 ## Example
 

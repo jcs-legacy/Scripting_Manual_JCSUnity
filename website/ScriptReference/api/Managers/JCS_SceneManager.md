@@ -2,46 +2,20 @@
 
 Better version of scene manager.
 
-
 ## Variables
 
-<table>
-  <tr>
-    <td>mSwitchSceneType</td>
-    <td>Type/Method to switch the scene.</td>
-  </tr>
-  <tr>
-    <td>mPauseGameWhileLoadingScene</td>
-    <td>Pause the game while the scene start to load?"</td>
-  </tr>
-  <tr>
-    <td>mAlign</td>
-    <td>Which direction to fade slide.</td>
-  </tr>
-  <tr>
-    <td>mOverrideSetting</td>
-    <td>Do this scene using the specific setting?</td>
-  </tr>
-  <tr>
-    <td>mSceneFadeInTime</td>
-    <td>Fade in time. (For this scene)</td>
-  </tr>
-  <tr>
-    <td>mSceneFadeOutTime</td>
-    <td>Fade out time. (For this scene)</td>
-  </tr>
-</table>
-
+| Name | Description |
+|:---|:---|
+| mSwitchSceneType | Type/Method to switch the scene. |
+| mPauseGameWhileLoadingScene | Pause the game while the scene start to load?" |
+| mAlign | Which direction to fade slide. |
+| mOverrideSetting | Do this scene using the specific setting? |
+| mSceneFadeInTime | Fade in time. (For this scene) |
+| mSceneFadeOutTime | Fade out time. (For this scene) |
 
 ## Functions
 
-<table>
-  <tr>
-    <td>LoadScene</td>
-    <td>Load the scene with the default switch scene type.</td>
-  </tr>
-  <tr>
-    <td>IsSwitchingScene</td>
-    <td>Is currently switching the scene?</td>
-  </tr>
-</table>
+| Name | Description |
+|:---|:---|
+| LoadScene | Load the scene with the default switch scene type. |
+| IsSwitchingScene | Is currently switching the scene? |

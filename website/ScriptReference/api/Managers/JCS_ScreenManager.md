@@ -4,39 +4,17 @@ Manages screen action.
 
 ## Variables
 
-<table>
-  <tr>
-    <td>RESIZE_SCREEN_THIS_SCENE</td>
-    <td>Resize screen once on this scene?</td>
-  </tr>
-  <tr>
-    <td>ASPECT_RATION_SCREEN_WIDTH_THIS_SCENE</td>
-    <td>Aspect ratio screen width for this scene you want to resize.</td>
-  </tr>
-  <tr>
-    <td>ASPECT_RATION_SCREEN_HEIGHT_THIS_SCENE</td>
-    <td>Aspect ratio screen height for this scene you want to resize.</td>
-  </tr>
-  <tr>
-    <td>SCREEN_TYPE_THIS_SCENE</td>
-    <td>Type of the screen handle.</td>
-  </tr>
-</table>
-
+| Name | Description |
+|:---|:---|
+| RESIZE_SCREEN_THIS_SCENE | Resize screen once on this scene? |
+| ASPECT_RATION_SCREEN_WIDTH_THIS_SCENE | Aspect ratio screen width for this scene you want to resize. |
+| ASPECT_RATION_SCREEN_HEIGHT_THIS_SCENE | Aspect ratio screen height for this scene you want to resize. |
+| SCREEN_TYPE_THIS_SCENE | Type of the screen handle. |
 
 ## Functions
 
-<table>
-  <tr>
-    <td>ShowResizablePanels</td>
-    <td>Show the resizable panels.</td>
-  </tr>
-  <tr>
-    <td>HideResizablePanels</td>
-    <td>Hide the resizable panels.</td>
-  </tr>
-  <tr>
-    <td>SetResizablePanelsColor</td>
-    <td>Set the color to all resizable panels.</td>
-  </tr>
-</table>
+| Name | Description |
+|:---|:---|
+| ShowResizablePanels | Show the resizable panels. |
+| HideResizablePanels | Hide the resizable panels. |
+| SetResizablePanelsColor | Set the color to all resizable panels. |

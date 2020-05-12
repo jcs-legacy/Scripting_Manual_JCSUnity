@@ -2,30 +2,16 @@
 
 Handle the networking of the game.
 
-
 ## Variables
 
-<table>
-  <tr>
-    <td>SERVER_CLOSE</td>
-    <td>Server close flag?</td>
-  </tr>
-  <tr>
-    <td>FIRST_LOGIN</td>
-    <td>First login flag?</td>
-  </tr>
-</table>
-
+| Name | Description |
+|:---|:---|
+| SERVER_CLOSE | Server close flag? |
+| FIRST_LOGIN | First login flag? |
 
 ## Functions
 
-<table>
-  <tr>
-    <td>CreateKey</td>
-    <td>Spawn the security key for the packet.</td>
-  </tr>
-  <tr>
-    <td>CheckConnectionWithTime</td>
-    <td>Do ping pong packet action.</td>
-  </tr>
-</table>
+| Name | Description |
+|:---|:---|
+| CreateKey | Spawn the security key for the packet. |
+| CheckConnectionWithTime | Do ping pong packet action. |

@@ -2,12 +2,8 @@
 
 UI related settings.
 
-
 ## Variables
 
-<table>
-  <tr>
-    <td>RESIZE_UI</td>
-    <td>Resize the UI?</td>
-  </tr>
-</table>
+| Name | Description |
+|:---|:---|
+| RESIZE_UI | Resize the UI? |

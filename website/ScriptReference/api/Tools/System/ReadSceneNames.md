@@ -1,15 +1,9 @@
 # ReadSceneNames
 
-<p>
-  Read all the scene that are put into build setting.
-</p>
-
+Read all the scene that are put into build setting.
 
 ## Variables
 
-<table>
-  <tr>
-    <td>SCENES_IN_BUILD_SETTING</td>
-    <td>List to string that hold all the scene name in the build setting.</td>
-  </tr>
-</table>
+| Name | Description |
+|:---|:---|
+| SCENES_IN_BUILD_SETTING | List to string that hold all the scene name in the build setting. |

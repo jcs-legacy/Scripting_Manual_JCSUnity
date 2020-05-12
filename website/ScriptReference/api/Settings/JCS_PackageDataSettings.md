@@ -2,16 +2,9 @@
 
 Package data settings.
 
-
 ## Variables
 
-<table>
-  <tr>
-    <td>CopyrightString</td>
-    <td>Package Data copyright information.</td>
-  </tr>
-  <tr>
-    <td>VersionString</td>
-    <td>Package Data version information.</td>
-  </tr>
-</table>
+| Name | Description |
+|:---|:---|
+| CopyrightString | Package Data copyright information. |
+| VersionString | Package Data version information. |

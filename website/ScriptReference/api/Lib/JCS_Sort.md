@@ -3,20 +3,12 @@
 Sort layer for [JCS_SortingObject](?page=Interfaces_sl_JCS_SortingObject).
 This will help sort the object by using the order index.
 
-
 ## Functions
 
-<table>
-  <tr>
-    <td>AddAll</td>
-    <td>All all the sort object to the sort layer.</td>
-  </tr>
-  <tr>
-    <td>InsertionSort</td>
-    <td>Use insertion sort method to sort the object.</td>
-  </tr>
-</table>
-
+| Name | Description |
+|:---|:---|
+| AddAll | All all the sort object to the sort layer. |
+| InsertionSort | Use insertion sort method to sort the object. |
 
 ## Example
 
