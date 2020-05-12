@@ -2,28 +2,18 @@
 
 Sound player for any component that need to play sound effect.
 
+## Variables
+
+| Name | Description |
+|:---|:---|
+|SoundSettingType|Sound setting type for this sound player.|
 
 ## Functions
 
-<table>
-  <tr>
-    <td>PlayOneShot</td>
-    <td>Play one shot of sound.</td>
-  </tr>
-  <tr>
-    <td>PlayOneShotWhileNotPlaying</td>
-    <td>Play the sound while no sound is playing.</td>
-  </tr>
-  <tr>
-    <td>PlayOneShotInterrupt</td>
-    <td>Interrupt the all the sound from the sound player, and play the current sound effect.</td>
-  </tr>
-  <tr>
-    <td>PlayOneShotByMethod</td>
-    <td>Play one shot depedings on the methods. (See:
-      <a href="?page=Enums_sl_JCS_SoundMethod">
-        JCS_SoundMethod
-      </a>
-      )</td>
-  </tr>
-</table>
+| Name | Description |
+|:---|:---|
+|PlayByAttachment|Play AC by method depends on the attachement of the SP.|
+|PlayOneShot| Play one shot of sound.|
+|PlayOneShotWhileNotPlaying| Play the sound while no sound is playing.|
+|PlayOneShotInterrupt|Interrupt the all the sound from the sound player, and play the current sound effect.|
+|PlayOneShotByMethod|Play one shot depedings on the methods. (See: [JCS_SoundMethod](?page=Enums_sl_JCS_SoundMethod))|
