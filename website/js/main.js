@@ -286,17 +286,14 @@
     scrollBarTitle.text("Scripting API");
     searchInput.attr('placeholder', si_api_placeholder);
 
-    /* Make AJAX request. */
-    {
-      /* Get API index. */
-      $.ajax({
-        url: '../../api_index_data',
-        type: 'GET',
-        contentType: "application/json",
-        success : requestSuccess,
-        error : requestError,
-      });
-    }
+    /* Get API index. */
+    $.ajax({
+      url: '../../api_index_data',
+      type: 'GET',
+      contentType: "application/json",
+      success : requestSuccess,
+      error : requestError,
+    });
   }
 
   /* When successfully get the data from the server. */
