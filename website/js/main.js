@@ -305,6 +305,8 @@
     addSBDirButtonEvent();
     addSBFileButtonEvent();
 
+    console.log('hello');
+
     applyTheme();
   }
 
@@ -441,9 +443,7 @@
           // Try to append search result.
           appendSearchResult();
         },
-        error : function (e) {
-          console.log(e.message);
-        }
+        error : requestError,
       });
     }
     // Else we load either manual/api page.
@@ -511,6 +511,8 @@
         searchKeywordText.text(searchKeyword);
         appendSearchResult();  // Try to append search result.
       }
+
+      applyTheme();
     });
   }
 
