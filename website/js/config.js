@@ -38,12 +38,13 @@ const version_num_07 = "";
 /* Copyright */
 const copyright_text = "Copyright © 2018 JCSUnity Group. Built: 2018-09-28.";
 
+/* Others */
 const intro_content  = 'intro';   // Default content page.
 const search_content = 'search';  // Search page.
 
 /* Homepage Link */
-const homepage_url = "https://github.com/jcs090218/JCSUnity";  // The actual link to your homepage.
-const homepage_text = "JCSUnity.github";  // Text to show on the browser
+const homepage_url  = "https://github.com/jcs090218/JCSUnity";  // Link to your homepage.
+const homepage_text = "JCSUnity.github";                        // Text represent your homepage.
 
 
 // Content extension to load.
