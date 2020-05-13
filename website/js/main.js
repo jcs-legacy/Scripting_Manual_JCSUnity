@@ -305,8 +305,6 @@
     addSBDirButtonEvent();
     addSBFileButtonEvent();
 
-    console.log('hello');
-
     applyTheme();
   }
 
