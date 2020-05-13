@@ -14,11 +14,6 @@
  * jQuery entry.
  */
 (function ($) {
-
-  /* Header */
-  var header = $('header');
-  header.css('background-color', header_color);
-
   /* Others */
   var layerNum = -1;
 
@@ -145,8 +140,6 @@
     let sbDir = $('.sb-dir');
     let arrows = $('.arrow');
     let arrowsText = $('.arrow + span');
-
-    arrows.css('background-color', arrow_color);
 
     arrows.click(function (e) {
       // Stop overlaping `li' tag's click event trigger.
@@ -282,17 +275,8 @@
         url: '../../manual_index_data',
         type: 'GET',
         contentType: "application/json",
-        success : function (data) {
-          let dir = JSON.parse(data);
-
-          createIndexWithDir(dir.children, indexPos);
-
-          addSBDirButtonEvent();
-          addSBFileButtonEvent();
-        },
-        error : function (e) {
-          console.log(e.message);
-        }
+        success : requestSuccess,
+        error : requestError,
       });
     }
   }
@@ -309,24 +293,31 @@
         url: '../../api_index_data',
         type: 'GET',
         contentType: "application/json",
-        success : function (data) {
-          let dir = JSON.parse(data);
-
-          createIndexWithDir(dir.children, indexPos);
-
-          addSBDirButtonEvent();
-          addSBFileButtonEvent();
-        },
-        error : function (e) {
-          console.log(e.message);
-        }
+        success : requestSuccess,
+        error : requestError,
       });
     }
   }
 
+  /* When successfully get the data from the server. */
+  function requestSuccess(data) {
+    let dir = JSON.parse(data);
+
+    createIndexWithDir(dir.children, indexPos);
+
+    addSBDirButtonEvent();
+    addSBFileButtonEvent();
+
+    applyTheme();
+  }
+
+  /* Error handling when request failed. */
+  function requestError(e) {
+    console.log(e.message);
+  }
+
   /* Create index with directory. */
   function createIndexWithDir(dir, inParent) {
-
     inParent.append("<ul></ul>");
 
     let parent = inParent.find('ul');
@@ -654,6 +645,19 @@
     return rawStr;
   }
 
+  /**
+   * Apply customizable color.
+   */
+  function applyTheme() {
+    let header = $('header');
+    header.css('background-color', header_color);
+
+    let arrows = $('.arrow');
+    arrows.css('background-color', arrow_color);
+
+    let th = $('th');
+    th.css('background-color', th_color);
+  }
 
   /**
    * jQuery program entry.

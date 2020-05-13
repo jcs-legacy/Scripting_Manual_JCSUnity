@@ -9,14 +9,15 @@
 
 "use strict";
 
-
-// Manual config.
+// Manual
 const manual_name = "JCSUnity";
 
+// Theme
 const header_color = '#222C37';
 const arrow_color = '#19E3B1';
+const th_color = '#A2F2DE';
 
-// Version config.
+// Version Information
 const version_title_01 = "JCSUnity Version: ";
 const version_title_02 = "Unity Version: ";
 const version_title_03 = "";
