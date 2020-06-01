@@ -6,6 +6,6 @@ Button that switches the background music.
 
 | Name | Description |
 |:---|:---|
-| SoundClip | Background music audio clip. |
-| SoundFadeInTime | Time to fade in the sound." |
-| SoundFadeOutTime | Time to fade out the sound." |
+| SoundClip | Sound you want to load. |
+| SoundFadeInTime | Time to fade in the sound. |
+| SoundFadeOutTime | Time to fade out the sound. |
