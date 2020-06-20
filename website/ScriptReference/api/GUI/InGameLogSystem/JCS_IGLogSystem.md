@@ -2,34 +2,17 @@
 
 In game log system.
 
-
 ## Variables
 
-<table>
-  <tr>
-    <td>mLogSpacing</td>
-    <td>Space between each log message.</td>
-  </tr>
-</table>
-
+| Name | Description |
+|:---|:---|
+| mLogSpacing | Space between each log message. |
 
 ## Functions
 
-<table>
-  <tr>
-    <td>SendLogMessage</td>
-    <td>Make single log message on the screen.</td>
-  </tr>
-  <tr>
-    <td>SendLogMessages</td>
-    <td>Make multiple log messages on the screen.</td>
-  </tr>
-  <tr>
-    <td>RemoveFromRenderVec</td>
-    <td>Remove the log message that are outdated.</td>
-  </tr>
-  <tr>
-    <td>UpdateSpace</td>
-    <td>Update all current active log messages' spacing.</td>
-  </tr>
-</table>
+| Name | Description |
+|:---|:---|
+| SendLogMessage | Make single log message on the screen. |
+| SendLogMessages | Make multiple log messages on the screen. |
+| RemoveFromRenderVec | Remove the log message that are outdated. |
+| UpdateSpace | Update all current active log messages' spacing. |

@@ -4,63 +4,21 @@ Reusable damage text pool.
 
 ## Variables
 
-<table>
-<tr>
-<td>mNumberOfHandle</td>
-<td>Number to handle and spawn at the initialize time.</td>
-</tr>
-
-<tr>
-<td>DamagetText</td>
-<td>Damage text clone.</td>
-</tr>
-
-<tr>
-<td>SpacingPerText</td>
-<td>Spacing per damage text.</td>
-</tr>
-
-<tr>
-<td>mTimePerSpawn</td>
-<td>Time per spawns.</td>
-</tr>
-
-<tr>
-<td>FaceCamera</td>
-<td>Face the camera when called damage text.</td>
-</tr>
-
-<tr>
-<td>mHitSound</td>
-<td>Sound when spawns.</td>
-</tr>
-
-<tr>
-<td>ZiggeEffect</td>
-<td>Do the zigge effect?</td>
-</tr>
-
-<tr>
-<td>RightAlign</td>
-<td>Right align value.</td>
-</tr>
-
-<tr>
-<td>LeftAlign</td>
-<td>Left align value.</td>
-</tr>
-</table>
+| Name | Description |
+|:---|:---|
+| mNumberOfHandle | Number to handle and spawn at the initialize time. |
+| DamagetText | Damage text clone. |
+| SpacingPerText | Spacing per damage text. |
+| mTimePerSpawn | Time per spawns. |
+| FaceCamera | Face the camera when called damage text. |
+| mHitSound | Sound when spawns. |
+| ZiggeEffect | Do the zigge effect? |
+| RightAlign | Right align value. |
+| LeftAlign | Left align value. |
 
 ## Functions
 
-<table>
-<tr>
-<td>SpawnDamagetTextsSpawn multiple damage texts at once.</td>
-<td>Spawn multiple damage texts at once.</td>
-</tr>
-
-<tr>
-<td>SpawnDamageTextFromPool</td>
-<td>Spawn one damage text.</td>
-</tr>
-</table>
+| Name | Description |
+|:---|:---|
+| SpawnDamagetTextsSpawn multiple damage texts at once. | Spawn multiple damage texts at once. |
+| SpawnDamageTextFromPool | Spawn one damage text. |

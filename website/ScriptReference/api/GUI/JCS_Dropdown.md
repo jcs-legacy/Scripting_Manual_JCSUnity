@@ -2,30 +2,16 @@
 
 A better version of dropdown handle for uGUI.
 
-
 ## Variables
 
-<table>
-  <tr>
-    <td>mMaxLetters</td>
-    <td>Max letters shown in the options.</td>
-  </tr>
-  <tr>
-    <td>mDotCount</td>
-    <td>How many dot shown to replace the letter.</td>
-  </tr>
-  <tr>
-    <td>mApproachSec</td>
-    <td>Dot is more approach to the second half of the text value.</td>
-  </tr>
-</table>
-
+| Name | Description |
+|:---|:---|
+| mMaxLetters | Max letters shown in the options. |
+| mDotCount | How many dot shown to replace the letter. |
+| mApproachSec | Dot is more approach to the second half of the text value. |
 
 ## Functions
 
-<table>
-  <tr>
-    <td>UpdateDropdownData</td>
-    <td>Update the dropdown data.</td>
-  </tr>
-</table>
+| Name | Description |
+|:---|:---|
+| UpdateDropdownData | Update the dropdown data. |

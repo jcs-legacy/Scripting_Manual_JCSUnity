@@ -2,10 +2,8 @@
 
 Simulate the hue control.
 
-
 ## Variables
 
-<table>
-  <tr>mFriction</tr>
-  <td>How fast the hue changes?</td>
-</table>
+| Name | Description |
+|:---|:---|
+| mFriction | How fast the hue changes? |

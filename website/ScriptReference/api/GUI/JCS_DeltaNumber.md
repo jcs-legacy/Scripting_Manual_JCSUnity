@@ -2,118 +2,38 @@
 
 System that control 0-9 number sprites and create a counter effect.
 
-
 ## Variables
 
-<table>
-  <tr>
-    <td>mCurrentScore</td>
-    <td>Current score rendering.</td>
-  </tr>
-  <tr>
-    <td>mScoreNull</td>
-    <td><Default null slot./td>
-  </tr>
-  <tr>
-    <td>mScoreText0</td>
-    <td>Score text 0.</td>
-  </tr>
-  <tr>
-    <td>mScoreText1</td>
-    <td>Score text 1.</td>
-  </tr>
-  <tr>
-    <td>mScoreText2</td>
-    <td>Score text 2.</td>
-  </tr>
-  <tr>
-    <td>mScoreText3</td>
-    <td>Score text 3.</td>
-  </tr>
-  <tr>
-    <td>mScoreText4</td>
-    <td>Score text 4.</td>
-  </tr>
-  <tr>
-    <td>mScoreText5</td>
-    <td>Score text 5.</td>
-  </tr>
-  <tr>
-    <td>mScoreText6</td>
-    <td>Score text 6.</td>
-  </tr>
-  <tr>
-    <td>mScoreText7</td>
-    <td>Score text 7.</td>
-  </tr>
-  <tr>
-    <td>mScoreText</td>
-    <td>Score text 8.</td>
-  </tr>
-  <tr>
-    <td>mScoreText9</td>
-    <td>Score text 9.</td>
-  </tr>
-  <tr>
-    <td>mDigitsRendererSlot</td>
-    <td>Each digit, the more length the more digit.</td>
-  </tr>
-  <tr>
-    <td>mDigitInterval</td>
-    <td>Interval between each digit.</td>
-  </tr>
-  <tr>
-    <td>mClearEmptyLeftZero</td>
-    <td>Clear all the empty zero from the left.</td>
-  </tr>
-  <tr>
-    <td>mVisibleOnZero</td>
-    <td>Is visible when is zero?</td>
-  </tr>
-  <tr>
-    <td>mTextAlign</td>
-    <td>Align side.</td>
-  </tr>
-  <tr>
-    <td>mMaxScore</td>
-    <td>Maxinum score.</td>
-  </tr>
-  <tr>
-    <td>mMinScore</td>
-    <td>Mininum score.</td>
-  </tr>
-  <tr>
-    <td>mDeltaToCurrentScore</td>
-    <td>Show each digit between the score animation.</td>
-  </tr>
-  <tr>
-    <td>mTargetScore</td>
-    <td>Current targeting score.</td>
-  </tr>
-  <tr>
-    <td>mAnimScoreTime</td>
-    <td>How fast the score animate.</td>
-  </tr>
-  <tr>
-    <td>mDeltaProduct</td>
-    <td>How much the delta value add up.</td>
-  </tr>
-</table>
-
+| Name | Description |
+|:---|:---|
+| mCurrentScore | Current score rendering. |
+| mScoreNull | <Default null slot. |
+| mScoreText0 | Score text 0. |
+| mScoreText1 | Score text 1. |
+| mScoreText2 | Score text 2. |
+| mScoreText3 | Score text 3. |
+| mScoreText4 | Score text 4. |
+| mScoreText5 | Score text 5. |
+| mScoreText6 | Score text 6. |
+| mScoreText7 | Score text 7. |
+| mScoreText | Score text 8. |
+| mScoreText9 | Score text 9. |
+| mDigitsRendererSlot | Each digit, the more length the more digit. |
+| mDigitInterval | Interval between each digit. |
+| mClearEmptyLeftZero | Clear all the empty zero from the left. |
+| mVisibleOnZero | Is visible when is zero? |
+| mTextAlign | Align side. |
+| mMaxScore | Maxinum score. |
+| mMinScore | Mininum score. |
+| mDeltaToCurrentScore | Show each digit between the score animation. |
+| mTargetScore | Current targeting score. |
+| mAnimScoreTime | How fast the score animate. |
+| mDeltaProduct | How much the delta value add up. |
 
 ## Functions
 
-<table>
-  <tr>
-    <td>EnableDigitsRendererSlot</td>
-    <td>Set enable/disable all digit render slot.</td>
-  </tr>
-  <tr>
-    <td>UpdateScore</td>
-    <td>Update the score GUI.</td>
-  </tr>
-  <tr>
-    <td>UpdateIntervalForEachDigit</td>
-    <td>Update the space to each digit.</td>
-  </tr>
-</table>
+| Name | Description |
+|:---|:---|
+| EnableDigitsRendererSlot | Set enable/disable all digit render slot. |
+| UpdateScore | Update the score GUI. |
+| UpdateIntervalForEachDigit | Update the space to each digit. |
