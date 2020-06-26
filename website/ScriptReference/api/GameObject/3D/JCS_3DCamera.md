@@ -24,7 +24,6 @@ Basic camera in 3D game.
 | mMinHeight | How low the camera can reach. |
 | mUpDownFriction | How fast it change the view up and down? |
 | mZoomEffect | Do the zoom effect? |
-| ZoomWithMouseOrTouch | Zoom with the mouse or touches. |
 | ScrollRange_Mouse | Distance once you scroll with mouse. |
 | ScrollRange_Touch | Distance once you scroll with multi-touch. |
 | mScrollSpeedFriction | How fast it scroll speed get reduce? |
