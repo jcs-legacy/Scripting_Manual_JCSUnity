@@ -6,7 +6,6 @@ Execute an operation in order with interval of time.
 
 | Name | Description |
 |:---|:---|
-| mActive | Flag represent the activation of the event. |
 | IntervalTime | Time for each execution. |
 | unityExecution | Unity execution event. |
 
