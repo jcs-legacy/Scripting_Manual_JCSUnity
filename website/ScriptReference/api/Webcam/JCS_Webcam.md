@@ -6,6 +6,7 @@ Basic webcam class usage.
 
 | Name | Description |
 |:---|:---|
+| ManuallySetSize | Manually preserve the size in scene. |
 | MustBeFullScreen | Make webcam maximize to the widest edge. |
 | FPS | FPS for webcam. |
 | ResumeTime | After the screenshot is taken, how fast to resume the webcam. |
