@@ -14,3 +14,15 @@ Contain all possible collider component and information.
 | boxCollider2D | Collider `box collider 2D` object. |
 | circleCollider2D | Collider `circle collider 2D` object. |
 | capsuleCollider2D | Collider `capsule collider 2D` object. |
+| center | Shared local center of collider type. |
+| offset | Shared local offset of collider type. |
+| size | Shared local size of collider type. |
+| radius | Shared local radius of collider type. |
+| height | Shared height size of collider type. |
+
+## Functions
+
+| Name | Description |
+|:---|:---|
+| DetectColliderOnce | Identify the current collider type once. |
+| IsColliderType | Check if TYPE current collider type. |
