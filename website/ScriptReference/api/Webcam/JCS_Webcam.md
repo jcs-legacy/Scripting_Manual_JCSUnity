@@ -6,13 +6,15 @@ Basic webcam class usage.
 
 | Name | Description |
 |:---|:---|
-| isPlaying | Flag to check if current webcam active. |
+| MustBeFullScreen | Make webcam maximize to the widest edge. |
+| FPS | FPS for webcam. |
 | ResumeTime | After the screenshot is taken, how fast to resume the webcam. |
 | DelayTime | Delay time to fade out the splash screen. |
 | TakePicKey | Key to take webcam image. |
 | SavePath | Image save path. |
 | SaveExtension | Default save image file extension. |
 | TakePhotoSound | Sound when taking the screenshot. |
+| isPlaying | Flag to check if current webcam active. |
 
 ## Functions
 
