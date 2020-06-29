@@ -38,3 +38,4 @@ from its component.
 |:---|:---|
 | UpdateUnityData | Identify the object itself. See [JCS_UnityObjectType](?page=Enums_sl_JCS_UnityObjectType) |
 | GetObjectType | Returns the type of this unity object. |
+| IsObjectType | Check if TYPE is current object type. |

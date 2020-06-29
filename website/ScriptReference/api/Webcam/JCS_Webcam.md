@@ -6,8 +6,13 @@ Basic webcam class usage.
 
 | Name | Description |
 |:---|:---|
-| mDelay | Delay time to fade out the splash screen. |
-| mResumeTime | How fast the webcam will resume after taking a screenshot |
+| isPlaying | Flag to check if current webcam active. |
+| ResumeTime | After the screenshot is taken, how fast to resume the webcam. |
+| DelayTime | Delay time to fade out the splash screen. |
+| TakePicKey | Key to take webcam image. |
+| SavePath | Image save path. |
+| SaveExtension | Default save image file extension. |
+| TakePhotoSound | Sound when taking the screenshot. |
 
 ## Functions
 
@@ -18,4 +23,3 @@ Basic webcam class usage.
 | Play | Start the webcam. |
 | Pause | Pause the webcam. |
 | Stop | Stop the webcam. |
-| isPlaying | Is the webcam currently playing? |
