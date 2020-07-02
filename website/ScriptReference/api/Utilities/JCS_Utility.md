@@ -50,3 +50,4 @@ All code utility is stored here.
 | ForceGetComponent | Force to get a compoennt, if not found add one new then. |
 | ToJson | Serialize object to JSON string. |
 | IsScene | Check current scene's with NAME. |
+| LastFileIndex | Method to do search directory and get the last file index. |

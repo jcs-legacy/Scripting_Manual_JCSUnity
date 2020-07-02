@@ -13,6 +13,7 @@ Basic webcam class usage.
 | DelayTime | Delay time to fade out the splash screen. |
 | TakePicKey | Key to take webcam image. |
 | SavePath | Image save path. |
+| SaveFilePrefix | Save file name prefix. |
 | SaveExtension | Default save image file extension. |
 | TakePhotoSound | Sound when taking the screenshot. |
 | isPlaying | Flag to check if current webcam active. |
