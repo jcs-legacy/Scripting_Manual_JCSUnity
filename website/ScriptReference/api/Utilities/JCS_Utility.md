@@ -51,3 +51,4 @@ All code utility is stored here.
 | ToJson | Serialize object to JSON string. |
 | IsScene | Check current scene's with NAME. |
 | LastFileIndex | Method to do search directory and get the last file index. |
+| DeleteAllFilesFromDir | Delete all files in directory. |

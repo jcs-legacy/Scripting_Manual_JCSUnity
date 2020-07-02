@@ -17,7 +17,8 @@ Camera base class for JCSUnity.
 
 | Name | Description |
 |:---|:---|
-| TakeScreenShot | Take a snap shot in the game. (Standalone only) |
+| TakeScreenshot | Take a snap shot in the game. (Standalone only) |
+| CleanAllScreenshotImages | Delete all screenshot images from disk. |
 | CheckInScreenSpace | Check if a gameobject is shown in the screen space. |
 | WorldToCanvasSpace | Convert world space point to canvas space point. |
 | CanvasToWorldSpace | Convert canvas space point to world space point. |
