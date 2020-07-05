@@ -22,7 +22,7 @@ Hold the general game settings.
 | SCREENSHOT_PATH | Screenshot image save path. |
 | SCREENSHOT_FILENAME | Screenshot base filename. |
 | SCREENSHOT_EXTENSION | Screenshot image extension. |
-| WEBCAM_SAVE_PATH | Webcam image save path. |
+| WEBCAM_PATH | Webcam image save path. |
 | WEBCAM_FILENAME | Webcam base filename. |
 | WEBCAM_EXTENSION | Webcam image extension. |
 | MIN_DAMAGE | Mininum damage can be in the game. |
