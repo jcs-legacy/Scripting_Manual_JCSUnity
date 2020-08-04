@@ -16,6 +16,8 @@ Hold the general game settings.
 | PLAYER_IGNORE_EACH_OTHER | Do collusion happen with eacth other. (Player) |
 | TRIBE_DAMAGE_EACH_OTHER | Can the player or enemy hurt them own tribe? |
 | IGNORE_EACH_OTHER_CHARACTER_CONTROLLER | Ignore the collision between the player. |
+| STREAMING_BASE_URL | Base URL for streaming assets, please point to a directory. |
+| STREAMING_CACHE_PATH | Cache streaming assets' data path. |
 | DATA_PATH | Data folder path. |
 | DATA_EXTENSION | Data file extension. |
 | SAVE_ON_SWITCH_SCENE | Save when switching the scene. |

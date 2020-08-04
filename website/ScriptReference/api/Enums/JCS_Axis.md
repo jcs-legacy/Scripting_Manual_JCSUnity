@@ -6,6 +6,6 @@ X, Y and Z axis definition.
 
 | Name | Description |
 |:---|:---|
-|AXIS_X|Represent as x axis.|
-|AXIS_Y|Represent as y axis.|
-|AXIS_Z|Represent as z axis.|
+| AXIS_X | Represent as x axis. |
+| AXIS_Y | Represent as y axis. |
+| AXIS_Z | Represent as z axis. |

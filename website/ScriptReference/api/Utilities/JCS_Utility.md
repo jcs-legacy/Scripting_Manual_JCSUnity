@@ -52,3 +52,6 @@ All code utility is stored here.
 | IsScene | Check current scene's with NAME. |
 | LastFileIndex | Method to do search directory and get the last file index. |
 | DeleteAllFilesFromDir | Delete all files in directory. |
+| BytesToString | Convert byte array to string by charset type. |
+| StringToBytes | Convert string to byte array by charset type. |
+| PathCombine | Safe way to combine multiple path to one path with slash. |
