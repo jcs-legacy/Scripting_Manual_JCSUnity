@@ -1,6 +1,7 @@
 # JCS_TransformLinkedObjectController
 
-Controller that controls `JCS_TransformLinkedObject` component.
+Controller that controls [JCS_TransformLinkedObject](?page=GUI_sl_LinkedObject_sl_JCS_TransformLinkedObject) 
+component.
 
 ## Variables
 
