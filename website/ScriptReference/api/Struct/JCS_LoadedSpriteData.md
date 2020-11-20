@@ -4,7 +4,7 @@ Sprite data for loaded image.
 
 ## Variables
 
-| Name | Description |
-|:---|:---|
+| Name   | Description       |
+|:-------|:------------------|
 | sprite | Image sprite data |
-| index | Image file index. |
+| index  | Image file index. |

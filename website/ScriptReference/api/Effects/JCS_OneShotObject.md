@@ -4,17 +4,17 @@ One shot object.
 
 ## Variables
 
-| Name | Description |
-|:---|:---|
-| mAxis | Effect on which axis. |
-| mEffectOnAwake | Do the effect on awake event. |
-| mLoop | Loop one shot? |
-| mStayAtLastPosition | Force in the last position. |
-| mMoveSpeed | How fast it moves. |
-| mDistance | How far it moves. |
+| Name                | Description                   |
+|:--------------------|:------------------------------|
+| mAxis               | Effect on which axis.         |
+| mEffectOnAwake      | Do the effect on awake event. |
+| mLoop               | Loop one shot?                |
+| mStayAtLastPosition | Force in the last position.   |
+| mMoveSpeed          | How fast it moves.            |
+| mDistance           | How far it moves.             |
 
 # Functions
 
-| Name | Description |
-|:---|:---|
+| Name        | Description               |
+|:------------|:--------------------------|
 | PlayOneShot | Play one shot the object. |

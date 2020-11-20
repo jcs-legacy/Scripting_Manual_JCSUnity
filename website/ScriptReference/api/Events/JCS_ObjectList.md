@@ -5,12 +5,12 @@ of gameobject.
 
 ## Variables
 
-| Name | Description |
-|:---|:---|
+| Name     | Description      |
+|:---------|:-----------------|
 | mObjects | List of objects. |
 
 ## Functions
 
-| Name | Description |
-|:---|:---|
+| Name                    | Description                            |
+|:------------------------|:---------------------------------------|
 | GetRandomObjectFromList | Returns a random object from the list. |

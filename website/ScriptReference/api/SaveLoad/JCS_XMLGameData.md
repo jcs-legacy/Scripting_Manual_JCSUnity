@@ -29,7 +29,7 @@ gameData.Save<ExampleGameData>(filePath);
 
 ## Functions
 
-| Name | Description |
-|:---|:---|
-| Save | Save the game data to file. |
+| Name         | Description                   |
+|:-------------|:------------------------------|
+| Save         | Save the game data to file.   |
 | LoadFromFile | Load the game data from file. |

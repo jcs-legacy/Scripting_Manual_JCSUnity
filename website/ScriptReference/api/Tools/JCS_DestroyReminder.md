@@ -6,6 +6,6 @@ hierarchy.
 
 ## Variables
 
-| Name | Description |
-|:---|:---|
+| Name           | Description                                                                                      |
+|:---------------|:-------------------------------------------------------------------------------------------------|
 | mRemindPerTime | Time to log out the debug log per second to remind that this gameobject suppose to be destoryed. |

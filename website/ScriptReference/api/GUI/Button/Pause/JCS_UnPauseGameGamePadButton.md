@@ -4,12 +4,12 @@ Button that unpause the game. (Gamepad)
 
 ## Variables
 
-| Name | Description |
-|:---|:---|
+| Name       | Description                                  |
+|:-----------|:---------------------------------------------|
 | mJCSButton | Button that will call to unpause the button. |
 
 ## Functions
 
-| Name | Description |
-|:---|:---|
+| Name        | Description       |
+|:------------|:------------------|
 | UnPauseGame | UnPause the game. |

@@ -4,6 +4,6 @@ When object is on destroy, play the sound.
 
 ## Variables
 
-| Name | Description |
-|:---|:---|
+| Name       | Description          |
+|:-----------|:---------------------|
 | mAudioClip | Audio clip to plays. |

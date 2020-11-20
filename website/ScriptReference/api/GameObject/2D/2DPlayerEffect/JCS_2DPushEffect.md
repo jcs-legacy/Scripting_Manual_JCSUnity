@@ -4,7 +4,7 @@ Push effect that pushes the player.
 
 ## Variables
 
-| Name | Description |
-|:---|:---|
+| Name       | Description                               |
+|:-----------|:------------------------------------------|
 | mDirection | Direction this effect pushes the player." |
-| mPushSpeed | How many force to push. |
+| mPushSpeed | How many force to push.                   |

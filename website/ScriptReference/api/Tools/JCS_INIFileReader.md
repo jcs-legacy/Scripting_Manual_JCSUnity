@@ -4,8 +4,8 @@ Initialize file reader, utility will read the `.ini` or `.properties` file.
 
 ## Functions
 
-| Name | Description |
-|:---|:---|
+| Name        | Description                              |
+|:------------|:-----------------------------------------|
 | ReadINIFile | Read the .ini file and returns it value. |
 
 ## Example

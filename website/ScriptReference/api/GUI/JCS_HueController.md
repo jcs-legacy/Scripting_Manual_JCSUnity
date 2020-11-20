@@ -4,6 +4,6 @@ Simulate the hue control.
 
 ## Variables
 
-| Name | Description |
-|:---|:---|
+| Name      | Description               |
+|:----------|:--------------------------|
 | mFriction | How fast the hue changes? |

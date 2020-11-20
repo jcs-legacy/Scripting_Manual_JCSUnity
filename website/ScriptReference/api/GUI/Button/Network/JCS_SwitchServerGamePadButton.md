@@ -4,8 +4,8 @@
 
 ## Variables
 
-| Name | Description |
-|:---|:---|
-| mHost | Target hostname to switch. |
-| mPort | Target Port to switch. |
-| mForce | Force to switch server. |
+| Name   | Description                |
+|:-------|:---------------------------|
+| mHost  | Target hostname to switch. |
+| mPort  | Target Port to switch.     |
+| mForce | Force to switch server.    |

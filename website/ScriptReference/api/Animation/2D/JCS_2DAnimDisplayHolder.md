@@ -4,13 +4,13 @@ Hold an animation state for few seconds.
 
 ## Variables
 
-| Name | Description |
-|:---|:---|
+| Name      | Description                      |
+|:----------|:---------------------------------|
 | mHoldTime | How long to hold this animation. |
 
 ## Functions
 
-| Name | Description |
-|:---|:---|
+| Name          | Description                        |
+|:--------------|:-----------------------------------|
 | HoldAnimation | Hold an animation for few seconds. |
-| StopHolding | Stop holding the animation. |
+| StopHolding   | Stop holding the animation.        |

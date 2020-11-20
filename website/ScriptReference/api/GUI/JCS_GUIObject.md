@@ -4,12 +4,12 @@ GUI object identify class.
 
 ## Variables
 
-| Name | Description |
-|:---|:---|
+| Name     | Description      |
+|:---------|:-----------------|
 | mGUIType | Select GUI type. |
 
 ## Functions
 
-| Name | Description |
-|:---|:---|
+| Name          | Description                                                 |
+|:--------------|:------------------------------------------------------------|
 | UpdateGUIData | Update the GUI data, to get all the necessary informations. |

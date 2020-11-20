@@ -4,6 +4,6 @@ Path finding core behaviour.
 
 ## Functions
 
-| Name | Description |
-|:---|:---|
+| Name          | Description             |
+|:--------------|:------------------------|
 | StartFindPath | Start finding the path. |

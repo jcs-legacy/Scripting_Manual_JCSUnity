@@ -4,15 +4,15 @@ Action do spawns a wave repeatedly throughout the time is going.
 
 ## Variables
 
-| Name | Description |
-|:---|:---|
-| mActive | Active this component? |
-| mSpawnList | List of transform you want to spawn. |
-| mSpawnTime | Time to spawn a object. |
-| mRandomizeSpawnTime | Randomize the spawn time a bit. |
+| Name                | Description                          |
+|:--------------------|:-------------------------------------|
+| mActive             | Active this component?               |
+| mSpawnList          | List of transform you want to spawn. |
+| mSpawnTime          | Time to spawn a object.              |
+| mRandomizeSpawnTime | Randomize the spawn time a bit.      |
 
 ## Functions
 
-| Name | Description |
-|:---|:---|
+| Name            | Description               |
+|:----------------|:--------------------------|
 | SpawnATransform | Spawn a random transform. |

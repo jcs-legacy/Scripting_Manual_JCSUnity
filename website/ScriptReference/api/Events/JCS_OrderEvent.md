@@ -4,17 +4,17 @@ Execute an operation in order with interval of time.
 
 ## Variables
 
-| Name | Description |
-|:---|:---|
-| IntervalTime | Time for each execution. |
-| unityExecution | Unity execution event. |
+| Name           | Description              |
+|:---------------|:-------------------------|
+| IntervalTime   | Time for each execution. |
+| unityExecution | Unity execution event.   |
 
 ## Functions
 
-| Name | Description |
-|:---|:---|
+| Name       | Description                              |
+|:-----------|:-----------------------------------------|
 | StartEvent | Start a new event with interval of time. |
-| DoneEvent | Terminate the current event loop. |
+| DoneEvent  | Terminate the current event loop.        |
 
 ## Example
 

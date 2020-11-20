@@ -4,7 +4,7 @@ Package data settings.
 
 ## Variables
 
-| Name | Description |
-|:---|:---|
+| Name            | Description                         |
+|:----------------|:------------------------------------|
 | CopyrightString | Package Data copyright information. |
-| VersionString | Package Data version information. |
+| VersionString   | Package Data version information.   |

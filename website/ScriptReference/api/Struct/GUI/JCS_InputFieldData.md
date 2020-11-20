@@ -4,6 +4,6 @@ InputField data container.
 
 ## Variables
 
-| Name | Description |
-|:---|:---|
+| Name | Description                   |
+|:-----|:------------------------------|
 | text | Input field text data string. |

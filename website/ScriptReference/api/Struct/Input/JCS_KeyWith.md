@@ -4,7 +4,7 @@ Data Struct hold the combination of key information.
 
 ## Variables
 
-| Name | Description |
-|:---|:---|
+| Name                                                    | Description           |
+|:--------------------------------------------------------|:----------------------|
 | [JCS_KeyCombination](?page=Enums_sl_JCS_KeyCombination) | Key Combination list. |
-| KeyCode | Key code. |
+| KeyCode                                                 | Key code.             |

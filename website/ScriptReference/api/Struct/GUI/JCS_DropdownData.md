@@ -4,6 +4,6 @@ Dropdown data container.
 
 ## Variables
 
-| Name | Description |
-|:---|:---|
+| Name  | Description             |
+|:------|:------------------------|
 | value | Current dropdown value. |

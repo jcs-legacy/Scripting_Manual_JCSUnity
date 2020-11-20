@@ -4,7 +4,7 @@ Track a gameobject in 3D space.
 
 ## Variables
 
-| Name | Description |
-|:---|:---|
+| Name             | Description                  |
+|:-----------------|:-----------------------------|
 | mTargetTransform | Transform we want to target. |
-| mMoveFriction | Invers of speed. |
+| mMoveFriction    | Invers of speed.             |

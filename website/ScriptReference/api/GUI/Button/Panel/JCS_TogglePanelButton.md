@@ -4,8 +4,8 @@ Button that toggle one panel.
 
 ## Variables
 
-| Name | Description |
-|:---|:---|
+| Name           | Description                          |
+|:---------------|:-------------------------------------|
 | DialogueObject | Panel (dialogue) you want to toggle. |
-| TweenPanel | Panel (tween) you want to toggle. |
-| PlaySound | Play dialogue sound. |
+| TweenPanel     | Panel (tween) you want to toggle.    |
+| PlaySound      | Play dialogue sound.                 |

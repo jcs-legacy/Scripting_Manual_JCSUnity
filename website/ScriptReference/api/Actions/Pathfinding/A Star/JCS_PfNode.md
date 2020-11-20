@@ -4,6 +4,6 @@ Path finding node.
 
 ## Functions
 
-| Name | Description |
-|:---|:---|
+| Name      | Description           |
+|:----------|:----------------------|
 | CompareTo | Compre the two nodes. |

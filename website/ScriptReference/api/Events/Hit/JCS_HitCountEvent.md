@@ -4,6 +4,6 @@ Event that count the hit count and check if the gameobject needed to by destroye
 
 ## Variables
 
-| Name | Description |
-|:---|:---|
-| mHitCount | How many hits needed to destroy this gameobject.  |
+| Name      | Description                                      |
+|:----------|:-------------------------------------------------|
+| mHitCount | How many hits needed to destroy this gameobject. |

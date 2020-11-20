@@ -5,9 +5,9 @@ This will help sort the object by using the order index.
 
 ## Functions
 
-| Name | Description |
-|:---|:---|
-| AddAll | All all the sort object to the sort layer. |
+| Name          | Description                                   |
+|:--------------|:----------------------------------------------|
+| AddAll        | All all the sort object to the sort layer.    |
 | InsertionSort | Use insertion sort method to sort the object. |
 
 ## Example

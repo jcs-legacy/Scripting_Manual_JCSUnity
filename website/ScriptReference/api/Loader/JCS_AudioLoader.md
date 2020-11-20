@@ -4,8 +4,8 @@ Audio loader, load an external audio file.
 
 ## Functions
 
-| Name | Description |
-|:---|:---|
+| Name      | Description                              |
+|:----------|:-----------------------------------------|
 | LoadAudio | Load the music from the path in runtime. |
 
 ## Example

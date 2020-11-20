@@ -4,6 +4,6 @@ Destroy the gameobject after done playing the animation.
 
 ## Variables
 
-| Name | Description |
-|:---|:---|
+| Name       | Description                                           |
+|:-----------|:------------------------------------------------------|
 | mLoopTimes | How many times the animation plays before destorying. |

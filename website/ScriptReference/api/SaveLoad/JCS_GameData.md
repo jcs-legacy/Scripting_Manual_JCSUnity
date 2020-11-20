@@ -4,6 +4,6 @@ Base game data structure.
 
 ## Functions
 
-| Name | Description |
-|:---|:---|
+| Name     | Description                  |
+|:---------|:-----------------------------|
 | SavePath | Get complete save data path. |

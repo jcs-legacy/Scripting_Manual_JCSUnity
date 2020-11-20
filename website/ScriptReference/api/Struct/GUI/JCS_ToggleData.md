@@ -4,6 +4,6 @@ Toggle data container.
 
 ## Variables
 
-| Name | Description |
-|:---|:---|
+| Name | Description                           |
+|:-----|:--------------------------------------|
 | isOn | Is currently the toggle button is on? |

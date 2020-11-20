@@ -4,6 +4,6 @@ Slider data container.
 
 ## Variables
 
-| Name | Description |
-|:---|:---|
+| Name  | Description            |
+|:------|:-----------------------|
 | value | Slider position value. |

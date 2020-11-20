@@ -4,6 +4,6 @@ Disable the gameobject after the done playing the animation.
 
 ## Variables
 
-| Name | Description |
-|:---|:---|
+| Name       | Description                                              |
+|:-----------|:---------------------------------------------------------|
 | mLoopTimes | Times the animation need to loops to trigger this event. |

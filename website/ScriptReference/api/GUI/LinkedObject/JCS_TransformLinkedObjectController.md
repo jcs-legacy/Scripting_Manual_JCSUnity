@@ -5,8 +5,8 @@ component.
 
 ## Variables
 
-| Name | Description |
-|:---|:---|
-| ManagedList | List of all managed transform linked object. |
-| Clone | Main clone linked object. |
+| Name        | Description                                     |
+|:------------|:------------------------------------------------|
+| ManagedList | List of all managed transform linked object.    |
+| Clone       | Main clone linked object.                       |
 | IndexOffset | Transform vector offset for each linked object. |

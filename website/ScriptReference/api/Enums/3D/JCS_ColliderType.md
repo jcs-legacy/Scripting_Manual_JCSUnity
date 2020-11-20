@@ -4,44 +4,13 @@ List of collider type.
 
 ## Values
 
-<table>
-<tr>
-<td>NONE</td>
-<td>Default value.</td>
-</tr>
-
-<tr>
-<td>CHARACTER_CONTROLLER</td>
-<td>Collider is `CharacterController` type.</td>
-</tr>
-
-<tr>
-<td>BOX</td>
-<td>Collider is `Box` type.</td>
-</tr>
-
-<tr>
-<td>SPHERE</td>
-<td>Collider is `Sphere` type.</td>
-</tr>
-
-<tr>
-<td>CAPSULE</td>
-<td>Collider is `Capsule` type.</td>
-</tr>
-
-<tr>
-<td>BOX_2D</td>
-<td>Collider is `Box 2D` type.</td>
-</tr>
-
-<tr>
-<td>CIRCLE_2D</td>
-<td>Collider is `Circle 2D` type.</td>
-</tr>
-
-<tr>
-<td>CAPSULE_2D</td>
-<td>Collider is `Capsule 2D` type.</td>
-</tr>
-</table>
+| Name                 | Description                             |
+|:---------------------|:----------------------------------------|
+| NONE                 | Default value.                          |
+| CHARACTER_CONTROLLER | Collider is `CharacterController` type. |
+| BOX                  | Collider is `Box` type.                 |
+| SPHERE               | Collider is `Sphere` type.              |
+| CAPSULE              | Collider is `Capsule` type.             |
+| BOX_2D               | Collider is `Box 2D` type.              |
+| CIRCLE_2D            | Collider is `Circle 2D` type.           |
+| CAPSULE_2D           | Collider is `Capsule 2D` type.          |

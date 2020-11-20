@@ -4,8 +4,8 @@ Video loader, load an external video file.
 
 ## Functions
 
-| Name | Description |
-|:---|:---|
+| Name      | Description                  |
+|:----------|:-----------------------------|
 | LoadVideo | Load an external video file. |
 
 ## Example

@@ -4,6 +4,6 @@ Bullet that will track the object.
 
 ## Variables
 
-| Name | Description |
-|:---|:---|
+| Name          | Description    |
+|:--------------|:---------------|
 | mLookAtTarget | Do the action? |

@@ -4,7 +4,7 @@ Log text for JCS_IGLogSystem to handle.
 
 ## Functions
 
-| Name | Description |
-|:---|:---|
+| Name    | Description                 |
+|:--------|:----------------------------|
 | Execute | Activate one log from pool. |
-| SetText | Set the message text. |
+| SetText | Set the message text.       |

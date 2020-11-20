@@ -4,6 +4,6 @@ Take snap shoot from webcam.
 
 ## Variables
 
-| Name | Description |
-|:---|:---|
+| Name   | Description    |
+|:-------|:---------------|
 | Webcam | Webcam to use. |

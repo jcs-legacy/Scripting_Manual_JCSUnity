@@ -4,6 +4,6 @@ Open a URL in the default browser.
 
 ## Variables
 
-| Name | Description |
-|:---|:---|
+| Name | Description                         |
+|:-----|:------------------------------------|
 | mURL | URL to open in the default browser. |

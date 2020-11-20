@@ -4,6 +4,6 @@ Action make gameobject look at the mouse position.
 
 ## Variables
 
-| Name | Description |
-|:---|:---|
+| Name   | Description                    |
+|:-------|:-------------------------------|
 | mSpeed | How fast to look at the mouse. |

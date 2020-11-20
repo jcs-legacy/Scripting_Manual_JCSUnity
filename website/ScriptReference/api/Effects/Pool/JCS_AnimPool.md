@@ -4,12 +4,12 @@ Pool of animation.
 
 ## Variables
 
-| Name | Description |
-|:---|:---|
+| Name      | Description     |
+|:----------|:----------------|
 | mAnimPool | Animation pool. |
 
 ## Functions
 
-| Name | Description |
-|:---|:---|
+| Name          | Description                              |
+|:--------------|:-----------------------------------------|
 | GetRandomAnim | Get an animation from the pool randomly. |

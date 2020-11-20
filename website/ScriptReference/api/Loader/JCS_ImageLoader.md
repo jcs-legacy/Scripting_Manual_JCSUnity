@@ -4,11 +4,11 @@ Image loader, load an external image file to Unity usable sprite.
 
 ## Functions
 
-| Name | Description |
-|:---|:---|
+| Name        | Description                 |
+|:------------|:----------------------------|
 | LoadTexture | Load image file as texture. |
-| Create | Create sprite object. |
-| LoadImage | Load Image by file path. |
+| Create      | Create sprite object.       |
+| LoadImage   | Load Image by file path.    |
 
 ## Example
 

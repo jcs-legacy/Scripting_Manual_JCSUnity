@@ -4,6 +4,6 @@ Scrollbar data container.
 
 ## Variables
 
-| Name | Description |
-|:---|:---|
+| Name  | Description               |
+|:------|:--------------------------|
 | value | Scrollbar position value. |

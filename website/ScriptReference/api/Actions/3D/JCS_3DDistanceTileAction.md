@@ -5,8 +5,8 @@ position relative to the gameobject that moved.
 
 ## Variables
 
-| Name | Description |
-|:---|:---|
-| mActive | Is this component active? |
-| mDistance | How long this gameobject could travel. |
+| Name              | Description                                        |
+|:------------------|:---------------------------------------------------|
+| mActive           | Is this component active?                          |
+| mDistance         | How long this gameobject could travel.             |
 | mUseLocalPosition | Use the local position instead of global position. |

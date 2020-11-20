@@ -4,6 +4,6 @@ Application related settings will be put here.
 
 ## Variables
 
-| Name | Description |
-|:---|:---|
+| Name                | Description                                             |
+|:--------------------|:--------------------------------------------------------|
 | onApplicationStarts | Callback that will execute when the application starts. |

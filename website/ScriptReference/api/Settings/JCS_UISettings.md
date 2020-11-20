@@ -4,6 +4,6 @@ UI related settings.
 
 ## Variables
 
-| Name | Description |
-|:---|:---|
+| Name      | Description    |
+|:----------|:---------------|
 | RESIZE_UI | Resize the UI? |

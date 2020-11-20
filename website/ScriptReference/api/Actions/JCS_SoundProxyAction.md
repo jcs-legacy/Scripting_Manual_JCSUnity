@@ -5,7 +5,7 @@ the gameobject will be destroyed.
 
 ## Variables
 
-| Name | Description |
-|:---|:---|
-| mAudioClip | Sound to plays. |
+| Name              | Description          |
+|:------------------|:---------------------|
+| mAudioClip        | Sound to plays.      |
 | mSoundSettingType | Sound settings type. |

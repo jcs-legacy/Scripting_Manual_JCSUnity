@@ -4,17 +4,17 @@ Spawn a skill and destroy itself after done displaying the skill effect.
 
 ## Variables
 
-| Name | Description |
-|:---|:---|
-| mKeyCode | Key to active this skill. |
-| mOrderLayer | Animation displayed order layer. |
-| mSkillAnim | Animation controller to use to display animation. |
-| mStayWithActiveTarget | Stick to the parent gameobject. |
-| mSamePosition | Spawns in the same position. |
-| mSameRotation | Spawns in the same rotation. |
+| Name                  | Description                                       |
+|:----------------------|:--------------------------------------------------|
+| mKeyCode              | Key to active this skill.                         |
+| mOrderLayer           | Animation displayed order layer.                  |
+| mSkillAnim            | Animation controller to use to display animation. |
+| mStayWithActiveTarget | Stick to the parent gameobject.                   |
+| mSamePosition         | Spawns in the same position.                      |
+| mSameRotation         | Spawns in the same rotation.                      |
 
 ## Functions
 
-| Name | Description |
-|:---|:---|
+| Name        | Description       |
+|:------------|:------------------|
 | ActiveSkill | Active the skill. |

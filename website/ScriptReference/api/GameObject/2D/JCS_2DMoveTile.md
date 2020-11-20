@@ -4,7 +4,7 @@ Moving tile usually as a background.
 
 ## Variables
 
-| Name | Description |
-|:---|:---|
+| Name       | Description               |
+|:-----------|:--------------------------|
 | mMoveSpeed | How fast this tile moves? |
-| mIsYAxis | Move in y axis. |
+| mIsYAxis   | Move in y axis.           |

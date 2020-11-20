@@ -6,8 +6,8 @@ newer than 2018.2.
 
 ## Functions
 
-| Name | Description |
-|:---|:---|
-| Play | Play the video. |
-| Pause | Pause the video. |
-| Stop | Stop the video entirely. |
+| Name  | Description              |
+|:------|:-------------------------|
+| Play  | Play the video.          |
+| Pause | Pause the video.         |
+| Stop  | Stop the video entirely. |
