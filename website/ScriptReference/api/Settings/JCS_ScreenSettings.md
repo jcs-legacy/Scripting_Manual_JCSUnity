@@ -12,8 +12,7 @@ Screen related settings.
 | RESIZE_TO_ASPECT_EVERYTIME_SCENE_LOADED | Resize the screen/window everytime a scene are loaded.                           |
 | RESIZE_TO_SMALLER_EDGE                  | When resize, resize to the smaller edge, if not true will resize to larger edge. |
 | mResizablePanelsColor                   | Defualt color to aspect panels.                                                  |
-| STANDARD_SCREEN_WIDTH                   | Standard screen width to calculate the worldspace obejct's camera view.          |
-| STANDARD_SCREEN_HEIGHT                  | Standard screen height to calculate the worldspace obejct's camera view.         |
+| STANDARD_SCREEN_SIZE                    | Standard screen size to calculate the worldspace obejct's camera view.           |
 
 ## Functions
 
