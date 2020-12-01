@@ -4,7 +4,7 @@
 
 # Scripting Manual - JCSUnity
 
-Scripting manual website for JCSUnity API. 
+Scripting manual website for JCSUnity API.
 
 ## Links
 
