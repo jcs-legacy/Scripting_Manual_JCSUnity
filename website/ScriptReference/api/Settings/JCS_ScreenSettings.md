@@ -13,6 +13,7 @@ Screen related settings.
 | RESIZE_TO_SMALLER_EDGE                  | When resize, resize to the smaller edge, if not true will resize to larger edge. |
 | mResizablePanelsColor                   | Defualt color to aspect panels.                                                  |
 | STANDARD_SCREEN_SIZE                    | Standard screen size to calculate the worldspace obejct's camera view.           |
+| ENSURE_INSIDE_SAFE_AREA                 | Ensure all UI is inside the safe area.                                           |
 
 ## Functions
 
