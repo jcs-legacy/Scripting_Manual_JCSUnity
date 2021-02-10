@@ -19,6 +19,7 @@ Screen related settings.
 
 | Name                    | Description                                                                      |
 |:------------------------|:---------------------------------------------------------------------------------|
+| ScreenRatio             | Return the ratio from expected screen size to actual screen size.                |
 | BlackspaceWidth         | Return width of the blackspace on the screen, if any after resizing the screen.  |
 | BlackspaceHeight        | Return height of the blackspace on the screen, if any after resizing the screen. |
 | VisibleScreenWidth      | Get the visible of the screen width.                                             |
