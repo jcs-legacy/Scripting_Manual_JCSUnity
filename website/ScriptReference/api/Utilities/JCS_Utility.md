@@ -32,6 +32,7 @@ All code utility is stored here.
 | FindNotCloneObjectsOfTypeAll         | Find all gameobjects that are not clones in the scene with the type passed in.                    |
 | FindObjectsOfTypeAllInHierarchy      | Find all the gameobject that are only active in the hierarchy with the type passed in.            |
 | GetEasing                            | Returns the easing function pointer base on the tweener type/enum.                                |
+| FillSlot                             | Fill slots with initialize value type by length.                                                  |
 | RemoveEmptySlot                      | Remove the null value from a list/array.                                                          |
 | RemoveEmptySlotIncludeMissing        | Remove all the null value including missing reference in the list/array.                          |
 | GetFinalLocalEulerAngles             | Get the final local euler angles by accumilate all the parent gameobjects.                        |
