@@ -11,8 +11,10 @@ Interface communicate to application layer.
 
 ## Functions
 
-| Name     | Description                             |
-|:---------|:----------------------------------------|
-| isPC     | Is the platform type personal computer? |
-| isMobile | Is the platform type mobile phone?      |
-| Quit     | Quit the application.                   |
+| Name             | Description                                           |
+|:-----------------|:------------------------------------------------------|
+| isPC             | Return true if current platform is personal computer. |
+| isMobile         | Return true if current platform is mobile phone.      |
+| Quit             | Quit the application.                                 |
+| AddLangText      | Register a new language text.                         |
+| RefreshLangTexts | Refresh all languages text in game.                   |
