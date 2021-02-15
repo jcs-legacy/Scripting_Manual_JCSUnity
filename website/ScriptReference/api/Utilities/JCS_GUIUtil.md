@@ -6,6 +6,8 @@ GUI related utilities functions.s
 
 | Name                      | Description                                            |
 |:--------------------------|:-------------------------------------------------------|
+| SetLangText               | Set text by system language and language data.         |
+| SetText                   | Set the text with data.                                |
 | Dropdown_GetItemValue     | Returns item value by index.                           |
 | Dropdown_GetSelectedValue | Get the current selected value of the Dropdown object. |
 | Dropdown_GetItemIndex     | Return the index of item in the dropdown's item.       |

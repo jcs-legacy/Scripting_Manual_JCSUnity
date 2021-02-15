@@ -4,10 +4,10 @@ Interface communicate to application layer.
 
 ## Variables
 
-| Name                   | Description                        |
-|:-----------------------|:-----------------------------------|
-| SIMULATE_PLATFORM_TYPE | Target platform type to simulate." |
-| PLATFORM_TYPE          | This will override Platform Type.  |
+| Name                   | Description                       |
+|:-----------------------|:----------------------------------|
+| SIMULATE_PLATFORM_TYPE | Target platform type to simulate. |
+| PLATFORM_TYPE          | This will override Platform Type. |
 
 ## Functions
 
