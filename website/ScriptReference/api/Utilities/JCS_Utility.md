@@ -55,4 +55,3 @@ All code utility is stored here.
 | DeleteAllFilesFromDir                | Delete all files in directory.                                                                    |
 | BytesToString                        | Convert byte array to string by charset type.                                                     |
 | StringToBytes                        | Convert string to byte array by charset type.                                                     |
-| PathCombine                          | Safe way to combine multiple path to one path with slash.                                         |
