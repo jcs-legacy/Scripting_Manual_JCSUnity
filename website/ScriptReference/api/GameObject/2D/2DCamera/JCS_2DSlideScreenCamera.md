@@ -6,12 +6,13 @@ Camera for GUI or canvas space.
 
 | Name             | Description                                 |
 |:-----------------|:--------------------------------------------|
-| mUnityGUIType    | GUI type.                                   |
-| mPanelHolder     | Slide screen panel holder for this camera.  |
+| UnityGUIType     | GUI type.                                   |
+| PanelHolder      | Slide screen panel holder for this camera.  |
 | SwipeArea        | Area space to swipe for previous/next page. |
 | FreezeX          | Freeze the x axis sliding action.           |
 | FreezeY          | Freeze the y axis sliding action.           |
 | SwitchSceneSound | Sound when trigger switch scene.            |
+| CurrentPage      | Page start from center.                     |
 | MinPageX         | Minimum page on x-axis.                     |
 | MaxPageX         | Maximum page on x-axis.                     |
 | MinPageY         | Minimum page on y-axis.                     |
@@ -21,4 +22,7 @@ Camera for GUI or canvas space.
 
 | Name        | Description                                     |
 |:------------|:------------------------------------------------|
+| SetPage     | Set the page using page index. (Vector 2)       |
+| SetPageX    | Set the page using page index. (x-axis)         |
+| SetPageY    | Set the page using page index. (y-axis)         |
 | SwitchScene | Swicth the scene by sliding its with direction. |
