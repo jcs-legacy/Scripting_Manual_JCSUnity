@@ -6,6 +6,8 @@ Camera for GUI or canvas space.
 
 | Name             | Description                                 |
 |:-----------------|:--------------------------------------------|
+| afterSwiped      | Function call after the scene changed       |
+| afterSwiped      | Function call after the user has swiped     |
 | UnityGUIType     | GUI type.                                   |
 | PanelHolder      | Slide screen panel holder for this camera.  |
 | SwipeArea        | Area space to swipe for previous/next page. |
