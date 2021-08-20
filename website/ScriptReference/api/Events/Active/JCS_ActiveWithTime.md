@@ -7,5 +7,4 @@ Active the gameobject after a certain time.
 | Name        | Description                          |
 |:------------|:-------------------------------------|
 | GameObjects | GameObjects that take effect.        |
-| EffectSelf  | Take effect for this gameobject.     |
 | time        | Time before inactive the gameobject. |
