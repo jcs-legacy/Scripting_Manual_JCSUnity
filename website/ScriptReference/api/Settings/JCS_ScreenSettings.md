@@ -13,12 +13,13 @@ Screen related settings.
 | RESIZE_TO_SMALLER_EDGE                  | When resize, resize to the smaller edge, if not true will resize to larger edge. |
 | mResizablePanelsColor                   | Defualt color to aspect panels.                                                  |
 | STANDARD_SCREEN_SIZE                    | Standard screen size to calculate the worldspace obejct's camera view.           |
-| ENSURE_INSIDE_SAFE_AREA                 | Ensure all UI is inside the safe area.                                           |
+| SCREEN_TYPE                             | Type of the screen handle.                                                       |
 
 ## Functions
 
 | Name                    | Description                                                                      |
 |:------------------------|:---------------------------------------------------------------------------------|
+| StartingScreenSize      | Return the starting screen size by the current screen type.                      |
 | ScreenRatio             | Return the ratio from expected screen size to actual screen size.                |
 | BlackspaceWidth         | Return width of the blackspace on the screen, if any after resizing the screen.  |
 | BlackspaceHeight        | Return height of the blackspace on the screen, if any after resizing the screen. |
