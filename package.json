@@ -16,7 +16,7 @@
   "dependencies": {
     "directory-tree": "^2.1.0",
     "exit": "^0.1.2",
-    "express": "^4.16.3",
+    "express": "^4.18.2",
     "expresss": "0.0.0"
   }
 }
