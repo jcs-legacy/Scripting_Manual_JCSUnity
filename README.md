@@ -7,7 +7,24 @@
 
 Scripting manual website for JCSUnity API.
 
-## Links
+## Docker
 
-* *Website* : [Scripting-Manual-JCSUnity](http://www.jcs-profile.com:3001)
-* *JCSUnity* : https://github.com/jcs090218/JCSUnity
+```sh
+# Clone this repo
+git clone https://github.com/jcs-legacy/Scripting_Manual_JCSUnity
+
+# Navigate to project root
+cd Scripting_Manual_JCSUnity
+
+# Build image
+docker build . -t sm_jcsunity
+
+# Start container
+docker run -p 3001:3001 jcsunity
+```
+
+## 🔗 Links
+
+- [Scripting-Manual-JCSUnity](http://www.jcs-profile.com:3001)
+- [JCSUnity](https://github.com/jcs090218/JCSUnity)
+- [How to Deploy Node.js Applications with Docker](https://betterstack.com/community/guides/scaling-nodejs/dockerize-nodejs/)
